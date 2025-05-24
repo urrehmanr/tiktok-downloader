@@ -20,7 +20,7 @@ A web application that allows users to download TikTok videos without watermarks
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tiktok-downloader.git
+git clone https://github.com/urrehmanr/tiktok-downloader.git
 cd tiktok-downloader
 ```
 
