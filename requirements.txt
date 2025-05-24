@@ -1,0 +1,9 @@
+flask==2.3.3
+yt-dlp==2025.04.30
+flask-cors==4.0.0
+requests==2.31.0
+httpx==0.27.0
+ffmpeg-python==0.2.0
+ffmpeg==1.4 
+Flask-Babel==3.1.0
+PyYAML==6.0.2 

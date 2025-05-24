@@ -1,0 +1,414 @@
+# Chinese Simplified translations for TikTok Downloader
+
+# Common elements across pages
+common:
+  website_name: "TikTok 下载器"
+  website_tagline: "无水印下载 TikTok 视频"
+  copyright_text: "TikTok 下载器。保留所有权利。与 TikTok 无关联。"
+
+# Navigation items
+navigation:
+  home: "首页"
+  mp3_download: "MP3 下载"
+  how_to_save: "如何保存"
+  contact: "联系我们"
+  legal: "法律信息"
+  privacy_policy: "隐私政策"
+  terms_of_service: "服务条款"
+  dmca_policy: "DMCA 政策"
+  
+# Footer content
+footer:
+  description: "免费高质量无水印下载 TikTok 视频。几秒钟内将您喜爱的 TikTok 视频保存到您的设备上。"
+  quick_links: "快速链接"
+  contact_us: "联系我们"
+
+# Home page
+home:
+  title: "TikTok 下载器 - 无水印下载 TikTok 视频 | 免费高清视频下载器"
+  meta_description: "最快的 TikTok 视频下载器！两次点击即可保存高清 TikTok 视频，快速且免费。下载无水印、高质量且完全免费的视频。立即开始下载！"
+  hero:
+    title: "无水印下载 TikTok 视频"
+    subtitle: "最快速和最可靠的 TikTok 下载器。免费保存无水印的高清视频！"
+  features:
+    title: "为什么选择我们的 TikTok 下载器"
+    feature1:
+      title: "无水印"
+      description: "以完整质量下载 TikTok 视频，没有烦人的 TikTok 水印。"
+    feature2:
+      title: "高质量"
+      description: "将最高质量的视频直接下载到您的设备上。"
+    feature3:
+      title: "快速且免费"
+      description: "我们的服务完全免费，并且在几秒钟内处理下载。"
+    feature4:
+      title: "易于使用"
+      description: "无需注册。只需粘贴链接并下载视频。"
+  how_it_works:
+    title: "如何使用"
+    step1:
+      title: "复制链接"
+      description: "从 TikTok 应用或网站复制 TikTok 视频链接。"
+    step2:
+      title: "粘贴链接"
+      description: "将链接粘贴到上面的输入框中。"
+    step3:
+      title: "下载"
+      description: "点击下载按钮并将视频保存到您的设备上。"
+  download_form:
+    placeholder: "在此粘贴 TikTok 视频网址"
+    button: "下载"
+    error: "请输入有效的 TikTok 网址"
+    processing: "处理中..."
+  faq:
+    title: "常见问题"
+    questions:
+      - question: "下载 TikTok 视频是免费的吗？"
+        answer: "是的，我们的服务完全免费。您可以免费下载任意数量的 TikTok 视频。"
+      - question: "我需要创建账户吗？"
+        answer: "不，您无需创建账户或登录即可使用我们的 TikTok 下载器。只需粘贴视频链接并下载即可。"
+      - question: "下载 TikTok 视频合法吗？"
+        answer: "个人使用下载 TikTok 视频通常是可以接受的。但是，未经创作者许可，您不应该重新分发或商业使用该内容。"
+      - question: "我可以下载私人 TikTok 视频吗？"
+        answer: "不，我们的服务只能下载公开的 TikTok 视频。私人视频无法通过我们的下载器访问。"
+      - question: "为什么要无水印下载 TikTok 视频？"
+        answer: "下载无水印视频使您能够在自己的创作中使用它们，在其他平台上分享它们，或者只是享受没有干扰叠加的视频。"
+
+# MP3 page
+mp3:
+  title: "TikTok 转 MP3 - 下载 TikTok 音频 | 将 TikTok 视频转换为 MP3"
+  meta_description: "将 TikTok 视频转换并下载为 MP3 音频文件。免费提取 TikTok 视频中的高质量音乐和声音。"
+  meta_keywords: "tiktok mp3 下载器, tiktok 音频下载, tiktok 转 mp3, tiktok 音频提取, tiktok 音乐下载, tiktok 声音下载, 免费 tiktok mp3 转换器"
+  meta_author: "TikTok MP3 Downloader"
+  meta_og_title: "TikTok MP3 Downloader - 提取 TikTok 视频音频"
+  meta_og_description: "从任何 TikTok 视频中提取高质量 MP3 音频。快速、免费且易于使用。立即将 TikTok 视频转换为 MP3 格式。"
+  meta_twitter_title: "TikTok MP3 Downloader - 提取 TikTok 视频音频"
+  meta_twitter_description: "从任何 TikTok 视频中提取高质量 MP3 音频。快速、免费且易于使用。立即将 TikTok 视频转换为 MP3 格式。"
+  schema:
+    app_name: "TikTok MP3 Downloader"
+    app_description: "从任何 TikTok 视频中提取高质量 MP3 音频。快速、免费且易于使用。立即将 TikTok 视频转换为 MP3 格式。"
+    app_category: "UtilityApplication"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "从 TikTok 视频中提取 MP3 音频"
+      - "高质量音频转换"
+      - "快速且免费的服务"
+      - "无需注册"
+      - "支持所有设备"
+    howto_name: "如何从 TikTok 视频中提取 MP3 音频"
+    howto_description: "使用我们的免费在线工具，逐步提取和下载 TikTok 视频的 MP3 音频。"
+    howto_steps:
+      - name: "复制音频链接"
+        text: "打开 TikTok 并复制包含所需音频的视频链接。"
+      - name: "粘贴链接"
+        text: "将复制的链接粘贴到上方的输入框中。"
+      - name: "下载 MP3"
+        text: "点击下载按钮以提取并保存 MP3 音频。"
+    faq:
+      - question: "MP3 文件的音质如何？"
+        answer: "我们以 TikTok 原始视频的最高可用质量（通常为 128-192 kbps）提取 MP3 音频。"
+      - question: "下载 MP3 有数量限制吗？"
+        answer: "没有，我们的服务完全免费且无限制。您可以根据需要提取任意数量的 MP3。"
+      - question: "可以从私有 TikTok 视频中提取 MP3 吗？"
+        answer: "不，我们的服务只能提取公开 TikTok 视频的音频。私有视频无法访问。"
+      - question: "兼容哪些设备？"
+        answer: "我们的 TikTok MP3 下载器适用于所有现代设备，包括 Windows、Mac、Android 和 iOS。完全基于网页，无需安装任何软件。"
+  hero:
+    title: "TikTok <span class=\"gradient-text\">MP3</span> Downloader"
+    subtitle: "从任何 TikTok 视频中提取高质量 MP3 音频。快速、免费且易于使用。"
+  features:
+    title: "为什么选择我们的 TikTok MP3 下载器？"
+    feature1:
+      title: "高质量音频"
+      description: "以最高 MP3 格式提取音频。"
+    feature2:
+      title: "快速转换"
+      description: "几秒钟内将 TikTok 视频转换为 MP3。"
+    feature3:
+      title: "安全与隐私"
+      description: "我们不会在服务器上存储您的音频文件。"
+    feature4:
+      title: "无需编程"
+      description: "简单界面，轻松提取 MP3。"
+  how_it_works:
+    title: "如何从 TikTok 提取 MP3"
+    steps:
+      - title: "复制音频链接"
+        description: "打开 TikTok 并复制包含所需音频的视频链接。"
+      - title: "粘贴链接"
+        description: "将链接粘贴到上方的输入框中。"
+      - title: "下载 MP3"
+        description: "点击下载按钮以提取并保存 MP3 音频。"
+  faq:
+    title: "常见问题"
+    items:
+      - question: "MP3 文件的音质如何？"
+        answer: "我们以 TikTok 原始视频的最高可用质量（通常为 128-192 kbps）提取 MP3 音频。"
+      - question: "下载 MP3 有数量限制吗？"
+        answer: "没有，我们的服务完全免费且无限制。您可以根据需要提取任意数量的 MP3。"
+      - question: "可以从私有 TikTok 视频中提取 MP3 吗？"
+        answer: "不，我们的服务只能提取公开 TikTok 视频的音频。私有视频无法访问。"
+      - question: "兼容哪些设备？"
+        answer: "我们的 TikTok MP3 下载器适用于所有现代设备，包括 Windows、Mac、Android 和 iOS。完全基于网页，无需安装任何软件。"
+
+# How-to-Save page
+how_to_save:
+  title: "如何无水印保存 TikTok 视频 - 逐步指南"
+  meta_description: "学习如何保存和下载无水印 TikTok 视频。带有图像的简易逐步教程，帮助您以高清质量保存 TikTok 视频。"
+  meta_keywords: "tiktok视频下载指南, 如何保存tiktok视频, tiktok下载教程, 无水印保存tiktok, tiktok视频保存教程"
+  intro: "TikTok已成为最受欢迎的社交媒体平台之一，每天有数百万用户分享创意和娱乐视频。有时您可能想要保存这些视频以便离线观看或通过其他平台分享。我们的指南向您展示如何在几个简单步骤中下载无水印的TikTok视频。"
+  hero:
+    title: "如何无水印保存 TikTok 视频"
+    subtitle: "按照这个简单的步骤指南，以高质量下载任何没有水印的 TikTok 视频"
+  steps:
+    step1:
+      title: "步骤 1：查找并复制 TikTok 视频链接"
+      paragraph1: "在您的手机上打开 TikTok 应用或在浏览器中访问 TikTok.com。找到您想要下载的视频，然后点击"分享"按钮（通常由箭头图标或"分享"文本表示）。"
+      paragraph2: "从出现的分享选项中，选择"复制链接"或"复制 URL"。这将把视频的 URL 保存到您的剪贴板。"
+      image_caption: "图片：在 TikTok 分享菜单中点击"复制链接"选项"
+    step2:
+      title: "步骤 2：访问我们的 TikTok 下载器网站"
+      paragraph1: "打开您的网络浏览器并访问我们的 TikTok 下载器网站。您将看到一个干净简单的界面，其中有一个可以粘贴 TikTok 视频 URL 的输入框。"
+      paragraph2: "主页设计简单直观，无论您使用智能手机、平板电脑还是电脑，都易于使用。"
+      image_caption: "图片：我们的 TikTok 下载器主页和粘贴字段"
+    step3:
+      title: "步骤 3：粘贴链接并处理视频"
+      paragraph1: "将您复制的 TikTok 视频链接粘贴到输入框中。在移动设备上，您可以点击并按住字段，然后选择"粘贴"。在电脑上，使用 Ctrl+V（或 Mac 上的 Command+V）。"
+      paragraph2: "一旦您粘贴了 URL，点击"立即下载"按钮。我们的系统将立即开始处理视频。"
+      image_caption: "图片：粘贴的 TikTok URL 和正在进行的处理"
+    step4:
+      title: "步骤 4：下载 TikTok 视频"
+      paragraph1: "在我们的系统处理视频后，您将看到关于 TikTok 视频的详细信息，包括作者、观看次数、点赞数和视频时长。"
+      paragraph2: "您可以点击"下载"按钮以默认高质量格式获取视频，或点击"更多格式"从不同的质量选项中选择。"
+      paragraph3: "选择"更多格式"时，您将看到所有可用的视频分辨率和文件大小。选择最适合您需求的选项 - 质量越高的格式，文件大小越大。"
+      image_caption: "图片：带有下载选项的视频详情页面"
+      modal:
+        image_caption: "图片：视频格式选择模态窗口"
+        paragraph1: ""更多格式"选项将显示一个包含所有可用下载质量的模态窗口。"
+        paragraph2: "您可以根据需要在 HD（720p）或 SD（576p）选项之间选择。"
+        paragraph3: "每种格式都显示视频分辨率和文件大小，帮助您为您的互联网连接和存储容量选择最佳选项。"
+    step5:
+      title: "步骤 5：保存到您的设备"
+      paragraph1: "一旦您点击下载选项，您的浏览器将开始下载视频。根据您的浏览器设置，它可能会自动保存到您的默认下载文件夹或提示您选择位置。"
+      paragraph2: "下载完成后，您将拥有一个干净、无水印的 TikTok 视频，可以离线观看或随意分享。"
+      image_caption: "图片：成功完成下载"
+  additional_tips:
+    title: "额外提示"
+    tips:
+      - "我们的 TikTok 下载器适用于常规 TikTok 视频和 TikTok LIVE 录制内容。"
+      - "您可以下载 HD 质量的视频，不会损失任何分辨率。"
+      - "这个过程完全免费，没有隐藏费用或注册要求。"
+      - "如果您只想下载音频，可以使用我们的 TikTok MP3 下载器。"
+      - "我们不会在服务器上存储您下载的视频，确保您的隐私。"
+  faq:
+    title: "常见问题"
+    questions:
+      - question: "下载 TikTok 视频是否合法？"
+        answer: "个人使用下载 TikTok 视频通常是可以接受的。但是，未经创作者许可，您不应重新分发或商业使用内容。请始终尊重版权和知识产权。"
+      - question: "我能否从私人 TikTok 账户下载视频？"
+        answer: "不能，我们的服务只能下载公开的 TikTok 视频。通过我们的下载器无法访问私人视频。"
+      - question: "我可以下载的 TikTok 视频最长是多少？"
+        answer: "我们的下载器支持所有 TikTok 视频，无论其长度如何，从短片到长达 10 分钟的较长视频。"
+      - question: "这在移动设备上是否有效？"
+        answer: "是的，我们的 TikTok 下载器适用于所有现代设备，包括 Android 手机、iPhone、平板电脑和电脑。"
+  cta_text: "准备好下载 TikTok 视频了吗？"
+  cta_description: "立即尝试我们的免费 TikTok 视频下载器，以 HD 质量保存您喜爱的无水印 TikTok 视频。"
+  cta_button: "前往 TikTok 下载器"
+
+# Contact page
+contact:
+  title: "联系我们 | TikTok 下载器"
+  meta_description: "联系 TikTok 下载器团队。发送您的问题、反馈或报告我们服务的问题。"
+  hero:
+    title: "联系我们"
+    subtitle: "有问题或反馈？我们很乐意听取您的意见。"
+  form:
+    name: "您的姓名"
+    email: "您的电子邮箱"
+    subject: "主题"
+    message: "消息"
+    submit: "发送消息"
+    success: "您的消息已成功发送。我们将尽快回复您。"
+    error: "发送消息时出错。请重试。"
+  contact_info:
+    title: "其他联系方式"
+    email_label: "电子邮箱"
+    email: "support@tiktokdownloader.com"
+    response_time: "我们努力在 24-48 小时内回复所有咨询。"
+
+# Terms of Service page
+terms:
+  title: "服务条款 | TikTok 下载器"
+  meta_description: "TikTok 下载器的服务条款。阅读我们使用 TikTok 视频下载服务的条款和条件。"
+  heading: "服务条款"
+  last_updated: "最后更新：2023年5月1日"
+  content:
+    intro: "请在使用 TikTok 下载器网站（"服务"）之前仔细阅读这些服务条款（"条款"，"服务条款"），该网站由我们运营。"
+    access: "您访问和使用服务的前提是您接受并遵守这些条款。这些条款适用于所有访问或使用服务的访客、用户和其他人。"
+    agreement: "通过访问或使用服务，您同意受这些条款的约束。如果您不同意条款的任何部分，则不得访问服务。"
+    section1:
+      title: "服务的使用"
+      content: "TikTok 下载器是一项允许用户下载 TikTok 视频以供个人非商业用途的服务。使用我们的服务即表示您同意："
+      item1: "仅将服务用于合法目的并遵守这些条款。"
+      item2: "不将服务用于非法或未经授权的目的。"
+      item3: "不尝试探查、扫描或测试服务或任何相关系统或网络的漏洞。"
+      item4: "不干扰服务或与服务连接的服务器或网络的运行。"
+    section2:
+      title: "知识产权"
+      content: "我们的服务允许您下载 TikTok 视频。但我们不主张对您下载的内容拥有所有权。所有视频和内容均归其各自所有者所有。使用我们的服务下载内容即表示您声明："
+      item1: "您仅为个人使用下载内容。"
+      item2: "您将尊重内容创作者的知识产权。"
+      item3: "未经原始创作者的适当授权，您不会分发、出售或以商业方式使用下载的内容。"
+      item4: "您了解，出于某些用途下载内容可能需要版权所有者的许可。"
+    section3:
+      title: "免责声明"
+      content: "我们的服务是"按原样"和"按可用性"提供的，没有任何明示或暗示的保证。我们不保证："
+      item1: "服务将不间断、及时、安全或无错误。"
+      item2: "通过使用服务获得的结果将准确或可靠。"
+      item3: "您通过服务购买或获得的任何产品、服务、信息或其他材料的质量将满足您的期望。"
+    section4:
+      title: "责任限制"
+      content: "在任何情况下，我们都不对因以下原因引起的间接、偶然、特殊、后果性或惩罚性损害负责，包括但不限于利润损失、数据损失、使用损失、商誉或其他无形损失："
+      item1: "您访问或使用或无法访问或使用服务。"
+      item2: "服务上第三方的任何行为或内容。"
+      item3: "从服务获得的任何内容。"
+      item4: "未经授权访问、使用或更改您的传输或内容。"
+    section5:
+      title: "终止"
+      content: "我们可以因任何原因立即终止或暂停对我们服务的访问，无需事先通知或责任，包括但不限于您违反条款。"
+    section6:
+      title: "条款变更"
+      content: "我们保留随时修改或替换这些条款的权利，由我们自行决定。如果修改是实质性的，我们将尝试在新条款生效前至少提前15天通知。什么构成实质性变更将由我们自行决定。"
+      additional: "在这些修改生效后继续访问或使用我们的服务，即表示您同意修订后的条款。如果您不同意新条款，请停止使用服务。"
+    section7:
+      title: "适用法律"
+      content: "这些条款将受法律管辖并按照法律解释，不考虑其冲突法规定。"
+      additional: "我们未能执行这些条款的任何权利或规定不构成对这些权利的放弃。如果这些条款的任何规定被法院认定为无效或不可执行，这些条款的其余规定仍然有效。"
+    section8:
+      title: "联系我们"
+      content: "如果您对这些条款有任何疑问，请通过以下方式联系我们"
+
+# Privacy Policy page
+privacy:
+  title: "隐私政策 | TikTok Downloader"
+  meta_description: "TikTok Downloader 的隐私政策。了解我们如何在您使用我们的 TikTok 视频下载服务时保护您的隐私。"
+  heading: "隐私政策"
+  last_updated: "最后更新：2023年5月1日"
+  content:
+    intro: "本隐私政策解释了当您访问我们的 TikTok Downloader 网站（"服务"）时，我们如何收集、使用和保护您的信息。"
+    respect: "我们尊重您的隐私并致力于保护您的个人数据。请仔细阅读本隐私政策，以了解我们如何处理您的信息。"
+    section1:
+      title: "我们收集的信息"
+      content: "我们可能收集各种类型的信息，包括："
+      item1_title: "使用数据"
+      item1: "我们可能会收集有关您如何与我们的服务交互的匿名数据，包括浏览器类型、引荐页面、页面停留时间和点击项目。这有助于我们了解用户如何与服务交互，以改进功能。"
+      item2_title: "日志数据"
+      item2: "我们的服务器自动记录标准信息，如 IP 地址、浏览器类型、操作系统、访问的页面和停留时间。这些数据用于维持服务质量和安全性。"
+      item3_title: "Cookies"
+      item3: "我们使用 cookies 进行分析、存储用户偏好和基本网站功能。您可以在浏览器中控制 cookie 设置。"
+      item4_title: "联系信息"
+      item4: "如果您通过联系表单联系我们，我们会收集您提供的信息，如您的姓名、电子邮件地址和消息内容。"
+    note_title: "注意"
+    note: "我们不存储您通过我们的服务下载的任何 TikTok 视频或内容。"
+    section2:
+      title: "我们如何使用您的信息"
+      intro: "我们可能使用收集的信息来："
+      item1: "提供、运营和维护我们的服务"
+      item2: "改进、个性化和扩展我们的服务"
+      item3: "了解用户如何与我们的服务交互"
+      item4: "开发新产品、服务和功能"
+      item5: "防止对我们服务的欺诈和滥用"
+      item6: "回应您的查询并提供客户支持"
+    section3:
+      title: "数据共享"
+      content: "我们不会将您的信息出售、交易或转让给第三方，除非在以下情况下："
+      item1_title: "服务提供商"
+      item1: "我们可能会与协助我们运营服务的受信任第三方共享数据，前提是他们同意对这些信息保密。"
+      item2_title: "法律要求"
+      item2: "当法律要求或为保护我们的权利、安全或他人的安全时，我们可能会披露信息。"
+      item3_title: "分析"
+      item3: "我们使用分析提供商（如 Google Analytics）来了解用户如何与我们的服务交互。"
+    section4:
+      title: "数据安全"
+      content: "我们实施适当的安全措施来保护您的信息免受未经授权的访问、更改或披露。然而，没有任何基于互联网的服务可以保证绝对安全。"
+    section5:
+      title: "您的权利"
+      content: "根据您的位置，您可能对您的个人信息拥有某些权利，包括："
+      item1: "访问我们持有关于您的信息的权利"
+      item2: "更正不准确个人信息的权利"
+      item3: "请求删除您的个人信息的权利"
+      item4: "限制或反对处理您的信息的权利"
+      item5: "数据可携带性的权利"
+    section6:
+      title: "儿童隐私"
+      content: "我们的服务不适用于 13 岁以下的个人。我们不会故意收集 13 岁以下儿童的个人信息。如果您是父母或监护人，并认为您的孩子向我们提供了个人信息，请联系我们。"
+    section7:
+      title: "本隐私政策的变更"
+      content: "我们可能会不时更新本隐私政策。更新版本将通过更新的"最后更新"日期表示。我们鼓励您定期查看本隐私政策。"
+    section8:
+      title: "联系我们"
+      content: "如果您对本隐私政策有任何疑问，请通过以下方式联系我们"
+
+# DMCA Policy page
+dmca:
+  title: "DMCA 政策 | TikTok Downloader"
+  meta_description: "TikTok Downloader 的 DMCA 政策。了解我们关于举报版权侵权的程序。"
+  heading: "DMCA 政策"
+  last_updated: "最后更新：2023年5月1日"
+  content:
+    intro: "TikTok Downloader 尊重他人的知识产权，并期望我们的用户也这样做。根据 1998 年《数字千年版权法》（"DMCA"），我们将迅速回应向我们下面指定的版权代理人报告的版权侵权索赔。"
+    section1:
+      title: "版权侵权通知"
+      content: "如果您认为您受版权保护的作品以侵犯版权的方式被复制并在我们的服务上可访问，您可以按照 DMCA 规定通知我们的版权代理人。为了使您的投诉根据 DMCA 有效，在提供声称的版权侵权通知时，您必须提供以下信息："
+      item1: "经授权代表版权所有者行事的人的实体或电子签名。"
+      item2: "对声称被侵权的受版权保护作品的识别。"
+      item3: "对声称侵权或是侵权活动对象的材料的识别，以及必须移除或禁止访问的材料，以及合理充分的信息，使我们能够找到该材料。"
+      item4: "合理充分的信息，使我们能够联系投诉方，如地址、电话号码，如果有的话，电子邮件地址。"
+      item5: "投诉方真诚地相信，以投诉的方式使用该材料未经版权所有者、其代理人或法律授权的声明。"
+      item6: "声明通知中的信息是准确的，且在伪证罪的惩罚下，投诉方被授权代表声称被侵权的专有权利所有者行事。"
+    section2:
+      title: "反通知"
+      content: "如果您认为您已被移除（或访问已被禁用）的内容不侵权，或者您已从版权所有者、版权所有者的代理人或根据法律获得发布和使用内容的授权，您可以向我们的版权代理人发送包含以下信息的反通知："
+      item1: "您的实体或电子签名。"
+      item2: "对已被移除或禁用访问的内容的识别，以及内容在被移除或禁用前出现的位置。"
+      item3: "声明您真诚地相信内容由于错误或对内容的错误识别而被移除或禁用。"
+      item4: "您的姓名、地址、电话号码和电子邮件地址。"
+      item5: "声明您同意您居住的地区的联邦法院的管辖权（如果您在美国），或者您同意我们公司所在地区的联邦法院的管辖权（如果您不在美国）。"
+      item6: "声明您将接受提供声称侵权通知的人的诉讼服务。"
+    section3:
+      title: "DMCA 代理联系信息"
+      email_title: "电子邮件"
+      note: "请注意，根据 DMCA 第 512(f) 条，任何人如果故意实质性地虚假陈述材料或活动是侵权的，可能承担责任。"
+    section4:
+      title: "屡次侵权者"
+      content: "我们的政策是在适当时终止屡次侵权者的账户。我们将终止被我们确定为屡次侵权者的用户的账户。如果您反复下载侵犯他人版权的内容，您对我们服务的访问也可能被终止。"
+    section5:
+      title: "本政策的变更"
+      content: "我们可能会不时更新此 DMCA 政策。我们将通过在此页面上发布新政策来通知您任何更改。建议您定期查看此政策以了解任何更改。"
+    section6:
+      title: "联系我们"
+      content: "如果您对此 DMCA 政策有任何疑问，请通过以下方式联系我们"
+
+# Download results
+results:
+  video_info:
+    title: "视频详情"
+    author: "创作者"
+    duration: "时长"
+    quality: "质量"
+  download_options:
+    title: "下载选项"
+    without_watermark: "无水印"
+    mp3: "MP3 音频"
+    hd_quality: "高清质量"
+    download_button: "立即下载"
+    save_to_gallery: "保存到相册"
+  notice:
+    title: "重要提示"
+    content: "下载的内容应仅用于个人目的。请尊重原创作者的版权。"
+  error:
+    title: "错误"
+    not_found: "未找到视频。该视频可能是私人视频或已被删除。"
+    processing: "处理视频时出错。请稍后重试。"
+    invalid_url: "无效的网址。请确保您复制了正确的 TikTok 链接。" 

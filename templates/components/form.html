@@ -1,0 +1,113 @@
+<!-- URL Input Form Component -->
+<div class="url-form-container">
+    <form id="tiktok-form" class="w-full max-w-xl mx-auto">
+        <!-- Desktop Input -->
+        <div class="hidden md:block relative">
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="tiktok-url-desktop" 
+                    class="input-field w-full pl-12 pr-32 py-4 border border-gray-300 rounded-lg focus:outline-none focus:border-primary-500"
+                    placeholder="{% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.placeholder') }}{% else %}{{ t('home.download_form.placeholder') }}{% endif %}" 
+                >
+                <div class="input-icon left-0 pl-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                    </svg>
+                </div>
+                <div class="absolute right-0 top-0 h-full">
+                    <div class="h-full flex items-center">
+                        <button type="button" id="paste-button-desktop" class="flex items-center text-primary-600 px-4 h-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
+                                <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z" />
+                            </svg>
+                            Paste
+                        </button>
+                        <button type="button" id="clear-button-desktop" class="hidden flex items-center text-gray-500 px-4 h-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button 
+                id="download-button-desktop" 
+                type="submit" 
+                class="download-btn gradient-bg text-white font-medium rounded-lg w-full py-4 mt-4 flex items-center justify-center"
+            >
+                <span id="download-text-desktop" class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                    {% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.button') }}{% else %}{{ t('home.download_form.button') }}{% endif %}
+                </span>
+                <span id="loading-text-desktop" class="hidden flex items-center">
+                    <div class="spinner mr-2"></div>
+                    {% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.processing') }}{% else %}{{ t('home.download_form.processing') }}{% endif %}
+                </span>
+            </button>
+        </div>
+        
+        <!-- Mobile Input -->
+        <div class="block md:hidden relative">
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="tiktok-url-mobile" 
+                    class="input-field w-full pl-12 pr-16 py-4 border border-gray-300 rounded-lg focus:outline-none focus:border-primary-500"
+                    placeholder="{% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.placeholder') }}{% else %}{{ t('home.download_form.placeholder') }}{% endif %}" 
+                >
+                <div class="input-icon left-0 pl-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                    </svg>
+                </div>
+                <div class="absolute right-0 top-0 h-full">
+                    <div class="h-full flex items-center">
+                        <button type="button" id="paste-button-mobile" class="flex items-center text-primary-600 px-3 h-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
+                                <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z" />
+                            </svg>
+                        </button>
+                        <button type="button" id="clear-button-mobile" class="hidden flex items-center text-gray-500 px-3 h-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button 
+                id="download-button-mobile" 
+                type="submit" 
+                class="download-btn gradient-bg text-white font-medium rounded-lg w-full py-4 mt-3 flex items-center justify-center"
+            >
+                <span id="download-text-mobile" class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                    {% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.button') }}{% else %}{{ t('home.download_form.button') }}{% endif %}
+                </span>
+                <span id="loading-text-mobile" class="hidden flex items-center">
+                    <div class="spinner mr-2"></div>
+                    {% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.processing') }}{% else %}{{ t('home.download_form.processing') }}{% endif %}
+                </span>
+            </button>
+        </div>
+    </form>
+    
+    <!-- Error Alert -->
+    <div id="error-alert" class="hidden bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mt-4 rounded shadow-md">
+        <div class="flex items-center">
+            <div class="text-red-500 rounded-full p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <p id="error-message" class="ml-2 text-sm">{% if request.path.startswith('/mp3') %}{{ t('mp3.download_form.error') }}{% else %}{{ t('home.download_form.error') }}{% endif %}</p>
+        </div>
+    </div>
+</div> 

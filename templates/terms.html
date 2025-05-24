@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="{{ request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) or 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>{{ t('terms.title') }}</title>
+    <meta name="title" content="{{ t('terms.title') }}">
+    <meta name="description" content="{{ t('terms.meta_description') }}">
+    <meta name="keywords" content="tiktok downloader terms, terms of service, usage terms, tiktok video downloader terms">
+    <meta name="author" content="TikTok Downloader">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:title" content="{{ t('terms.title') }}">
+    <meta property="og:description" content="{{ t('terms.meta_description') }}">
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ request.url }}">
+    <meta property="twitter:title" content="{{ t('terms.title') }}">
+    <meta property="twitter:description" content="{{ t('terms.meta_description') }}">
+    <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ request.url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TikTok Video Downloader",
+        "url": "{{ request.url_root }}",
+        "logo": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "technical support",
+            "email": "info@ttdl.cc",
+            "availableLanguage": ["English"]
+        }
+    }
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/components.css">
+    <link rel="stylesheet" href="/static/css/formats.css">
+    <link rel="stylesheet" href="/static/css/language-switcher.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            200: '#ddd6fe',
+                            300: '#c4b5fd',
+                            400: '#a78bfa',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9',
+                            800: '#5b21b6',
+                            900: '#4c1d95',
+                        },
+                        secondary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Outfit', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    {% include 'components/header.html' %}
+    
+    <!-- Page Header -->
+    <div class="bg-gradient-to-r from-primary-600 to-secondary-600 py-12 md:py-16">
+        <div class="container-custom mx-auto px-4">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center">
+                {{ t('terms.heading') }}
+            </h1>
+            <p class="text-white text-opacity-90 text-lg mt-4 max-w-3xl mx-auto text-center">
+                {{ t('terms.last_updated') }}
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="py-12 md:py-16">
+        <div class="container-custom mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <div class="prose prose-lg max-w-none">
+                    <p class="lead text-xl text-gray-700">
+                        {{ t('terms.content.intro') }}
+                    </p>
+                    <p class="mt-4">
+                        {{ t('terms.content.access') }}
+                    </p>
+                    <p class="mt-4">
+                        <strong>{{ t('terms.content.agreement') }}</strong>
+                    </p>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">1. {{ t('terms.content.section1.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section1.content') }}
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 mt-3">
+                        <li class="mb-2">{{ t('terms.content.section1.item1') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section1.item2') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section1.item3') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section1.item4') }}</li>
+                    </ul>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">2. {{ t('terms.content.section2.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section2.content') }}
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 mt-3">
+                        <li class="mb-2">{{ t('terms.content.section2.item1') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section2.item2') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section2.item3') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section2.item4') }}</li>
+                    </ul>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">3. {{ t('terms.content.section3.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section3.content') }}
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 mt-3">
+                        <li class="mb-2">{{ t('terms.content.section3.item1') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section3.item2') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section3.item3') }}</li>
+                    </ul>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">4. {{ t('terms.content.section4.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section4.content') }}
+                    </p>
+                    <ul class="list-disc pl-6 mb-6 mt-3">
+                        <li class="mb-2">{{ t('terms.content.section4.item1') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section4.item2') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section4.item3') }}</li>
+                        <li class="mb-2">{{ t('terms.content.section4.item4') }}</li>
+                    </ul>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">5. {{ t('terms.content.section5.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section5.content') }}
+                    </p>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">6. {{ t('terms.content.section6.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section6.content') }}
+                    </p>
+                    <p class="mt-4">
+                        {{ t('terms.content.section6.additional') }}
+                    </p>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">7. {{ t('terms.content.section7.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section7.content') }}
+                    </p>
+                    <p class="mt-4">
+                        {{ t('terms.content.section7.additional') }}
+                    </p>
+                    
+                    <h2 class="text-2xl font-bold mt-10 mb-4">8. {{ t('terms.content.section8.title') }}</h2>
+                    <p>
+                        {{ t('terms.content.section8.content') }} <a href="mailto:info@ttdl.cc" class="text-primary-600 hover:text-primary-700">info@ttdl.cc</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    {% include 'components/footer.html' %}
+    
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="/static/js/language-switcher.js"></script>
+    <script defer src="/static/js/main.js"></script>
+</body>
+</html> 

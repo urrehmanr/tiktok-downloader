@@ -1,0 +1,96 @@
+<!-- Language Switcher Component -->
+<div class="language-switcher dropdown relative ml-2">
+    <button class="language-toggle flex items-center focus:outline-none">
+        <span class="flag-icon">
+            {% if request.args.get('lang') == 'en' or (not request.args.get('lang') and (request.cookies.get('lang') == 'en' or not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'en' or not request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']))) %}
+                <span class="inline-block">🇺🇸</span>
+            {% elif request.args.get('lang') == 'es' or (not request.args.get('lang') and request.cookies.get('lang') == 'es') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'es') %}
+                <span class="inline-block">🇪🇸</span>
+            {% elif request.args.get('lang') == 'fr' or (not request.args.get('lang') and request.cookies.get('lang') == 'fr') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'fr') %}
+                <span class="inline-block">🇫🇷</span>
+            {% elif request.args.get('lang') == 'de' or (not request.args.get('lang') and request.cookies.get('lang') == 'de') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'de') %}
+                <span class="inline-block">🇩🇪</span>
+            {% elif request.args.get('lang') == 'it' or (not request.args.get('lang') and request.cookies.get('lang') == 'it') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'it') %}
+                <span class="inline-block">🇮🇹</span>
+            {% elif request.args.get('lang') == 'pt' or (not request.args.get('lang') and request.cookies.get('lang') == 'pt') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'pt') %}
+                <span class="inline-block">🇵🇹</span>
+            {% elif request.args.get('lang') == 'ru' or (not request.args.get('lang') and request.cookies.get('lang') == 'ru') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'ru') %}
+                <span class="inline-block">🇷🇺</span>
+            {% elif request.args.get('lang') == 'zh' or (not request.args.get('lang') and request.cookies.get('lang') == 'zh') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'zh') %}
+                <span class="inline-block">🇨🇳</span>
+            {% elif request.args.get('lang') == 'ja' or (not request.args.get('lang') and request.cookies.get('lang') == 'ja') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'ja') %}
+                <span class="inline-block">🇯🇵</span>
+            {% elif request.args.get('lang') == 'ko' or (not request.args.get('lang') and request.cookies.get('lang') == 'ko') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'ko') %}
+                <span class="inline-block">🇰🇷</span>
+            {% elif request.args.get('lang') == 'hi' or (not request.args.get('lang') and request.cookies.get('lang') == 'hi') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'hi') %}
+                <span class="inline-block">🇮🇳</span>
+            {% elif request.args.get('lang') == 'ar' or (not request.args.get('lang') and request.cookies.get('lang') == 'ar') or (not request.args.get('lang') and not request.cookies.get('lang') and request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) == 'ar') %}
+                <span class="inline-block">🇸🇦</span>
+            {% endif %}
+        </span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+    </button>
+    <div class="language-dropdown absolute right-0 mt-2 bg-white rounded-md shadow-lg z-50 py-1">
+        {% set current_lang = request.args.get('lang') or request.cookies.get('lang') or request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) or 'en' %}
+        
+        <a href="?lang=en" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'en' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇺🇸</span> English
+        </a>
+        <a href="?lang=es" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'es' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇪🇸</span> Español
+        </a>
+        <a href="?lang=fr" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'fr' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇫🇷</span> Français
+        </a>
+        <a href="?lang=de" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'de' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇩🇪</span> Deutsch
+        </a>
+        <a href="?lang=it" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'it' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇮🇹</span> Italiano
+        </a>
+        <a href="?lang=pt" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'pt' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇵🇹</span> Português
+        </a>
+        <a href="?lang=ru" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'ru' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇷🇺</span> Русский
+        </a>
+        <a href="?lang=zh" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'zh' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇨🇳</span> 中文
+        </a>
+        <a href="?lang=ja" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'ja' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇯🇵</span> 日本語
+        </a>
+        <a href="?lang=ko" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'ko' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇰🇷</span> 한국어
+        </a>
+        <a href="?lang=hi" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'hi' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇮🇳</span> हिन्दी
+        </a>
+        <a href="?lang=ar" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_lang == 'ar' %} bg-gray-100 font-medium{% endif %}">
+            <span class="inline-block mr-2">🇸🇦</span> العربية
+        </a>
+    </div>
+</div>
+
+<style>
+/* Direct language switcher styles with !important to ensure they take precedence */
+.language-dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 0.375rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    z-index: 50;
+    overflow: hidden;
+    display: none;
+    width: 160px;
+}
+
+.language-switcher.open .language-dropdown {
+    display: block !important;
+}
+</style> 

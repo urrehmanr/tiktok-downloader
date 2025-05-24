@@ -1,0 +1,414 @@
+# German translations for TikTok Downloader
+
+# Common elements across pages
+common:
+  website_name: "TikTok Downloader"
+  website_tagline: "TikTok Videos ohne Wasserzeichen herunterladen"
+  copyright_text: "TikTok Downloader. Alle Rechte vorbehalten. Nicht mit TikTok verbunden."
+
+# Navigation items
+navigation:
+  home: "Startseite"
+  mp3_download: "MP3 Download"
+  how_to_save: "Speicheranleitung"
+  contact: "Kontakt"
+  legal: "Rechtliches"
+  privacy_policy: "Datenschutzrichtlinie"
+  terms_of_service: "Nutzungsbedingungen"
+  dmca_policy: "DMCA-Richtlinie"
+  
+# Footer content
+footer:
+  description: "Laden Sie TikTok-Videos ohne Wasserzeichen in hoher Qualität kostenlos herunter. Speichern Sie Ihre Lieblings-TikTok-Videos in Sekundenschnelle auf Ihrem Gerät."
+  quick_links: "Schnellzugriff"
+  contact_us: "Kontaktieren Sie uns"
+
+# Home page
+home:
+  title: "TikTok Downloader - TikTok Videos ohne Wasserzeichen herunterladen | Kostenloser HD-Video-Downloader"
+  meta_description: "Schnellster TikTok-Video-Downloader! Speichern Sie TikTok-Videos in HD mit zwei Klicks, schnell und kostenlos. Laden Sie Videos ohne Wasserzeichen, in hoher Qualität und völlig kostenlos herunter. Starten Sie jetzt mit dem Download!"
+  hero:
+    title: "TikTok Videos ohne Wasserzeichen herunterladen"
+    subtitle: "Der schnellste und zuverlässigste TikTok Downloader. Speichern Sie Videos in HD ohne Wasserzeichen kostenlos!"
+  features:
+    title: "Warum unser TikTok Downloader wählen"
+    feature1:
+      title: "Ohne Wasserzeichen"
+      description: "Laden Sie TikTok-Videos ohne das störende TikTok-Wasserzeichen in voller Qualität herunter."
+    feature2:
+      title: "Hohe Qualität"
+      description: "Erhalten Sie Video-Downloads in höchster Qualität direkt auf Ihr Gerät."
+    feature3:
+      title: "Schnell & Kostenlos"
+      description: "Unser Service ist völlig kostenlos und verarbeitet Downloads in Sekundenschnelle."
+    feature4:
+      title: "Einfach zu bedienen"
+      description: "Keine Registrierung erforderlich. Fügen Sie einfach den Link ein und laden Sie das Video herunter."
+  how_it_works:
+    title: "So funktioniert es"
+    step1:
+      title: "Link kopieren"
+      description: "Kopieren Sie den TikTok-Video-Link aus der TikTok-App oder Website."
+    step2:
+      title: "Link einfügen"
+      description: "Fügen Sie den Link in das obige Eingabefeld ein."
+    step3:
+      title: "Herunterladen"
+      description: "Klicken Sie auf die Download-Schaltfläche und speichern Sie das Video auf Ihrem Gerät."
+  download_form:
+    placeholder: "TikTok-Video-URL hier einfügen"
+    button: "Herunterladen"
+    error: "Bitte geben Sie eine gültige TikTok-URL ein"
+    processing: "Verarbeitung..."
+  faq:
+    title: "Häufig gestellte Fragen"
+    questions:
+      - question: "Ist es kostenlos, TikTok-Videos herunterzuladen?"
+        answer: "Ja, unser Service ist völlig kostenlos. Sie können so viele TikTok-Videos herunterladen, wie Sie möchten, ohne Kosten."
+      - question: "Muss ich ein Konto erstellen?"
+        answer: "Nein, Sie müssen kein Konto erstellen oder sich anmelden, um unseren TikTok Downloader zu nutzen. Fügen Sie einfach den Video-Link ein und laden Sie herunter."
+      - question: "Ist es legal, TikTok-Videos herunterzuladen?"
+        answer: "Das Herunterladen von TikTok-Videos für den persönlichen Gebrauch ist im Allgemeinen akzeptabel. Sie sollten jedoch den Inhalt nicht ohne Genehmigung des Erstellers weiterverbreiten oder kommerziell nutzen."
+      - question: "Kann ich private TikTok-Videos herunterladen?"
+        answer: "Nein, unser Service kann nur öffentliche TikTok-Videos herunterladen. Private Videos sind über unseren Downloader nicht zugänglich."
+      - question: "Warum TikTok-Videos ohne Wasserzeichen herunterladen?"
+        answer: "Das Herunterladen von Videos ohne Wasserzeichen ermöglicht es Ihnen, diese in Ihren eigenen Kreationen zu verwenden, sie auf anderen Plattformen zu teilen oder sie einfach ohne störende Überlagerungen zu genießen."
+
+# MP3 page
+mp3:
+  title: "TikTok zu MP3 - TikTok Audio herunterladen | TikTok Videos zu MP3 konvertieren"
+  meta_description: "Konvertieren und laden Sie TikTok-Videos in MP3-Audiodateien herunter. Extrahieren Sie Musik und Sounds aus TikTok-Videos in hoher Qualität kostenlos."
+  meta_keywords: "tiktok mp3 downloader, tiktok audio downloader, tiktok zu mp3, tiktok audio extraktor, tiktok musik downloader, tiktok sound downloader, kostenloser tiktok mp3 konverter"
+  meta_author: "TikTok MP3 Downloader"
+  meta_og_title: "TikTok MP3 Downloader - Audio aus TikTok-Videos extrahieren"
+  meta_og_description: "Extrahieren Sie hochwertiges MP3-Audio aus jedem TikTok-Video. Schnell, kostenlos und einfach zu bedienen. Konvertieren Sie TikTok-Videos sofort in MP3-Format."
+  meta_twitter_title: "TikTok MP3 Downloader - Audio aus TikTok-Videos extrahieren"
+  meta_twitter_description: "Extrahieren Sie hochwertiges MP3-Audio aus jedem TikTok-Video. Schnell, kostenlos und einfach zu bedienen. Konvertieren Sie TikTok-Videos sofort in MP3-Format."
+  schema:
+    app_name: "TikTok MP3 Downloader"
+    app_description: "Extrahieren Sie hochwertiges MP3-Audio aus jedem TikTok-Video. Schnell, kostenlos und einfach zu bedienen. Konvertieren Sie TikTok-Videos sofort in MP3-Format."
+    app_category: "UtilityApplication"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "MP3-Audio aus TikTok-Videos extrahieren"
+      - "Hochwertige Audiokonvertierung"
+      - "Schneller und kostenloser Service"
+      - "Keine Registrierung erforderlich"
+      - "Unterstützung für alle Geräte"
+    howto_name: "Wie man MP3-Audio aus TikTok-Videos extrahiert"
+    howto_description: "Schritt-für-Schritt-Anleitung zum Extrahieren und Herunterladen von MP3-Audio aus TikTok-Videos mit unserem kostenlosen Online-Tool."
+    howto_steps:
+      - name: "Audio-Link kopieren"
+        text: "Öffnen Sie TikTok und kopieren Sie den Link des Videos mit dem Audio, das Sie herunterladen möchten."
+      - name: "Link einfügen"
+        text: "Fügen Sie den kopierten Link in das obige Eingabefeld ein."
+      - name: "MP3 herunterladen"
+        text: "Klicken Sie auf die Download-Schaltfläche, um das MP3-Audio zu extrahieren und zu speichern."
+    faq:
+      - question: "Welche Qualität haben die MP3-Dateien?"
+        answer: "Wir extrahieren MP3-Audio in der höchsten verfügbaren Qualität aus dem Original-TikTok-Video, typischerweise 128-192 kbps."
+      - question: "Gibt es eine Begrenzung für die Anzahl der MP3s, die ich herunterladen kann?"
+        answer: "Nein, unser Service ist völlig kostenlos ohne Download-Limits. Sie können so viele MP3s extrahieren, wie Sie benötigen."
+      - question: "Kann ich MP3 aus privaten TikTok-Videos extrahieren?"
+        answer: "Nein, unser Service kann nur Audio aus öffentlichen TikTok-Videos extrahieren. Private Videos sind nicht zugänglich."
+      - question: "Mit welchen Geräten ist dies kompatibel?"
+        answer: "Unser TikTok MP3 Downloader funktioniert auf allen modernen Geräten, einschließlich Windows, Mac, Android und iOS. Er ist vollständig webbasiert, sodass keine Software installiert werden muss."
+  hero:
+    title: "TikTok <span class=\"gradient-text\">MP3</span> Downloader"
+    subtitle: "Extrahieren Sie hochwertiges MP3-Audio aus jedem TikTok-Video. Schnell, kostenlos und einfach zu bedienen."
+  features:
+    title: "Warum unseren TikTok MP3 Downloader wählen?"
+    feature1:
+      title: "Hochwertiges Audio"
+      description: "Extrahieren Sie Audio im höchsten MP3-Format."
+    feature2:
+      title: "Schnelle Konvertierung"
+      description: "Konvertieren Sie TikTok-Videos in Sekundenschnelle zu MP3."
+    feature3:
+      title: "Sicher & Privat"
+      description: "Wir speichern Ihre Audiodateien nicht auf unseren Servern."
+    feature4:
+      title: "Keine Programmierung erforderlich"
+      description: "Einfache Benutzeroberfläche für einfache MP3-Extraktion."
+  how_it_works:
+    title: "Wie man MP3 aus TikTok extrahiert"
+    steps:
+      - title: "Audio-Link kopieren"
+        description: "Öffnen Sie TikTok und kopieren Sie den Link des Videos mit dem Audio, das Sie herunterladen möchten."
+      - title: "Link einfügen"
+        description: "Fügen Sie den Link in das obige Eingabefeld ein."
+      - title: "MP3 herunterladen"
+        description: "Klicken Sie auf die Download-Schaltfläche, um das MP3-Audio zu extrahieren und zu speichern."
+  faq:
+    title: "Häufig gestellte Fragen"
+    items:
+      - question: "Welche Qualität haben die MP3-Dateien?"
+        answer: "Wir extrahieren MP3-Audio in der höchsten verfügbaren Qualität aus dem Original-TikTok-Video, typischerweise 128-192 kbps."
+      - question: "Gibt es eine Begrenzung für die Anzahl der MP3s, die ich herunterladen kann?"
+        answer: "Nein, unser Service ist völlig kostenlos ohne Download-Limits. Sie können so viele MP3s extrahieren, wie Sie benötigen."
+      - question: "Kann ich MP3 aus privaten TikTok-Videos extrahieren?"
+        answer: "Nein, unser Service kann nur Audio aus öffentlichen TikTok-Videos extrahieren. Private Videos sind nicht zugänglich."
+      - question: "Mit welchen Geräten ist dies kompatibel?"
+        answer: "Unser TikTok MP3 Downloader funktioniert auf allen modernen Geräten, einschließlich Windows, Mac, Android und iOS. Er ist vollständig webbasiert, sodass keine Software installiert werden muss."
+
+# How-to-Save page
+how_to_save:
+  title: "Wie man TikTok-Videos ohne Wasserzeichen speichert - Schritt-für-Schritt-Anleitung"
+  meta_description: "Lernen Sie, wie Sie TikTok-Videos ohne Wasserzeichen speichern und herunterladen können. Einfache Schritt-für-Schritt-Anleitung mit Bildern, die Ihnen hilft, TikTok-Videos in HD-Qualität zu speichern."
+  meta_keywords: "tiktok video download anleitung, wie speichere ich tiktok videos, tiktok download tutorial, tiktok ohne wasserzeichen speichern, tiktok video speichern anleitung"
+  intro: "TikTok ist zu einer der beliebtesten Social-Media-Plattformen geworden, auf der Millionen von Nutzern täglich kreative und unterhaltsame Videos teilen. Manchmal möchten Sie diese Videos vielleicht offline anschauen oder über andere Plattformen teilen. Unsere Anleitung zeigt Ihnen, wie Sie TikTok-Videos ohne Wasserzeichen in wenigen einfachen Schritten herunterladen können."
+  hero:
+    title: "Wie man TikTok Videos ohne Wasserzeichen speichert"
+    subtitle: "Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung, um TikTok-Videos ohne Wasserzeichen in hoher Qualität herunterzuladen"
+  steps:
+    step1:
+      title: "Schritt 1: Finden und Kopieren Sie den TikTok-Video-Link"
+      paragraph1: "Öffnen Sie die TikTok-App auf Ihrem Telefon oder besuchen Sie TikTok.com in Ihrem Browser. Finden Sie das Video, das Sie herunterladen möchten, und tippen Sie auf die Schaltfläche \"Teilen\" (normalerweise durch ein Pfeilsymbol oder den Text \"Teilen\" dargestellt)."
+      paragraph2: "Wählen Sie aus den erscheinenden Freigabeoptionen \"Link kopieren\" oder \"URL kopieren\". Dadurch wird die URL des Videos in Ihre Zwischenablage gespeichert."
+      image_caption: "Bild: Tippen Sie im TikTok-Freigabemenü auf die Option \"Link kopieren\""
+    step2:
+      title: "Schritt 2: Besuchen Sie unsere TikTok Downloader Website"
+      paragraph1: "Öffnen Sie Ihren Webbrowser und besuchen Sie unsere TikTok Downloader Website. Sie sehen eine übersichtliche und einfache Benutzeroberfläche mit einem Eingabefeld, in das Sie die TikTok-Video-URL einfügen können."
+      paragraph2: "Die Homepage ist so gestaltet, dass sie auf allen Geräten, egal ob Smartphone, Tablet oder Computer, einfach und unkompliziert zu bedienen ist."
+      image_caption: "Bild: Unsere TikTok Downloader Homepage mit dem Einfügefeld"
+    step3:
+      title: "Schritt 3: Fügen Sie den Link ein und verarbeiten Sie das Video"
+      paragraph1: "Fügen Sie den TikTok-Video-Link, den Sie kopiert haben, in das Eingabefeld ein. Auf mobilen Geräten können Sie das Feld antippen und gedrückt halten und dann \"Einfügen\" wählen. Auf Computern verwenden Sie Strg+V (oder Command+V auf Mac)."
+      paragraph2: "Sobald Sie die URL eingefügt haben, klicken Sie auf die Schaltfläche \"Jetzt herunterladen\". Unser System beginnt sofort mit der Verarbeitung des Videos."
+      image_caption: "Bild: Eingefügte TikTok-URL und laufende Verarbeitung"
+    step4:
+      title: "Schritt 4: Laden Sie das TikTok-Video herunter"
+      paragraph1: "Nachdem unser System das Video verarbeitet hat, sehen Sie detaillierte Informationen zum TikTok-Video, einschließlich Autor, Aufrufe, Likes und Videodauer."
+      paragraph2: "Sie können auf die Schaltfläche \"Herunterladen\" klicken, um das Video im standardmäßigen hochqualitativen Format zu erhalten, oder auf \"Weitere Formate\" klicken, um aus verschiedenen Qualitätsoptionen zu wählen."
+      paragraph3: "Bei der Auswahl von \"Weitere Formate\" sehen Sie alle verfügbaren Videoauflösungen und Dateigrößen. Wählen Sie die Option, die am besten zu Ihren Bedürfnissen passt - Formate mit höherer Qualität haben größere Dateigrößen."
+      image_caption: "Bild: Videodetailseite mit Download-Optionen"
+      modal:
+        image_caption: "Bild: Modal zur Auswahl der Videoformate"
+        paragraph1: "Die Option \"Weitere Formate\" zeigt ein Modal-Fenster mit allen verfügbaren Download-Qualitäten an."
+        paragraph2: "Sie können zwischen HD (720p) oder SD (576p) Optionen je nach Ihren Bedürfnissen wählen."
+        paragraph3: "Jedes Format zeigt die Videoauflösung und Dateigröße an, was Ihnen hilft, die beste Option für Ihre Internetverbindung und Speicherkapazität zu wählen."
+    step5:
+      title: "Schritt 5: Auf Ihrem Gerät speichern"
+      paragraph1: "Sobald Sie auf eine Download-Option klicken, beginnt Ihr Browser mit dem Herunterladen des Videos. Je nach Ihren Browser-Einstellungen wird es möglicherweise automatisch in Ihrem Standard-Download-Ordner gespeichert oder Sie werden aufgefordert, einen Speicherort zu wählen."
+      paragraph2: "Nach Abschluss des Downloads haben Sie ein sauberes, wasserzeichenfreies TikTok-Video, das bereit ist, offline angesehen oder nach Belieben geteilt zu werden."
+      image_caption: "Bild: Erfolgreicher Download-Abschluss"
+  additional_tips:
+    title: "Weitere Tipps"
+    tips:
+      - "Unser TikTok-Downloader funktioniert sowohl mit regulären TikTok-Videos als auch mit TikTok LIVE-Aufnahmen."
+      - "Sie können Videos in HD-Qualität herunterladen, ohne Auflösung zu verlieren."
+      - "Der Prozess ist völlig kostenlos, ohne versteckte Kosten oder Registrierungspflicht."
+      - "Wenn Sie nur den Ton herunterladen möchten, können Sie unseren TikTok MP3 Downloader verwenden."
+      - "Wir speichern Ihre heruntergeladenen Videos nicht auf unseren Servern, was Ihre Privatsphäre gewährleistet."
+  faq:
+    title: "Häufig gestellte Fragen"
+    questions:
+      - question: "Ist es legal, TikTok-Videos herunterzuladen?"
+        answer: "Das Herunterladen von TikTok-Videos für den persönlichen Gebrauch ist im Allgemeinen akzeptabel. Sie sollten jedoch den Inhalt nicht ohne Genehmigung des Erstellers weiterverbreiten oder kommerziell nutzen. Respektieren Sie stets das Urheberrecht und geistiges Eigentum."
+      - question: "Kann ich Videos von einem privaten TikTok-Konto herunterladen?"
+        answer: "Nein, unser Service kann nur öffentliche TikTok-Videos herunterladen. Private Videos sind über unseren Downloader nicht zugänglich."
+      - question: "Wie ist die maximale Länge des TikTok-Videos, das ich herunterladen kann?"
+        answer: "Unser Downloader unterstützt alle TikTok-Videos unabhängig von ihrer Länge, von kurzen Clips bis hin zu längeren Videos von bis zu 10 Minuten."
+      - question: "Funktioniert dies auf mobilen Geräten?"
+        answer: "Ja, unser TikTok-Downloader funktioniert auf allen modernen Geräten, einschließlich Android-Telefonen, iPhones, Tablets und Computern."
+  cta_text: "Bereit, TikTok-Videos herunterzuladen?"
+  cta_description: "Probieren Sie jetzt unseren kostenlosen TikTok-Video-Downloader aus und speichern Sie Ihre Lieblings-TikTok-Videos ohne Wasserzeichen in HD-Qualität."
+  cta_button: "Zum TikTok Downloader"
+
+# Contact page
+contact:
+  title: "Kontakt | TikTok Downloader"
+  meta_description: "Kontaktieren Sie das TikTok Downloader-Team. Senden Sie uns Ihre Fragen, Feedback oder melden Sie Probleme mit unserem Service."
+  hero:
+    title: "Kontaktieren Sie uns"
+    subtitle: "Haben Sie Fragen oder Feedback? Wir würden gerne von Ihnen hören."
+  form:
+    name: "Ihr Name"
+    email: "Ihre E-Mail"
+    subject: "Betreff"
+    message: "Nachricht"
+    submit: "Nachricht senden"
+    success: "Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns bald bei Ihnen melden."
+    error: "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+  contact_info:
+    title: "Weitere Kontaktmöglichkeiten"
+    email_label: "E-Mail"
+    email: "support@tiktokdownloader.com"
+    response_time: "Wir bemühen uns, alle Anfragen innerhalb von 24-48 Stunden zu beantworten."
+
+# Terms of Service page
+terms:
+  title: "Nutzungsbedingungen | TikTok Downloader"
+  meta_description: "Nutzungsbedingungen für TikTok Downloader. Lesen Sie unsere Bedingungen für die Nutzung unseres TikTok-Video-Download-Services."
+  heading: "Nutzungsbedingungen"
+  last_updated: "Zuletzt aktualisiert: 1. Mai 2023"
+  content:
+    intro: "Bitte lesen Sie diese Nutzungsbedingungen (\"Bedingungen\", \"Nutzungsbedingungen\") sorgfältig durch, bevor Sie die TikTok Downloader Website (den \"Service\") nutzen, die von uns betrieben wird."
+    access: "Ihr Zugriff auf und die Nutzung des Services ist an Ihre Annahme und Einhaltung dieser Bedingungen geknüpft. Diese Bedingungen gelten für alle Besucher, Nutzer und andere Personen, die auf den Service zugreifen oder ihn nutzen."
+    agreement: "Durch den Zugriff auf oder die Nutzung des Services stimmen Sie zu, an diese Bedingungen gebunden zu sein. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, dürfen Sie nicht auf den Service zugreifen."
+    section1:
+      title: "Nutzung des Services"
+      content: "TikTok Downloader ist ein Service, der es Nutzern ermöglicht, Videos von TikTok für den persönlichen, nicht-kommerziellen Gebrauch herunterzuladen. Durch die Nutzung unseres Services stimmen Sie zu:"
+      item1: "Den Service nur für rechtmäßige Zwecke und in Übereinstimmung mit diesen Bedingungen zu nutzen."
+      item2: "Den Service nicht für illegale oder nicht autorisierte Zwecke zu nutzen."
+      item3: "Nicht zu versuchen, die Verwundbarkeit des Services oder eines damit verbundenen Systems oder Netzwerks zu untersuchen, zu scannen oder zu testen."
+      item4: "Nicht in den Service oder Server oder Netzwerke einzugreifen, die mit dem Service verbunden sind."
+    section2: 
+      title: "Geistiges Eigentum"
+      content: "Unser Service ermöglicht es Ihnen, Videos von TikTok herunterzuladen. Wir erheben jedoch keinen Anspruch auf das Eigentum an den Inhalten, die Sie herunterladen. Alle Videos und Inhalte gehören ihren jeweiligen Eigentümern. Durch die Nutzung unseres Services zum Herunterladen von Inhalten erklären Sie, dass:"
+      item1: "Sie Inhalte nur für den persönlichen Gebrauch herunterladen."
+      item2: "Sie die Rechte des geistigen Eigentums der Inhaltsersteller respektieren werden."
+      item3: "Sie die heruntergeladenen Inhalte ohne entsprechende Genehmigung des ursprünglichen Erstellers nicht weiterverbreiten, verkaufen oder kommerziell nutzen werden."
+      item4: "Sie verstehen, dass das Herunterladen von Inhalten für bestimmte Zwecke möglicherweise die Genehmigung des Urheberrechtsinhabers erfordert."
+    section3:
+      title: "Haftungsausschluss"
+      content: "Unser Service wird \"wie er ist\" und \"wie verfügbar\" ohne Gewährleistungen jeglicher Art, ausdrücklich oder implizit, bereitgestellt. Wir garantieren nicht, dass:"
+      item1: "Der Service ununterbrochen, zeitnah, sicher oder fehlerfrei sein wird."
+      item2: "Die Ergebnisse, die aus der Nutzung des Services erzielt werden können, genau oder zuverlässig sein werden."
+      item3: "Die Qualität der Produkte, Dienstleistungen, Informationen oder anderen Materialien, die Sie durch den Service erwerben, Ihren Erwartungen entsprechen wird."
+    section4:
+      title: "Haftungsbeschränkung"
+      content: "In keinem Fall haften wir für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich, aber nicht beschränkt auf entgangenen Gewinn, Datenverlust, Nutzung, Goodwill oder andere immaterielle Verluste, die sich ergeben aus:"
+      item1: "Ihrem Zugriff auf oder Nutzung von oder Unfähigkeit, auf den Service zuzugreifen oder ihn zu nutzen."
+      item2: "Jedes Verhalten oder Inhalt von Dritten auf dem Service."
+      item3: "Jeden Inhalt, der vom Service erhalten wurde."
+      item4: "Unbefugter Zugriff, Nutzung oder Änderung Ihrer Übertragungen oder Inhalte."
+    section5:
+      title: "Beendigung"
+      content: "Wir können den Zugriff auf unseren Service sofort, ohne vorherige Mitteilung oder Haftung, aus beliebigem Grund, einschließlich, aber nicht beschränkt auf einen Verstoß gegen die Bedingungen, beenden oder aussetzen."
+    section6:
+      title: "Änderungen der Bedingungen"
+      content: "Wir behalten uns das Recht vor, diese Bedingungen nach eigenem Ermessen jederzeit zu ändern oder zu ersetzen. Wenn eine Änderung wesentlich ist, werden wir versuchen, mindestens 15 Tage vor Inkrafttreten der neuen Bedingungen eine Mitteilung zu machen. Was eine wesentliche Änderung darstellt, wird nach unserem alleinigen Ermessen bestimmt."
+      additional: "Durch die weitere Nutzung oder den Zugriff auf unseren Service nach Inkrafttreten dieser Änderungen erklären Sie sich mit den überarbeiteten Bedingungen einverstanden. Wenn Sie mit den neuen Bedingungen nicht einverstanden sind, hören Sie bitte auf, den Service zu nutzen."
+    section7:
+      title: "Geltendes Recht"
+      content: "Diese Bedingungen unterliegen den Gesetzen und werden in Übereinstimmung mit diesen ausgelegt, ohne Rücksicht auf Bestimmungen zu Rechtskonflikten."
+      additional: "Unser Versäumnis, ein Recht oder eine Bestimmung dieser Bedingungen durchzusetzen, gilt nicht als Verzicht auf diese Rechte. Wenn eine Bestimmung dieser Bedingungen von einem Gericht für ungültig oder nicht durchsetzbar erklärt wird, bleiben die übrigen Bestimmungen dieser Bedingungen in Kraft."
+    section8:
+      title: "Kontaktieren Sie uns"
+      content: "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter"
+
+# Privacy Policy page
+privacy:
+  title: "Datenschutzrichtlinie | TikTok Downloader"
+  meta_description: "Datenschutzrichtlinie für TikTok Downloader. Erfahren Sie, wie wir Ihre Privatsphäre schützen, wenn Sie unseren TikTok-Video-Download-Service nutzen."
+  heading: "Datenschutzrichtlinie"
+  last_updated: "Zuletzt aktualisiert: 1. Mai 2023"
+  content:
+    intro: "Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unsere TikTok Downloader Website (\"Service\") besuchen."
+    respect: "Wir respektieren Ihre Privatsphäre und sind bestrebt, Ihre persönlichen Daten zu schützen. Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig, um zu verstehen, wie wir mit Ihren Informationen umgehen."
+    section1:
+      title: "Informationen, die wir sammeln"
+      content: "Wir können verschiedene Arten von Informationen sammeln, darunter:"
+      item1_title: "Nutzungsdaten"
+      item1: "Wir können anonyme Daten darüber sammeln, wie Sie mit unserem Service interagieren, einschließlich Browsertyp, verweisende Seiten, Zeit auf Seiten und Klicks auf Elemente. Dies hilft uns zu verstehen, wie Benutzer mit dem Service interagieren, um die Funktionalität zu verbessern."
+      item2_title: "Protokolldaten"
+      item2: "Unsere Server protokollieren automatisch Standardinformationen wie IP-Adresse, Browsertyp, Betriebssystem, besuchte Seiten und Verweildauer. Diese Daten werden zur Aufrechterhaltung der Servicequalität und Sicherheit verwendet."
+      item3_title: "Cookies"
+      item3: "Wir verwenden Cookies für Analysen, Speicherung von Benutzereinstellungen und grundlegende Website-Funktionalität. Sie können Cookie-Einstellungen in Ihrem Browser steuern."
+      item4_title: "Kontaktinformationen"
+      item4: "Wenn Sie uns über das Kontaktformular erreichen, sammeln wir die von Ihnen bereitgestellten Informationen, wie Ihren Namen, Ihre E-Mail-Adresse und den Inhalt der Nachricht."
+    note_title: "Hinweis"
+    note: "Wir speichern keine TikTok-Videos oder Inhalte, die Sie über unseren Service herunterladen."
+    section2:
+      title: "Wie wir Ihre Informationen verwenden"
+      intro: "Wir können die gesammelten Informationen verwenden, um:"
+      item1: "Unseren Service bereitzustellen, zu betreiben und zu warten"
+      item2: "Unseren Service zu verbessern, zu personalisieren und zu erweitern"
+      item3: "Zu verstehen, wie Benutzer mit unserem Service interagieren"
+      item4: "Neue Produkte, Dienstleistungen und Funktionen zu entwickeln"
+      item5: "Betrug und Missbrauch unseres Service zu verhindern"
+      item6: "Auf Ihre Anfragen zu antworten und Kundensupport zu bieten"
+    section3:
+      title: "Datenweitergabe"
+      content: "Wir verkaufen, handeln oder übertragen Ihre Informationen nicht an Dritte, außer in den folgenden Fällen:"
+      item1_title: "Dienstleister"
+      item1: "Wir können Daten mit vertrauenswürdigen Dritten teilen, die uns bei der Betreibung unseres Service unterstützen, vorausgesetzt, sie stimmen zu, diese Informationen vertraulich zu behandeln."
+      item2_title: "Gesetzliche Anforderungen"
+      item2: "Wir können Informationen offenlegen, wenn dies gesetzlich vorgeschrieben ist oder um unsere Rechte, Sicherheit oder die Sicherheit anderer zu schützen."
+      item3_title: "Analysen"
+      item3: "Wir verwenden Analyseanbieter wie Google Analytics, um zu verstehen, wie Benutzer mit unserem Service interagieren."
+    section4:
+      title: "Datensicherheit"
+      content: "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre Informationen vor unbefugtem Zugriff, Änderung oder Offenlegung zu schützen. Allerdings kann kein internetbasierter Dienst absolute Sicherheit garantieren."
+    section5:
+      title: "Ihre Rechte"
+      content: "Je nach Ihrem Standort haben Sie möglicherweise bestimmte Rechte in Bezug auf Ihre persönlichen Informationen, darunter:"
+      item1: "Das Recht auf Zugang zu Informationen, die wir über Sie haben"
+      item2: "Das Recht auf Berichtigung ungenauer persönlicher Informationen"
+      item3: "Das Recht, die Löschung Ihrer persönlichen Informationen zu beantragen"
+      item4: "Das Recht, die Verarbeitung Ihrer Informationen einzuschränken oder ihr zu widersprechen"
+      item5: "Das Recht auf Datenübertragbarkeit"
+    section6:
+      title: "Datenschutz für Kinder"
+      content: "Unser Service ist nicht für Personen unter 13 Jahren bestimmt. Wir sammeln wissentlich keine persönlichen Informationen von Kindern unter 13 Jahren. Wenn Sie ein Elternteil oder Vormund sind und glauben, dass Ihr Kind uns persönliche Informationen zur Verfügung gestellt hat, kontaktieren Sie uns bitte."
+    section7:
+      title: "Änderungen dieser Datenschutzrichtlinie"
+      content: "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Die aktualisierte Version wird durch ein aktualisiertes \"Zuletzt aktualisiert\"-Datum angezeigt. Wir empfehlen Ihnen, diese Datenschutzrichtlinie regelmäßig zu überprüfen."
+    section8:
+      title: "Kontaktieren Sie uns"
+      content: "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter"
+
+# DMCA Policy page
+dmca:
+  title: "DMCA-Richtlinie | TikTok Downloader"
+  meta_description: "DMCA-Richtlinie für TikTok Downloader. Erfahren Sie mehr über unsere Verfahren zur Meldung von Urheberrechtsverletzungen."
+  heading: "DMCA-Richtlinie"
+  last_updated: "Zuletzt aktualisiert: 1. Mai 2023"
+  content:
+    intro: "TikTok Downloader respektiert die geistigen Eigentumsrechte anderer und erwartet von unseren Nutzern, dass sie dies auch tun. In Übereinstimmung mit dem Digital Millennium Copyright Act von 1998 (\"DMCA\") werden wir umgehend auf Behauptungen von Urheberrechtsverletzungen reagieren, die unserem unten genannten designierten Copyright-Agenten gemeldet werden."
+    section1:
+      title: "Benachrichtigung über Urheberrechtsverletzung"
+      content: "Wenn Sie glauben, dass Ihr urheberrechtlich geschütztes Werk in einer Weise kopiert wurde, die eine Urheberrechtsverletzung darstellt und auf unserem Service zugänglich ist, können Sie unseren Copyright-Agenten wie im DMCA festgelegt benachrichtigen. Damit Ihre Beschwerde gemäß dem DMCA gültig ist, müssen Sie die folgenden Informationen angeben, wenn Sie die behauptete Urheberrechtsverletzung melden:"
+      item1: "Eine physische oder elektronische Unterschrift einer Person, die befugt ist, im Namen des Urheberrechtsinhabers zu handeln."
+      item2: "Identifizierung des urheberrechtlich geschützten Werks, das angeblich verletzt wurde."
+      item3: "Identifizierung des Materials, das angeblich verletzt oder Gegenstand verletzender Aktivitäten ist und das entfernt oder zu dem der Zugang deaktiviert werden soll, sowie ausreichend Informationen, um uns zu ermöglichen, das Material zu finden."
+      item4: "Ausreichend Informationen, um uns zu ermöglichen, die beschwerdeführende Partei zu kontaktieren, wie eine Adresse, Telefonnummer und, falls verfügbar, eine E-Mail-Adresse."
+      item5: "Eine Erklärung, dass die beschwerdeführende Partei in gutem Glauben der Ansicht ist, dass die Nutzung des Materials in der beanstandeten Weise nicht vom Urheberrechtsinhaber, seinem Vertreter oder dem Gesetz autorisiert ist."
+      item6: "Eine Erklärung, dass die Informationen in der Benachrichtigung korrekt sind und dass die beschwerdeführende Partei unter Strafe des Meineids befugt ist, im Namen des Inhabers eines ausschließlichen Rechts zu handeln, das angeblich verletzt wurde."
+    section2:
+      title: "Gegendarstellung"
+      content: "Wenn Sie glauben, dass Ihr Inhalt, der entfernt wurde (oder zu dem der Zugang deaktiviert wurde), nicht verletzend ist, oder dass Sie die Genehmigung vom Urheberrechtsinhaber, dem Agenten des Urheberrechtsinhabers oder gemäß dem Gesetz haben, den Inhalt zu posten und zu verwenden, können Sie eine Gegendarstellung an unseren Copyright-Agenten senden, die folgende Informationen enthält:"
+      item1: "Ihre physische oder elektronische Unterschrift."
+      item2: "Identifizierung des Inhalts, der entfernt wurde oder zu dem der Zugang deaktiviert wurde, und die Stelle, an der der Inhalt vor seiner Entfernung oder Deaktivierung erschien."
+      item3: "Eine Erklärung, dass Sie in gutem Glauben der Ansicht sind, dass der Inhalt aufgrund eines Fehlers oder einer falschen Identifizierung des Inhalts entfernt oder deaktiviert wurde."
+      item4: "Ihren Namen, Ihre Adresse, Telefonnummer und E-Mail-Adresse."
+      item5: "Eine Erklärung, dass Sie der Gerichtsbarkeit des Bundesgerichts in dem Bezirk, in dem Sie leben (wenn Sie in den Vereinigten Staaten leben), oder Ihrer Zustimmung zur Gerichtsbarkeit eines Bundesgerichts in dem Bezirk, in dem unser Unternehmen ansässig ist (wenn Sie nicht in den Vereinigten Staaten leben), zustimmen."
+      item6: "Eine Erklärung, dass Sie die Zustellung des Prozesses von der Person, die die angebliche Verletzung gemeldet hat, akzeptieren werden."
+    section3:
+      title: "Kontaktinformationen des DMCA-Agenten"
+      email_title: "E-Mail"
+      note: "Bitte beachten Sie, dass gemäß Abschnitt 512(f) des DMCA jede Person, die wissentlich wesentlich falsch darstellt, dass Material oder Aktivität verletzend ist, für Haftung verantwortlich sein kann."
+    section4:
+      title: "Wiederholte Verletzer"
+      content: "Es ist unsere Politik, die Konten wiederholter Verletzer, wenn angemessen, zu kündigen. Wir werden die Konten von Benutzern kündigen, die von uns als wiederholte Verletzer eingestuft werden. Wenn Sie wiederholt Inhalte herunterladen, die die Urheberrechte anderer verletzen, kann Ihr Zugang zu unserem Service ebenfalls beendet werden."
+    section5:
+      title: "Änderungen dieser Richtlinie"
+      content: "Wir können diese DMCA-Richtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Richtlinie auf dieser Seite veröffentlichen. Sie werden aufgefordert, diese Richtlinie regelmäßig auf Änderungen zu überprüfen."
+    section6:
+      title: "Kontaktieren Sie uns"
+      content: "Wenn Sie Fragen zu dieser DMCA-Richtlinie haben, kontaktieren Sie uns bitte unter"
+
+# Download results
+results:
+  video_info:
+    title: "Video-Details"
+    author: "Ersteller"
+    duration: "Dauer"
+    quality: "Qualität"
+  download_options:
+    title: "Download-Optionen"
+    without_watermark: "Ohne Wasserzeichen"
+    mp3: "MP3-Audio"
+    hd_quality: "HD-Qualität"
+    download_button: "Jetzt herunterladen"
+    save_to_gallery: "In Galerie speichern"
+  notice:
+    title: "Wichtiger Hinweis"
+    content: "Heruntergeladene Inhalte sollten nur für persönliche Zwecke verwendet werden. Respektieren Sie das Urheberrecht des ursprünglichen Erstellers."
+  error:
+    title: "Fehler"
+    not_found: "Video nicht gefunden. Das Video könnte privat sein oder gelöscht worden sein."
+    processing: "Fehler bei der Verarbeitung des Videos. Bitte versuchen Sie es später erneut."
+    invalid_url: "Ungültige URL. Bitte stellen Sie sicher, dass Sie den richtigen TikTok-Link kopiert haben." 

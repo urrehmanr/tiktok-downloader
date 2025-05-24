@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="{{ request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) or 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>{{ t('contact.title') }}</title>
+    <meta name="title" content="{{ t('contact.title') }}">
+    <meta name="description" content="{{ t('contact.meta_description') }}">
+    <meta name="keywords" content="tiktok downloader support, contact, customer service, help, feedback">
+    <meta name="author" content="TikTok Downloader">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:title" content="{{ t('contact.title') }}">
+    <meta property="og:description" content="{{ t('contact.meta_description') }}">
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ request.url }}">
+    <meta property="twitter:title" content="{{ t('contact.title') }}">
+    <meta property="twitter:description" content="{{ t('contact.meta_description') }}">
+    <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ request.url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TikTok Video Downloader",
+        "url": "{{ request.url_root }}",
+        "logo": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "info@ttdl.cc",
+            "availableLanguage": ["English"]
+        }
+    }
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/components.css">
+    <link rel="stylesheet" href="/static/css/formats.css">
+    <link rel="stylesheet" href="/static/css/language-switcher.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            200: '#ddd6fe',
+                            300: '#c4b5fd',
+                            400: '#a78bfa',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9',
+                            800: '#5b21b6',
+                            900: '#4c1d95',
+                        },
+                        secondary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Outfit', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    {% include 'components/header.html' %}
+    
+    <!-- Page Header -->
+    <div class="bg-gradient-to-r from-primary-600 to-secondary-600 py-12 md:py-16">
+        <div class="container-custom mx-auto px-4">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center">
+                {{ t('contact.hero.title') }}
+            </h1>
+            <p class="text-white text-opacity-90 text-lg mt-4 max-w-3xl mx-auto text-center">
+                {{ t('contact.hero.subtitle') }}
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="py-12 md:py-16">
+        <div class="container-custom mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <!-- Contact Info -->
+                    <div class="md:col-span-1">
+                        <div class="mb-10">
+                            <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
+                            <p class="text-gray-600 mb-6">
+                                We're here to help and answer any questions you might have. Feel free to reach out to us using the contact form or the information below.
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-lg font-medium">{{ t('contact.contact_info.email_label') }}</p>
+                                    <a href="mailto:{{ t('contact.contact_info.email') }}" class="text-gray-600 hover:text-primary-600">{{ t('contact.contact_info.email') }}</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-lg font-medium">Response Time</p>
+                                    <p class="text-gray-600">{{ t('contact.contact_info.response_time') }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10 pt-8 border-t border-gray-200">
+                            <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                            <div class="flex space-x-4">
+                                <a href="#" class="text-gray-500 hover:text-primary-600" aria-label="Twitter">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-gray-500 hover:text-primary-600" aria-label="Facebook">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-gray-500 hover:text-primary-600" aria-label="Instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="md:col-span-2">
+                        <div class="bg-white p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm">
+                            <h2 class="text-2xl font-bold mb-6">Send Us a Message</h2>
+                            <form id="contactForm" action="/contact" method="POST">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                    <div>
+                                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">{{ t('contact.form.name') }} *</label>
+                                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 transition duration-150">
+                                    </div>
+                                    <div>
+                                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">{{ t('contact.form.email') }} *</label>
+                                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 transition duration-150">
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">{{ t('contact.form.subject') }} *</label>
+                                    <input type="text" id="subject" name="subject" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 transition duration-150">
+                                </div>
+                                <div class="mb-6">
+                                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">{{ t('contact.form.message') }} *</label>
+                                    <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 transition duration-150"></textarea>
+                                </div>
+                                
+                                <div id="form-response" class="mb-6 hidden"></div>
+                                
+                                <div>
+                                    <button type="submit" class="w-full md:w-auto bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-8 rounded-lg transition duration-150">
+                                        {{ t('contact.form.submit') }}
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    {% include 'components/footer.html' %}
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="/static/js/language-switcher.js"></script>
+    <script defer src="/static/js/main.js"></script>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            const formResponse = document.getElementById('form-response');
+            
+            formResponse.classList.remove('hidden');
+            formResponse.classList.add('p-4', 'rounded-lg');
+            formResponse.innerHTML = '<p class="text-center">Sending your message...</p>';
+            
+            fetch('/submit-contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    name,
+                    email,
+                    subject,
+                    message
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    formResponse.classList.add('bg-green-100', 'text-green-700');
+                    formResponse.classList.remove('bg-red-100', 'text-red-700');
+                    formResponse.innerHTML = `<p class="text-center">${data.message || '{{ t('contact.form.success') }}'}</p>`;
+                    document.getElementById('contactForm').reset();
+                } else {
+                    formResponse.classList.add('bg-red-100', 'text-red-700');
+                    formResponse.classList.remove('bg-green-100', 'text-green-700');
+                    formResponse.innerHTML = `<p class="text-center">${data.message || '{{ t('contact.form.error') }}'}</p>`;
+                }
+            })
+            .catch((error) => {
+                formResponse.classList.add('bg-red-100', 'text-red-700');
+                formResponse.classList.remove('bg-green-100', 'text-green-700');
+                formResponse.innerHTML = `<p class="text-center">{{ t('contact.form.error') }}</p>`;
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html> 
