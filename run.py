@@ -20,8 +20,7 @@ def create_required_directories():
         'templates',
         'static',
         'static/css',
-        'static/js',
-        'video_storage'
+        'static/js'
     ]
     
     for directory in directories:

@@ -283,6 +283,32 @@ def is_file_cached(video_id, file_type='mp4', format_id='best'):
     file_path = get_download_path(video_id, file_type, format_id)
     return os.path.exists(file_path) and os.path.getsize(file_path) > 0
 
+def get_ffmpeg_path():
+    """Get FFmpeg path with platform-specific handling"""
+    # First try to find ffmpeg in PATH
+    ffmpeg_path = shutil.which('ffmpeg')
+    if ffmpeg_path:
+        logger.info(f"Found ffmpeg in PATH at: {ffmpeg_path}")
+        return os.path.dirname(ffmpeg_path)
+    
+    # Platform-specific fallback paths
+    if os.name == 'nt':  # Windows
+        common_paths = [
+            'C:\\ffmpeg\\bin',
+            'C:\\Program Files\\ffmpeg\\bin',
+            'C:\\Program Files (x86)\\ffmpeg\\bin'
+        ]
+    else:  # Linux/Unix
+        common_paths = ['/usr/bin', '/usr/local/bin']
+    
+    # Check common paths
+    for path in common_paths:
+        if os.path.exists(os.path.join(path, 'ffmpeg')):
+            logger.info(f"Found ffmpeg at: {path}")
+            return path
+    
+    return None
+
 def download_file(url, output_path, format_id='best', is_audio=False):
     """Download a video or extract audio using yt-dlp"""
     user_agent = get_random_user_agent()
@@ -298,8 +324,8 @@ def download_file(url, output_path, format_id='best', is_audio=False):
     # Configure yt-dlp options
     ydl_opts = {
         'outtmpl': output_template,
-        'quiet': False,  # Set to False to help debug
-        'verbose': True,  # Add verbose to see what's happening
+        'quiet': False,
+        'verbose': True,
         'no_warnings': False,
         'http_headers': {
             'User-Agent': user_agent,
@@ -312,17 +338,12 @@ def download_file(url, output_path, format_id='best', is_audio=False):
     }
     
     if is_audio:
-        # Check if FFmpeg is available
-        try:
-            import shutil
-            ffmpeg_path = shutil.which('ffmpeg')
-            if ffmpeg_path:
-                logger.info(f"Found ffmpeg at: {ffmpeg_path}")
-                ydl_opts['ffmpeg_location'] = os.path.dirname(ffmpeg_path)
-            else:
-                logger.warning("FFmpeg not found. Audio extraction may fail.")
-        except Exception as e:
-            logger.warning(f"Error checking for FFmpeg: {e}")
+        # Get FFmpeg path
+        ffmpeg_path = get_ffmpeg_path()
+        if ffmpeg_path:
+            ydl_opts['ffmpeg_location'] = ffmpeg_path
+        else:
+            logger.warning("FFmpeg not found in PATH or common locations. Audio extraction may fail.")
         
         # Add audio extraction options
         ydl_opts.update({
