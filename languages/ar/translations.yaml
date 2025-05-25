@@ -8,7 +8,7 @@ common:
 
 # Navigation items
 navigation:
-  home: "الرئيسية"
+  home: "تحميل MP4"
   mp3_download: "تحميل MP3"
   how_to_save: "كيفية الحفظ"
   contact: "اتصل بنا"
@@ -422,7 +422,7 @@ contact:
   contact_info:
     title: "طرق أخرى للوصول إلينا"
     email_label: "البريد الإلكتروني"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "نحن نسعى للرد على جميع الاستفسارات خلال 24-48 ساعة."
 
 # Video related translations

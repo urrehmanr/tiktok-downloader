@@ -8,8 +8,8 @@ common:
 
 # Navigation items
 navigation:
-  home: "Startseite"
-  mp3_download: "MP3 Download"
+  home: "MP4 Herunterladen"
+  mp3_download: "MP3 Herunterladen"
   how_to_save: "Speicheranleitung"
   contact: "Kontakt"
   legal: "Rechtliches"
@@ -241,7 +241,7 @@ contact:
   contact_info:
     title: "Weitere Kontaktmöglichkeiten"
     email_label: "E-Mail"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "Wir bemühen uns, alle Anfragen innerhalb von 24-48 Stunden zu beantworten."
 
 # Terms of Service page

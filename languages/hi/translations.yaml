@@ -8,7 +8,7 @@ common:
 
 # Navigation items
 navigation:
-  home: "होम"
+  home: "MP4 डाउनलोड"
   mp3_download: "MP3 डाउनलोड"
   how_to_save: "कैसे सहेजें"
   contact: "संपर्क करें"
@@ -383,7 +383,7 @@ contact:
   contact_info:
     title: "हमसे संपर्क करने के अन्य तरीके"
     email_label: "ईमेल"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "हम सभी पूछताछों का 24-48 घंटों के भीतर जवाब देने का प्रयास करते हैं।"
 
 # Video related translations

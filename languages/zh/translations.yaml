@@ -8,7 +8,7 @@ common:
 
 # Navigation items
 navigation:
-  home: "首页"
+  home: "MP4 下载"
   mp3_download: "MP3 下载"
   how_to_save: "如何保存"
   contact: "联系我们"
@@ -241,7 +241,7 @@ contact:
   contact_info:
     title: "其他联系方式"
     email_label: "电子邮件"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "我们努力在24-48小时内回复所有咨询。"
 
 # Terms of Service page

@@ -8,7 +8,7 @@ common:
 
 # Navigation items
 navigation:
-  home: "Início"
+  home: "Baixar MP4"
   mp3_download: "Baixar MP3"
   how_to_save: "Como Salvar"
   contact: "Contato"
@@ -239,9 +239,9 @@ contact:
     success: "Sua mensagem foi enviada com sucesso. Entraremos em contato em breve."
     error: "Houve um erro ao enviar sua mensagem. Por favor, tente novamente."
   contact_info:
-    title: "Outras Formas de Nos Contatar"
+    title: "Outras Maneiras de Nos Contatar"
     email_label: "Email"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "Procuramos responder a todas as consultas dentro de 24-48 horas."
 
 # Terms of Service page
@@ -339,7 +339,7 @@ dmca:
     contact:
       title: "Contato para Solicitações DMCA"
       content: "Envie todas as solicitações relacionadas ao DMCA para:"
-      email: "dmca@tiktokdownloader.com"
+      email: "info@ttdl.cc"
       address: "DMCA Agent, TikTok Downloader, [Endereço]"
 
 # Download results

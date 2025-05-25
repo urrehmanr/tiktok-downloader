@@ -8,7 +8,7 @@ common:
 
 # Navigation items
 navigation:
-  home: "ホーム"
+  home: "MP4 ダウンロード"
   mp3_download: "MP3 ダウンロード"
   how_to_save: "保存方法"
   contact: "お問い合わせ"
@@ -237,7 +237,7 @@ contact:
   contact_info:
     title: "その他の連絡方法"
     email_label: "メール"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "すべてのお問い合わせに24〜48時間以内に回答するよう努めています。"
 
 # Terms of Service page

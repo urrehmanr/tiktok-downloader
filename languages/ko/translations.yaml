@@ -8,7 +8,7 @@ common:
 
 # Navigation items
 navigation:
-  home: "홈"
+  home: "MP4 다운로드"
   mp3_download: "MP3 다운로드"
   how_to_save: "저장 방법"
   contact: "문의하기"
@@ -422,7 +422,7 @@ contact:
   contact_info:
     title: "기타 연락 방법"
     email_label: "이메일"
-    email: "support@tiktokdownloader.com"
+    email: "info@ttdl.cc"
     response_time: "모든 문의에 24-48시간 이내에 답변하려고 노력하고 있습니다."
 
 # Video related translations
