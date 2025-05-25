@@ -4,7 +4,7 @@
 
 .language-switcher {
     position: relative;
-    z-index: 100; /* Ensure it's above other elements */
+    z-index: 100; /* Normal z-index */
 }
 
 .language-toggle {

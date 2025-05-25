@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok ダウンローダー - 透かしなしで TikTok 動画をダウンロード | 無料 HD ビデオダウンローダー"
   meta_description: "最速の TikTok 動画ダウンローダー！タップ2回で TikTok 動画を HD で保存、迅速かつ無料。透かしなし、高品質、完全無料で動画をダウンロード。今すぐダウンロードを開始！"
+  meta_keywords: "tiktok ダウンローダー, tiktok 動画ダウンロード, tiktok 透かしなし, tiktok 動画保存, tiktok hd ダウンローダー, 無料 tiktok ダウンローダー, tiktok ビデオセーバー"
   hero:
     title: "透かしなしで TikTok 動画をダウンロード"
     subtitle: "最速かつ最も信頼性の高い TikTok ダウンローダー。透かしなしの HD 動画を無料で保存！"
@@ -215,23 +216,29 @@ how_to_save:
 # Contact page
 contact:
   title: "お問い合わせ | TikTok ダウンローダー"
-  meta_description: "TikTok ダウンローダーチームに連絡。質問、フィードバックやサービスの問題を報告。"
+  meta_description: "TikTok ダウンローダーチームへのお問い合わせ。質問、フィードバック、サービスの問題を報告してください。"
   hero:
     title: "お問い合わせ"
-    subtitle: "質問やフィードバックはありますか？あなたからのご意見をお待ちしています。"
+    subtitle: "ご質問やご意見がありますか？ぜひお聞かせください。"
+  get_in_touch:
+    title: "お問い合わせ方法"
+    description: "私たちはお客様のご質問に答え、サポートするためにここにいます。お問い合わせフォームまたは以下の情報を使用してお気軽にご連絡ください。"
+  response_time:
+    title: "返信時間"
   form:
+    title: "メッセージを送信"
     name: "お名前"
     email: "メールアドレス"
     subject: "件名"
     message: "メッセージ"
     submit: "メッセージを送信"
-    success: "メッセージが正常に送信されました。近日中にご回答いたします。"
+    success: "メッセージが正常に送信されました。すぐにご連絡いたします。"
     error: "メッセージの送信中にエラーが発生しました。もう一度お試しください。"
   contact_info:
-    title: "他のお問い合わせ方法"
+    title: "その他の連絡方法"
     email_label: "メール"
     email: "support@tiktokdownloader.com"
-    response_time: "24〜48時間以内にすべてのお問い合わせにお答えするよう努めています。"
+    response_time: "すべてのお問い合わせに24〜48時間以内に回答するよう努めています。"
 
 # Terms of Service page
 terms:
@@ -407,4 +414,16 @@ results:
     title: "エラー"
     not_found: "動画が見つかりません。動画がプライベートか削除された可能性があります。"
     processing: "動画の処理中にエラーが発生しました。後でもう一度お試しください。"
-    invalid_url: "無効な URL です。正しい TikTok リンクをコピーしていることを確認してください。" 
+    invalid_url: "無効な URL です。正しい TikTok リンクをコピーしていることを確認してください。"
+
+# Video related translations
+video:
+  views: "再生回数"
+  likes: "いいね"
+  duration: "動画の長さ"
+  download: "ダウンロード"
+  more_formats: "他の形式"
+  processing: "処理中..."
+  downloaded: "ダウンロード済み"
+  retrying: "再試行中..." 
+  available_formats: "利用可能な全形式" 

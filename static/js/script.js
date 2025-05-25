@@ -311,7 +311,7 @@ $(document).ready(function() {
                 </button>
             </div>
             <div id="all-formats-container" class="hidden mt-3 border border-gray-200 rounded-lg p-3 bg-gray-50">
-                <h4 class="font-bold mb-3">All Available Formats</h4>
+                <h4 class="font-bold mb-3">${videoTranslations.availableFormats}</h4>
                 <div class="overflow-x-auto">
                     <table class="w-full text-sm">
                         <thead class="bg-gray-100">
@@ -383,7 +383,7 @@ $(document).ready(function() {
                         <td class="px-2 py-2">
                             <a href="${downloadUrl}" 
                                class="${buttonClass} text-white text-xs py-1 px-2 rounded">
-                                Download
+                                ${videoTranslations.download}
                             </a>
                         </td>
                     </tr>`;
@@ -424,7 +424,7 @@ $(document).ready(function() {
             var originalText = $(this).html();
             
             // Update button to show it's processing
-            $(this).html('<i class="fas fa-spinner fa-spin mr-2"></i> Processing...');
+            $(this).html('<i class="fas fa-spinner fa-spin mr-2"></i> ' + videoTranslations.processing);
             $(this).addClass('opacity-75 cursor-not-allowed');
             
             // Create a unique request ID for this download
@@ -447,7 +447,7 @@ $(document).ready(function() {
                         success: function(response) {
                             if (response.status === 'completed') {
                                 // Download is done, update the button
-                                $(e.target).closest('a').html('<i class="fas fa-check mr-2"></i> Downloaded!');
+                                $(e.target).closest('a').html('<i class="fas fa-check mr-2"></i> ' + videoTranslations.downloaded);
                                 setTimeout(function() {
                                     $(e.target).closest('a').html(originalText);
                                     $(e.target).closest('a').removeClass('opacity-75 cursor-not-allowed');

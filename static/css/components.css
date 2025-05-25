@@ -24,6 +24,7 @@
     transition: all 0.3s ease;
     opacity: 0;
     pointer-events: none;
+    z-index: 1000;
 }
 
 #mobile-menu.active {

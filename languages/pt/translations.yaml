@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok Downloader - Baixar Vídeos do TikTok Sem Marca d'água | Baixador de Vídeo HD Gratuito"
   meta_description: "O baixador de vídeos do TikTok mais rápido! Salve vídeos do TikTok em HD com dois toques, rápido e gratuito. Baixe vídeos sem marca d'água, em alta qualidade e completamente gratuito. Comece a baixar agora!"
+  meta_keywords: "baixador de tiktok, baixar vídeos tiktok, download tiktok sem marca d'água, salvador de vídeo tiktok, baixador tiktok hd, baixador gratuito de tiktok, tiktok sem marca d'água"
   hero:
     title: "Baixar Vídeos do TikTok Sem Marca d'água"
     subtitle: "O baixador de TikTok mais rápido e confiável. Salve vídeos em HD sem marcas d'água gratuitamente!"
@@ -223,7 +224,13 @@ contact:
   hero:
     title: "Contate-nos"
     subtitle: "Tem perguntas ou feedback? Adoraríamos ouvir de você."
+  get_in_touch:
+    title: "Entre em Contato"
+    description: "Estamos aqui para ajudar e responder a quaisquer perguntas que você possa ter. Sinta-se à vontade para nos contatar usando o formulário de contato ou as informações abaixo."
+  response_time:
+    title: "Tempo de Resposta"
   form:
+    title: "Envie-nos uma Mensagem"
     name: "Seu Nome"
     email: "Seu Email"
     subject: "Assunto"
@@ -356,4 +363,16 @@ results:
     title: "Erro"
     not_found: "Vídeo não encontrado. O vídeo pode ser privado ou ter sido excluído."
     processing: "Erro ao processar o vídeo. Por favor, tente novamente mais tarde."
-    invalid_url: "URL inválido. Certifique-se de ter copiado o link correto do TikTok." 
+    invalid_url: "URL inválido. Certifique-se de ter copiado o link correto do TikTok."
+
+# Video related translations
+video:
+  views: "Visualizações"
+  likes: "Curtidas"
+  duration: "Duração do vídeo"
+  download: "Baixar"
+  more_formats: "Mais formatos"
+  processing: "Processando..."
+  downloaded: "Baixado"
+  retrying: "Tentando novamente..."
+  available_formats: "Todos os Formatos Disponíveis" 

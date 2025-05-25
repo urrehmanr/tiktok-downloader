@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok Downloader - TikTok Videos ohne Wasserzeichen herunterladen | Kostenloser HD-Video-Downloader"
   meta_description: "Schnellster TikTok-Video-Downloader! Speichern Sie TikTok-Videos in HD mit zwei Klicks, schnell und kostenlos. Laden Sie Videos ohne Wasserzeichen, in hoher Qualität und völlig kostenlos herunter. Starten Sie jetzt mit dem Download!"
+  meta_keywords: "tiktok downloader, tiktok video downloader, tiktok videos herunterladen, tiktok ohne wasserzeichen, tiktok video speichern, tiktok hd downloader, kostenloser tiktok downloader"
   hero:
     title: "TikTok Videos ohne Wasserzeichen herunterladen"
     subtitle: "Der schnellste und zuverlässigste TikTok Downloader. Speichern Sie Videos in HD ohne Wasserzeichen kostenlos!"
@@ -223,7 +224,13 @@ contact:
   hero:
     title: "Kontaktieren Sie uns"
     subtitle: "Haben Sie Fragen oder Feedback? Wir würden gerne von Ihnen hören."
+  get_in_touch:
+    title: "Nehmen Sie Kontakt auf"
+    description: "Wir sind hier, um zu helfen und Ihre Fragen zu beantworten. Zögern Sie nicht, uns über das Kontaktformular oder die unten angegebenen Informationen zu kontaktieren."
+  response_time:
+    title: "Antwortzeit"
   form:
+    title: "Senden Sie uns eine Nachricht"
     name: "Ihr Name"
     email: "Ihre E-Mail"
     subject: "Betreff"
@@ -411,4 +418,16 @@ results:
     title: "Fehler"
     not_found: "Video nicht gefunden. Das Video könnte privat sein oder gelöscht worden sein."
     processing: "Fehler bei der Verarbeitung des Videos. Bitte versuchen Sie es später erneut."
-    invalid_url: "Ungültige URL. Bitte stellen Sie sicher, dass Sie den richtigen TikTok-Link kopiert haben." 
+    invalid_url: "Ungültige URL. Bitte stellen Sie sicher, dass Sie den richtigen TikTok-Link kopiert haben."
+
+# Video related translations
+video:
+  views: "Aufrufe"
+  likes: "Gefällt mir"
+  duration: "Videolänge"
+  download: "Herunterladen"
+  more_formats: "Weitere Formate"
+  processing: "Verarbeitung..."
+  downloaded: "Heruntergeladen"
+  retrying: "Wiederholung..."
+  available_formats: "Alle Verfügbaren Formate"

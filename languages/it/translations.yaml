@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok Downloader - Scarica Video TikTok Senza Filigrana | Download Gratuito di Video HD"
   meta_description: "Il più veloce downloader di video TikTok! Salva video TikTok in HD con due tocchi, veloce e gratuito. Scarica video senza filigrana, in alta qualità e completamente gratis. Inizia a scaricare ora!"
+  meta_keywords: "tiktok downloader, scaricare video tiktok, download tiktok senza filigrana, salvare video tiktok, tiktok hd downloader, scarica tiktok gratis, tiktok video saver"
   hero:
     title: "Scarica Video TikTok Senza Filigrana"
     subtitle: "Il downloader TikTok più veloce e affidabile. Salva video in HD senza filigrane gratuitamente!"
@@ -223,7 +224,13 @@ contact:
   hero:
     title: "Contattaci"
     subtitle: "Hai domande o feedback? Ci piacerebbe sentire da te."
+  get_in_touch:
+    title: "Mettiti in Contatto"
+    description: "Siamo qui per aiutarti e rispondere a qualsiasi domanda tu possa avere. Non esitare a contattarci utilizzando il modulo di contatto o le informazioni qui sotto."
+  response_time:
+    title: "Tempo di Risposta"
   form:
+    title: "Inviaci un Messaggio"
     name: "Il Tuo Nome"
     email: "La Tua Email"
     subject: "Oggetto"
@@ -411,4 +418,16 @@ results:
     title: "Errore"
     not_found: "Video non trovato. Il video potrebbe essere privato o eliminato."
     processing: "Errore nell'elaborazione del video. Riprova più tardi."
-    invalid_url: "URL non valido. Assicurati di aver copiato il link TikTok corretto." 
+    invalid_url: "URL non valido. Assicurati di aver copiato il link TikTok corretto."
+
+# Video related translations
+video:
+  views: "Visualizzazioni"
+  likes: "Mi piace"
+  duration: "Durata del video"
+  download: "Scarica"
+  more_formats: "Più formati"
+  processing: "Elaborazione..."
+  downloaded: "Scaricato"
+  retrying: "Nuovo tentativo..."
+  available_formats: "Tutti i Formati Disponibili" 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko']) or 'en' }}">
+<html lang="{{ current_locale }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +8,26 @@
     <title>{{ t('home.title') }}</title>
     <meta name="title" content="{{ t('home.title') }}">
     <meta name="description" content="{{ t('home.meta_description') }}">
-    <meta name="keywords" content="tiktok downloader, tiktok video downloader, download tiktok videos, tiktok without watermark, tiktok video saver, tiktok hd downloader, free tiktok downloader">
+    <meta name="keywords" content="{{ t('home.meta_keywords') }}">
     <meta name="author" content="{{ t('common.website_name') }}">
     <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
+    <meta name="language" content="{{ current_locale }}">
     <meta name="revisit-after" content="7 days">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}">
+    <link rel="alternate" hreflang="en" href="{{ request.url_root }}?lang=en">
+    <link rel="alternate" hreflang="es" href="{{ request.url_root }}?lang=es">
+    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}?lang=fr">
+    <link rel="alternate" hreflang="de" href="{{ request.url_root }}?lang=de">
+    <link rel="alternate" hreflang="it" href="{{ request.url_root }}?lang=it">
+    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}?lang=pt">
+    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}?lang=ru">
+    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}?lang=zh">
+    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}?lang=ja">
+    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}?lang=ko">
+    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}?lang=hi">
+    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}?lang=ar">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -20,6 +35,19 @@
     <meta property="og:title" content="{{ t('common.website_name') }} - {{ t('common.website_tagline') }}">
     <meta property="og:description" content="{{ t('home.meta_description') }}">
     <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    <meta property="og:locale" content="{{ current_locale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:locale:alternate" content="pt_PT">
+    <meta property="og:locale:alternate" content="ru_RU">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta property="og:locale:alternate" content="hi_IN">
+    <meta property="og:locale:alternate" content="ar_SA">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -29,7 +57,7 @@
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url }}">
+    <link rel="canonical" href="{{ request.url_root }}?lang={{ current_locale }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -42,11 +70,12 @@
         "@type": "WebApplication",
         "name": "{{ t('common.website_name') }}",
         "description": "{{ t('home.meta_description') }}",
-        "url": "{{ request.url }}",
+        "url": "{{ request.url_root }}",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
         "softwareVersion": "1.0",
+        "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar"],
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -70,6 +99,22 @@
     
     <!-- jQuery (Required for script.js) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- Video translations for JavaScript use -->
+    <script>
+        // Global variables for video translations
+        const videoTranslations = {
+            views: "{{ t('video.views') }}",
+            likes: "{{ t('video.likes') }}",
+            duration: "{{ t('video.duration') }}",
+            download: "{{ t('video.download') }}",
+            moreFormats: "{{ t('video.more_formats') }}",
+            processing: "{{ t('video.processing') }}",
+            downloaded: "{{ t('video.downloaded') }}",
+            retrying: "{{ t('video.retrying') }}",
+            availableFormats: "{{ t('video.available_formats') }}"
+        };
+    </script>
     
     <!-- JavaScript files with defer to ensure they load before use but don't block rendering -->
     <script defer src="/static/js/app.js"></script>

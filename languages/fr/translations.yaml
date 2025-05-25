@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok Downloader - Télécharger des Vidéos TikTok Sans Filigrane | Téléchargeur de Vidéos HD Gratuit"
   meta_description: "Le téléchargeur de vidéos TikTok le plus rapide ! Enregistrez des vidéos TikTok en HD en deux clics, rapide et gratuit. Téléchargez des vidéos sans filigrane, en haute qualité, et totalement gratuit. Commencez à télécharger maintenant !"
+  meta_keywords: "téléchargeur tiktok, téléchargeur vidéo tiktok, télécharger vidéos tiktok, tiktok sans filigrane, enregistreur vidéo tiktok, téléchargeur tiktok hd, téléchargeur tiktok gratuit"
   hero:
     title: "Télécharger des Vidéos TikTok Sans Filigrane"
     subtitle: "Le téléchargeur TikTok le plus rapide et le plus fiable. Enregistrez des vidéos en HD sans filigrane gratuitement !"
@@ -223,7 +224,13 @@ contact:
   hero:
     title: "Contactez-nous"
     subtitle: "Des questions ou des commentaires ? Nous serions ravis de vous entendre."
+  get_in_touch:
+    title: "Entrer en Contact"
+    description: "Nous sommes là pour vous aider et répondre à toutes vos questions. N'hésitez pas à nous contacter en utilisant le formulaire de contact ou les informations ci-dessous."
+  response_time:
+    title: "Temps de Réponse"
   form:
+    title: "Envoyez-nous un Message"
     name: "Votre Nom"
     email: "Votre Email"
     subject: "Sujet"
@@ -411,4 +418,16 @@ results:
     title: "Erreur"
     not_found: "Vidéo non trouvée. La vidéo peut être privée ou supprimée."
     processing: "Erreur lors du traitement de la vidéo. Veuillez réessayer plus tard."
-    invalid_url: "URL invalide. Veuillez vous assurer que vous avez copié le bon lien TikTok." 
+    invalid_url: "URL invalide. Veuillez vous assurer que vous avez copié le bon lien TikTok."
+
+# Video related translations
+video:
+  views: "Vues"
+  likes: "J'aime"
+  duration: "Durée de la vidéo"
+  download: "Télécharger"
+  more_formats: "Plus de formats"
+  processing: "Traitement en cours..."
+  downloaded: "Téléchargé"
+  retrying: "Nouvel essai..."
+  available_formats: "Tous les Formats Disponibles" 

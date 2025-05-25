@@ -59,10 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Add active state to current language in dropdown
-    const currentLang = getCookie('lang') || 
-                        document.documentElement.lang ||
-                        navigator.language.split('-')[0] ||
-                        'en';
+    const currentLang = document.documentElement.lang;
     
     const activeLink = document.querySelector(`.language-dropdown a[href="?lang=${currentLang}"]`);
     if (activeLink) {

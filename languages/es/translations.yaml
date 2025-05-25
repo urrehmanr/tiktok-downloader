@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok Downloader - Descargar Videos de TikTok Sin Marca de Agua | Descargador de Videos HD Gratuito"
   meta_description: "¡El descargador de videos de TikTok más rápido! Guarda videos de TikTok en HD con dos toques, rápido y gratis. Descarga videos sin marca de agua, en alta calidad y completamente gratis. ¡Comienza a descargar ahora!"
+  meta_keywords: "descargador de tiktok, descargador de videos tiktok, descargar videos tiktok, tiktok sin marca de agua, guardador de videos tiktok, descargador tiktok hd, descargador tiktok gratuito"
   hero:
     title: "Descargar Videos de TikTok Sin Marca de Agua"
     subtitle: "El descargador de TikTok más rápido y confiable. ¡Guarda videos en HD sin marcas de agua gratis!"
@@ -223,7 +224,13 @@ contact:
   hero:
     title: "Contáctanos"
     subtitle: "¿Tienes preguntas o comentarios? Nos encantaría saber de ti."
+  get_in_touch:
+    title: "Ponte en Contacto"
+    description: "Estamos aquí para ayudarte y responder cualquier pregunta que puedas tener. No dudes en contactarnos utilizando el formulario de contacto o la información a continuación."
+  response_time:
+    title: "Tiempo de Respuesta"
   form:
+    title: "Envíanos un Mensaje"
     name: "Tu Nombre"
     email: "Tu Email"
     subject: "Asunto"
@@ -411,4 +418,16 @@ results:
     title: "Error"
     not_found: "Video no encontrado. El video podría ser privado o haber sido eliminado."
     processing: "Error al procesar el video. Por favor, intenta de nuevo más tarde."
-    invalid_url: "URL inválida. Por favor, asegúrate de haber copiado el enlace correcto de TikTok." 
+    invalid_url: "URL inválida. Por favor, asegúrate de haber copiado el enlace correcto de TikTok."
+
+# Video related translations
+video:
+  views: "Vistas"
+  likes: "Me gusta"
+  duration: "Duración del video"
+  download: "Descargar"
+  more_formats: "Más formatos"
+  processing: "Procesando..."
+  downloaded: "Descargado"
+  retrying: "Reintentando..."
+  available_formats: "Todos los Formatos Disponibles" 

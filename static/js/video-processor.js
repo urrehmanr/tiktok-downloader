@@ -167,10 +167,10 @@ const VideoProcessor = {
                     <svg xmlns="http://www.w3.org/2000/svg" class="download-icon h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                     </svg>
-                    <span class="download-text">Download</span>
+                    <span class="download-text">${videoTranslations.download}</span>
                     <div class="download-progress flex items-center hidden">
                         <div class="spinner mr-2"></div>
-                        <span class="progress-text">Processing...</span>
+                        <span class="progress-text">${videoTranslations.processing}</span>
                     </div>
                 </button>
             </div>` :
@@ -184,14 +184,14 @@ const VideoProcessor = {
                     <svg xmlns="http://www.w3.org/2000/svg" class="download-icon h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
                     </svg>
-                    <span class="download-text">Download</span>
+                    <span class="download-text">${videoTranslations.download}</span>
                 </button>
                 ${otherFormats.length > 0 ? 
                     `<button id="show-formats-btn" class="border border-primary-600 text-primary-600 font-medium rounded-lg py-3 w-full flex items-center justify-center" data-video-id="${realVideoId}">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
-                        More formats
+                        ${videoTranslations.moreFormats}
                     </button>` : 
                     ''
                 }
@@ -217,15 +217,15 @@ const VideoProcessor = {
                     <div class="grid grid-cols-2 gap-3 mb-3">
                         <div class="text-center p-2 bg-gray-50 rounded-lg">
                             <span class="block text-lg font-medium">${this.formatNumber(videoInfo.view_count || 0)}</span>
-                            <span class="text-xs text-gray-500">Views</span>
+                            <span class="text-xs text-gray-500">${videoTranslations.views}</span>
                         </div>
                         <div class="text-center p-2 bg-gray-50 rounded-lg">
                             <span class="block text-lg font-medium">${this.formatNumber(videoInfo.like_count || 0)}</span>
-                            <span class="text-xs text-gray-500">Likes</span>
+                            <span class="text-xs text-gray-500">${videoTranslations.likes}</span>
                         </div>
                     </div>
                     <div class="text-sm text-gray-500 mb-3">
-                        Video duration: ${this.formatDuration(videoInfo.duration || 0)}
+                        ${videoTranslations.duration}: ${this.formatDuration(videoInfo.duration || 0)}
                     </div>
                     ${formatButtons}
                 </div>
@@ -331,14 +331,14 @@ const VideoProcessor = {
                     const progressText = progress.querySelector('.progress-text');
                     if (progressText) {
                         // Simplified retry message
-                        progressText.textContent = retryCount > 0 ? 'Retrying...' : 'Processing...';
+                        progressText.textContent = retryCount > 0 ? videoTranslations.retrying : videoTranslations.processing;
                     }
                 } else {
                     const progressDiv = document.createElement('div');
                     progressDiv.className = 'download-progress flex items-center';
                     progressDiv.innerHTML = `
                         <div class="spinner mr-2"></div>
-                        <span class="progress-text">${retryCount > 0 ? 'Retrying...' : 'Processing...'}</span>
+                        <span class="progress-text">${retryCount > 0 ? videoTranslations.retrying : videoTranslations.processing}</span>
                     `;
                     button.appendChild(progressDiv);
                 }
@@ -405,9 +405,9 @@ const VideoProcessor = {
                     switch (errorData.code) {
                         case 'FORMAT_NOT_AVAILABLE':
                             // Check if server returned available formats
-                            if (errorData.available_formats && errorData.available_formats.length > 0) {
+                            if (errorData.availableFormats && errorData.availableFormats.length > 0) {
                                 // Use the first available format from the list
-                                const newFormatId = errorData.available_formats[0];
+                                const newFormatId = errorData.availableFormats[0];
                                 
                                 // Handle URL replacement for different format ID patterns
                                 let newUrl = url;
@@ -562,7 +562,7 @@ const VideoProcessor = {
                     icon.classList.remove('hidden');
                     text.classList.remove('hidden');
                     icon.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
-                    text.textContent = 'Downloaded!';
+                    text.textContent = videoTranslations.downloaded;
                 }
                     
                     // Clean up active downloads record
@@ -623,7 +623,7 @@ const VideoProcessor = {
             icon.classList.remove('hidden');
             text.classList.remove('hidden');
             icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>';
-            text.textContent = 'Download';
+            text.textContent = videoTranslations.download;
         }
         
         if (progress) {
@@ -704,7 +704,7 @@ const VideoProcessor = {
                                 data-type="video" 
                                 data-id="${formatVideoId}" 
                                 data-format-id="${formatId}">
-                                <span class="download-text">Download</span>
+                                <span class="download-text">${videoTranslations.download}</span>
                                 <svg class="download-icon h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                 </svg>
@@ -718,7 +718,7 @@ const VideoProcessor = {
         modal.innerHTML = `
             <div class="bg-white rounded-xl max-w-lg w-full max-h-[90vh] flex flex-col">
                 <div class="flex justify-between items-center p-6 border-b sticky top-0 bg-white z-10">
-                    <h3 class="text-lg font-semibold text-gray-900">All Available Formats</h3>
+                    <h3 class="text-lg font-semibold text-gray-900">${videoTranslations.availableFormats}</h3>
                     <button id="close-formats-modal" class="text-gray-500 hover:text-gray-800 focus:outline-none">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />

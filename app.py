@@ -59,7 +59,7 @@ def get_locale():
     if lang is None:
         lang = request.cookies.get('lang')
     if lang is None:
-        lang = request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko'])
+        lang = request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar'])
     if lang is None:
         lang = 'en'
     return lang
@@ -116,7 +116,7 @@ def inject_translations():
                 
         return current if current is not None else (default if default is not None else key)
     
-    return dict(t=translate, current_year=current_year)
+    return dict(t=translate, current_year=current_year, current_locale=get_locale())
 
 # List of user agents to rotate through
 USER_AGENTS = [

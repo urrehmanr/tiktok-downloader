@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) or 'en' }}">
+<html lang="{{ current_locale }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,22 @@
     <meta name="keywords" content="tiktok downloader support, contact, customer service, help, feedback">
     <meta name="author" content="TikTok Downloader">
     <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
+    <meta name="language" content="{{ current_locale }}">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}contact">
+    <link rel="alternate" hreflang="en" href="{{ request.url_root }}contact?lang=en">
+    <link rel="alternate" hreflang="es" href="{{ request.url_root }}contact?lang=es">
+    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}contact?lang=fr">
+    <link rel="alternate" hreflang="de" href="{{ request.url_root }}contact?lang=de">
+    <link rel="alternate" hreflang="it" href="{{ request.url_root }}contact?lang=it">
+    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}contact?lang=pt">
+    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}contact?lang=ru">
+    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}contact?lang=zh">
+    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}contact?lang=ja">
+    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}contact?lang=ko">
+    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}contact?lang=hi">
+    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}contact?lang=ar">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -19,6 +34,19 @@
     <meta property="og:title" content="{{ t('contact.title') }}">
     <meta property="og:description" content="{{ t('contact.meta_description') }}">
     <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    <meta property="og:locale" content="{{ current_locale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:locale:alternate" content="pt_PT">
+    <meta property="og:locale:alternate" content="ru_RU">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta property="og:locale:alternate" content="hi_IN">
+    <meta property="og:locale:alternate" content="ar_SA">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -28,7 +56,7 @@
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url }}">
+    <link rel="canonical" href="{{ request.url_root }}contact?lang={{ current_locale }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -46,7 +74,7 @@
             "@type": "ContactPoint",
             "contactType": "customer service",
             "email": "info@ttdl.cc",
-            "availableLanguage": ["English"]
+            "availableLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar"]
         }
     }
     </script>
@@ -127,9 +155,9 @@
                     <!-- Contact Info -->
                     <div class="md:col-span-1">
                         <div class="mb-10">
-                            <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
+                            <h2 class="text-2xl font-bold mb-6">{{ t('contact.get_in_touch.title') }}</h2>
                             <p class="text-gray-600 mb-6">
-                                We're here to help and answer any questions you might have. Feel free to reach out to us using the contact form or the information below.
+                                {{ t('contact.get_in_touch.description') }}
                             </p>
                         </div>
                         
@@ -153,7 +181,7 @@
                                     </svg>
                                 </div>
                                 <div class="ml-3">
-                                    <p class="text-lg font-medium">Response Time</p>
+                                    <p class="text-lg font-medium">{{ t('contact.response_time.title') }}</p>
                                     <p class="text-gray-600">{{ t('contact.contact_info.response_time') }}</p>
                                 </div>
                             </div>
@@ -184,7 +212,7 @@
                     <!-- Contact Form -->
                     <div class="md:col-span-2">
                         <div class="bg-white p-6 md:p-8 rounded-xl border border-gray-200 shadow-sm">
-                            <h2 class="text-2xl font-bold mb-6">Send Us a Message</h2>
+                            <h2 class="text-2xl font-bold mb-6">{{ t('contact.form.title') }}</h2>
                             <form id="contactForm" action="/contact" method="POST">
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                                     <div>
@@ -259,18 +287,18 @@
                 if (data.status === 'success') {
                     formResponse.classList.add('bg-green-100', 'text-green-700');
                     formResponse.classList.remove('bg-red-100', 'text-red-700');
-                    formResponse.innerHTML = `<p class="text-center">${data.message || '{{ t('contact.form.success') }}'}</p>`;
+                    formResponse.innerHTML = `<p class="text-center">${data.message || '{{ t("contact.form.success") }}'}</p>`;
                     document.getElementById('contactForm').reset();
                 } else {
                     formResponse.classList.add('bg-red-100', 'text-red-700');
                     formResponse.classList.remove('bg-green-100', 'text-green-700');
-                    formResponse.innerHTML = `<p class="text-center">${data.message || '{{ t('contact.form.error') }}'}</p>`;
+                    formResponse.innerHTML = `<p class="text-center">${data.message || '{{ t("contact.form.error") }}'}</p>`;
                 }
             })
             .catch((error) => {
                 formResponse.classList.add('bg-red-100', 'text-red-700');
                 formResponse.classList.remove('bg-green-100', 'text-green-700');
-                formResponse.innerHTML = `<p class="text-center">{{ t('contact.form.error') }}</p>`;
+                formResponse.innerHTML = `<p class="text-center">{{ t("contact.form.error") }}</p>`;
                 console.error('Error:', error);
             });
         });

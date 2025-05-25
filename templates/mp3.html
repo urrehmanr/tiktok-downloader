@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']) or 'en' }}">
+<html lang="{{ current_locale }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,23 @@
     <meta name="keywords" content="{{ t('mp3.meta_keywords') }}">
     <meta name="author" content="{{ t('mp3.meta_author') }}">
     <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
+    <meta name="language" content="{{ current_locale }}">
     <meta name="revisit-after" content="7 days">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}mp3">
+    <link rel="alternate" hreflang="en" href="{{ request.url_root }}mp3?lang=en">
+    <link rel="alternate" hreflang="es" href="{{ request.url_root }}mp3?lang=es">
+    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}mp3?lang=fr">
+    <link rel="alternate" hreflang="de" href="{{ request.url_root }}mp3?lang=de">
+    <link rel="alternate" hreflang="it" href="{{ request.url_root }}mp3?lang=it">
+    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}mp3?lang=pt">
+    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}mp3?lang=ru">
+    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}mp3?lang=zh">
+    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}mp3?lang=ja">
+    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}mp3?lang=ko">
+    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}mp3?lang=hi">
+    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}mp3?lang=ar">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -20,6 +35,19 @@
     <meta property="og:title" content="{{ t('mp3.meta_og_title') }}">
     <meta property="og:description" content="{{ t('mp3.meta_og_description') }}">
     <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
+    <meta property="og:locale" content="{{ current_locale }}">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:locale:alternate" content="pt_PT">
+    <meta property="og:locale:alternate" content="ru_RU">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta property="og:locale:alternate" content="ko_KR">
+    <meta property="og:locale:alternate" content="hi_IN">
+    <meta property="og:locale:alternate" content="ar_SA">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -29,7 +57,7 @@
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url }}">
+    <link rel="canonical" href="{{ request.url_root }}mp3?lang={{ current_locale }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -42,11 +70,12 @@
         "@type": "WebApplication",
         "name": "{{ t('mp3.schema.app_name') }}",
         "description": "{{ t('mp3.schema.app_description') }}",
-        "url": "{{ request.url }}",
+        "url": "{{ request.url_root }}",
         "applicationCategory": "{{ t('mp3.schema.app_category') }}",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
         "softwareVersion": "1.0",
+        "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar"],
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -180,6 +209,22 @@
                 }
             }
         }
+    </script>
+    
+    <!-- Video translations for JavaScript use -->
+    <script>
+        // Global variables for video translations
+        const videoTranslations = {
+            views: "{{ t('video.views') }}",
+            likes: "{{ t('video.likes') }}",
+            duration: "{{ t('video.duration') }}",
+            download: "{{ t('video.download') }}",
+            moreFormats: "{{ t('video.more_formats') }}",
+            processing: "{{ t('video.processing') }}",
+            downloaded: "{{ t('video.downloaded') }}",
+            retrying: "{{ t('video.retrying') }}",
+            availableFormats: "{{ t('video.available_formats') }}"
+        };
     </script>
 </head>
 <body>

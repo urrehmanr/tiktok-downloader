@@ -27,6 +27,7 @@ footer:
 home:
   title: "TikTok Downloader - Download TikTok Videos Without Watermark | Free HD Video Downloader"
   meta_description: "Fastest TikTok video downloader! Save TikTok videos in HD with two taps, fast and free. Download videos without watermark, in high quality, and completely free. Start downloading now!"
+  meta_keywords: "tiktok downloader, tiktok video downloader, download tiktok videos, tiktok without watermark, tiktok video saver, tiktok hd downloader, free tiktok downloader"
   hero:
     title: "Download TikTok Videos Without Watermark"
     subtitle: "The fastest and most reliable TikTok downloader. Save videos in HD with no watermarks for free!"
@@ -228,7 +229,13 @@ contact:
   hero:
     title: "Contact Us"
     subtitle: "Have questions or feedback? We'd love to hear from you!"
+  get_in_touch:
+    title: "Get in Touch"
+    description: "We're here to help and answer any questions you might have. Feel free to reach out to us using the contact form or the information below."
+  response_time:
+    title: "Response Time"
   form:
+    title: "Send Us a Message"
     name: "Your Name"
     email: "Your Email"
     subject: "Subject"
@@ -416,4 +423,16 @@ results:
     title: "Error"
     not_found: "Video not found. The video might be private or deleted."
     processing: "Error processing video. Please try again later."
-    invalid_url: "Invalid URL. Please make sure you've copied the correct TikTok link." 
+    invalid_url: "Invalid URL. Please make sure you've copied the correct TikTok link."
+
+# Video related translations
+video:
+  views: "Views"
+  likes: "Likes"
+  duration: "Video Duration"
+  download: "Download"
+  more_formats: "More Formats"
+  processing: "Processing..."
+  downloaded: "Downloaded"
+  retrying: "Retrying..."
+  available_formats: "All Available Formats" 
