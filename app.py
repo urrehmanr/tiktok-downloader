@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 # Site domain constant - for production environment
-SITE_DOMAIN = "ttdl.com"
+SITE_DOMAIN = "ttdl.cc"
 # Protocol for the site
 SITE_PROTOCOL = "https"
 
