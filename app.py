@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file, render_template
+from flask import Flask, request, jsonify, send_file, render_template, redirect
 import os
 import yt_dlp
 import tempfile
@@ -22,6 +22,11 @@ logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Site domain constant - for production environment
+SITE_DOMAIN = "ttdl.com"
+# Protocol for the site
+SITE_PROTOCOL = "https"
+
 # yt-dlp version
 YT_DLP_VERSION = "2025.04.30"
 
@@ -32,6 +37,37 @@ CORS(app)
 babel = Babel(app)
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'languages'
+
+# List of supported languages
+SUPPORTED_LANGUAGES = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']
+
+# Function to get the site URL with the domain
+def get_site_url(path="", lang=None):
+    """
+    Returns the site URL with the configured domain.
+    it uses the configured domain.
+    
+    Args:
+        path (str): Path to append to the URL (without leading slash)
+        lang (str): Language code to include in the URL path
+        
+    Returns:
+        str: Complete URL
+    """
+    base_url = f"{SITE_PROTOCOL}://{SITE_DOMAIN}"
+    
+    # Add language path if provided
+    if lang and lang in SUPPORTED_LANGUAGES and lang != app.config['BABEL_DEFAULT_LOCALE']:
+        base_url = f"{base_url}/{lang}"
+    
+    # Add path if provided
+    if path:
+        # Ensure path doesn't start with a slash
+        if path.startswith('/'):
+            path = path[1:]
+        return f"{base_url}/{path}"
+    
+    return base_url
 
 # Download storage directory
 DOWNLOAD_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'downloads')
@@ -54,15 +90,18 @@ def load_translations(lang_code):
     return translations
 
 def get_locale():
-    # Try to get language from request args, cookies or headers
+    # First check if language is in the URL path
+    path_parts = request.path.lstrip('/').split('/')
+    if path_parts and path_parts[0] in SUPPORTED_LANGUAGES:
+        return path_parts[0]
+    
+    # Try to get language from request args
     lang = request.args.get('lang')
-    if lang is None:
-        lang = request.cookies.get('lang')
-    if lang is None:
-        lang = request.accept_languages.best_match(['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar'])
-    if lang is None:
-        lang = 'en'
-    return lang
+    if lang in SUPPORTED_LANGUAGES:
+        return lang
+    
+    # Default to English
+    return app.config['BABEL_DEFAULT_LOCALE']
 
 # Set the locale selector function
 babel.select_locale_func = get_locale
@@ -74,7 +113,9 @@ def inject_translations():
     
     # Add current year to all templates
     current_year = datetime.datetime.now().year
+    current_locale = get_locale()
     
+    # Function for translations
     def translate(key, default=None):
         # First try to use Flask-Babel gettext for standard translations
         try:
@@ -116,7 +157,15 @@ def inject_translations():
                 
         return current if current is not None else (default if default is not None else key)
     
-    return dict(t=translate, current_year=current_year, current_locale=get_locale())
+    # Helper function to generate URLs with the current language
+    def page_url(path=""):
+        # Always include the current language in URLs if not default
+        if current_locale != app.config['BABEL_DEFAULT_LOCALE']:
+            return get_site_url(path, current_locale)
+        return get_site_url(path)
+    
+    return dict(t=translate, current_year=current_year, current_locale=current_locale, 
+                site_url=get_site_url, page_url=page_url)
 
 # List of user agents to rotate through
 USER_AGENTS = [
@@ -419,6 +468,65 @@ def convert_size(size_bytes):
         return f"{int(size)} {units[unit_index]}"
     return f"{size:.2f} {units[unit_index]}"
 
+# Helper function to get language URLs
+def get_language_urls(current_path=""):
+    """
+    Generate URLs for all supported languages for the current path
+    
+    Args:
+        current_path (str): The current page path without language prefix
+        
+    Returns:
+        dict: Dictionary of language codes and their corresponding URLs
+    """
+    urls = {}
+    for lang in SUPPORTED_LANGUAGES:
+        if lang == app.config['BABEL_DEFAULT_LOCALE']:
+            # Default language uses the original URL without language prefix
+            urls[lang] = get_site_url(current_path)
+        else:
+            # Other languages use the language prefix
+            urls[lang] = get_site_url(current_path, lang)
+    return urls
+
+# Add language URLs to all templates
+@app.context_processor
+def inject_language_urls():
+    # Get the current path without language prefix
+    path = request.path.lstrip('/')
+    current_locale = get_locale()
+    
+    # If path starts with a language code, remove it to get the base path
+    if path and path.split('/')[0] in SUPPORTED_LANGUAGES:
+        path_parts = path.split('/')
+        path = '/'.join(path_parts[1:])
+    
+    # Generate URLs for all languages
+    language_urls = get_language_urls(path)
+    
+    # Language names for the dropdown
+    language_names = {
+        'en': 'English',
+        'es': 'Español',
+        'fr': 'Français',
+        'de': 'Deutsch',
+        'it': 'Italiano',
+        'pt': 'Português',
+        'ru': 'Русский',
+        'zh': '中文',
+        'ja': '日本語',
+        'ko': '한국어',
+        'hi': 'हिन्दी',
+        'ar': 'العربية'
+    }
+    
+    return {
+        'language_urls': language_urls,
+        'language_names': language_names,
+        'is_default_language': current_locale == app.config['BABEL_DEFAULT_LOCALE']
+    }
+
+# Original routes
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -655,6 +763,90 @@ def background_cleanup():
 # Start the cleanup thread when the app starts
 cleanup_thread = threading.Thread(target=background_cleanup, daemon=True)
 cleanup_thread.start()
+
+# Language-specific routes
+@app.route('/<lang>/')
+@app.route('/<lang>')
+def index_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('index.html')
+
+@app.route('/<lang>/mp3')
+def mp3_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('mp3.html')
+
+@app.route('/<lang>/how-to-save')
+def how_to_save_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('how-to-save.html')
+
+@app.route('/<lang>/contact')
+def contact_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('contact.html')
+
+@app.route('/<lang>/privacy-policy')
+def privacy_policy_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('privacy-policy.html')
+
+@app.route('/<lang>/terms')
+def terms_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('terms.html')
+
+@app.route('/<lang>/dmca')
+def dmca_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return render_template('dmca.html')
+
+# Language-specific submit-contact route
+@app.route('/<lang>/submit-contact', methods=['POST'])
+def submit_contact_with_lang(lang):
+    if lang not in SUPPORTED_LANGUAGES:
+        return render_template('404.html'), 404
+    return submit_contact()
+
+# Custom middleware for language handling
+@app.before_request
+def handle_language_url():
+    # Skip for static files and API requests
+    if request.path.startswith('/static/') or request.path.startswith('/api/'):
+        return None
+    
+    # Extract language from URL path if present
+    path_parts = request.path.lstrip('/').split('/')
+    path_lang = path_parts[0] if path_parts and path_parts[0] in SUPPORTED_LANGUAGES else None
+    
+    # Get language from query parameter if present
+    query_lang = request.args.get('lang')
+    
+    # If URL has ?lang=xx parameter but no language in path, redirect to language path URL
+    if query_lang in SUPPORTED_LANGUAGES and not path_lang:
+        # Build the new URL with language in path
+        new_path = f"/{query_lang}{request.path}"
+        
+        # Remove lang parameter from query string
+        args = request.args.copy()
+        args.pop('lang')
+        query_string = '&'.join([f"{k}={v}" for k, v in args.items()]) if args else ""
+        
+        if query_string:
+            new_url = f"{new_path}?{query_string}"
+        else:
+            new_url = new_path
+            
+        return redirect(new_url)
+    
+    return None
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000) 

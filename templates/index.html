@@ -15,23 +15,14 @@
     <meta name="revisit-after" content="7 days">
     
     <!-- Language Alternates -->
-    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}">
-    <link rel="alternate" hreflang="en" href="{{ request.url_root }}?lang=en">
-    <link rel="alternate" hreflang="es" href="{{ request.url_root }}?lang=es">
-    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}?lang=fr">
-    <link rel="alternate" hreflang="de" href="{{ request.url_root }}?lang=de">
-    <link rel="alternate" hreflang="it" href="{{ request.url_root }}?lang=it">
-    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}?lang=pt">
-    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}?lang=ru">
-    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}?lang=zh">
-    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}?lang=ja">
-    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}?lang=ko">
-    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}?lang=hi">
-    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="{{ site_url() }}">
+    {% for lang_code in language_urls %}
+    <link rel="alternate" hreflang="{{ lang_code }}" href="{{ language_urls[lang_code] }}">
+    {% endfor %}
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:url" content="{{ site_url(request.path) }}">
     <meta property="og:title" content="{{ t('common.website_name') }} - {{ t('common.website_tagline') }}">
     <meta property="og:description" content="{{ t('home.meta_description') }}">
     <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -51,13 +42,13 @@
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ request.url }}">
+    <meta property="twitter:url" content="{{ site_url(request.path) }}">
     <meta property="twitter:title" content="{{ t('common.website_name') }} - {{ t('common.website_tagline') }}">
     <meta property="twitter:description" content="{{ t('home.meta_description') }}">
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url_root }}?lang={{ current_locale }}">
+    <link rel="canonical" href="{{ page_url() }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -70,7 +61,7 @@
         "@type": "WebApplication",
         "name": "{{ t('common.website_name') }}",
         "description": "{{ t('home.meta_description') }}",
-        "url": "{{ request.url_root }}",
+        "url": "{{ site_url() }}",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
@@ -128,10 +119,10 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "{{ t('common.website_name') }}",
-        "url": "{{ request.url }}",
+        "url": "{{ site_url(request.path) }}",
         "logo": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
         "sameAs": [
-            "{{ request.url_root }}"
+            "{{ site_url() }}"
         ],
         "contactPoint": {
             "@type": "ContactPoint",
@@ -158,21 +149,21 @@
                 "name": "{{ t('home.how_it_works.step1.title') }}",
                 "text": "{{ t('home.how_it_works.step1.description') }}",
                 "image": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
-                "url": "{{ request.url }}"
+                "url": "{{ site_url(request.path) }}"
             },
             {
                 "@type": "HowToStep",
                 "name": "{{ t('home.how_it_works.step2.title') }}",
                 "text": "{{ t('home.how_it_works.step2.description') }}",
                 "image": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
-                "url": "{{ request.url }}"
+                "url": "{{ site_url(request.path) }}"
             },
             {
                 "@type": "HowToStep",
                 "name": "{{ t('home.how_it_works.step3.title') }}",
                 "text": "{{ t('home.how_it_works.step3.description') }}",
                 "image": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
-                "url": "{{ request.url }}"
+                "url": "{{ site_url(request.path) }}"
             }
         ]
     }

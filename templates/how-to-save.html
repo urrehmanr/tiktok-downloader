@@ -15,19 +15,19 @@
     <meta name="revisit-after" content="7 days">
     
     <!-- Language Alternates -->
-    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}how-to-save">
-    <link rel="alternate" hreflang="en" href="{{ request.url_root }}how-to-save?lang=en">
-    <link rel="alternate" hreflang="es" href="{{ request.url_root }}how-to-save?lang=es">
-    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}how-to-save?lang=fr">
-    <link rel="alternate" hreflang="de" href="{{ request.url_root }}how-to-save?lang=de">
-    <link rel="alternate" hreflang="it" href="{{ request.url_root }}how-to-save?lang=it">
-    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}how-to-save?lang=pt">
-    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}how-to-save?lang=ru">
-    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}how-to-save?lang=zh">
-    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}how-to-save?lang=ja">
-    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}how-to-save?lang=ko">
-    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}how-to-save?lang=hi">
-    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}how-to-save?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="{{ site_url('how-to-save') }}">
+    <link rel="alternate" hreflang="en" href="{{ site_url('how-to-save?lang=en') }}">
+    <link rel="alternate" hreflang="es" href="{{ site_url('how-to-save?lang=es') }}">
+    <link rel="alternate" hreflang="fr" href="{{ site_url('how-to-save?lang=fr') }}">
+    <link rel="alternate" hreflang="de" href="{{ site_url('how-to-save?lang=de') }}">
+    <link rel="alternate" hreflang="it" href="{{ site_url('how-to-save?lang=it') }}">
+    <link rel="alternate" hreflang="pt" href="{{ site_url('how-to-save?lang=pt') }}">
+    <link rel="alternate" hreflang="ru" href="{{ site_url('how-to-save?lang=ru') }}">
+    <link rel="alternate" hreflang="zh" href="{{ site_url('how-to-save?lang=zh') }}">
+    <link rel="alternate" hreflang="ja" href="{{ site_url('how-to-save?lang=ja') }}">
+    <link rel="alternate" hreflang="ko" href="{{ site_url('how-to-save?lang=ko') }}">
+    <link rel="alternate" hreflang="hi" href="{{ site_url('how-to-save?lang=hi') }}">
+    <link rel="alternate" hreflang="ar" href="{{ site_url('how-to-save?lang=ar') }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
@@ -57,7 +57,7 @@
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url_root }}how-to-save?lang={{ current_locale }}">
+    <link rel="canonical" href="{{ site_url('how-to-save?lang=' + current_locale) }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -118,7 +118,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "TikTok Video Downloader",
-        "url": "{{ request.url_root }}",
+        "url": "{{ site_url() }}",
         "logo": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
         "contactPoint": {
             "@type": "ContactPoint",

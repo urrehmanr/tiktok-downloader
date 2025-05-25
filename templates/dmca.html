@@ -15,19 +15,19 @@
     <meta name="revisit-after" content="7 days">
     
     <!-- Language Alternates -->
-    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}dmca">
-    <link rel="alternate" hreflang="en" href="{{ request.url_root }}dmca?lang=en">
-    <link rel="alternate" hreflang="es" href="{{ request.url_root }}dmca?lang=es">
-    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}dmca?lang=fr">
-    <link rel="alternate" hreflang="de" href="{{ request.url_root }}dmca?lang=de">
-    <link rel="alternate" hreflang="it" href="{{ request.url_root }}dmca?lang=it">
-    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}dmca?lang=pt">
-    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}dmca?lang=ru">
-    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}dmca?lang=zh">
-    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}dmca?lang=ja">
-    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}dmca?lang=ko">
-    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}dmca?lang=hi">
-    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}dmca?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="{{ site_url('dmca') }}">
+    <link rel="alternate" hreflang="en" href="{{ site_url('dmca?lang=en') }}">
+    <link rel="alternate" hreflang="es" href="{{ site_url('dmca?lang=es') }}">
+    <link rel="alternate" hreflang="fr" href="{{ site_url('dmca?lang=fr') }}">
+    <link rel="alternate" hreflang="de" href="{{ site_url('dmca?lang=de') }}">
+    <link rel="alternate" hreflang="it" href="{{ site_url('dmca?lang=it') }}">
+    <link rel="alternate" hreflang="pt" href="{{ site_url('dmca?lang=pt') }}">
+    <link rel="alternate" hreflang="ru" href="{{ site_url('dmca?lang=ru') }}">
+    <link rel="alternate" hreflang="zh" href="{{ site_url('dmca?lang=zh') }}">
+    <link rel="alternate" hreflang="ja" href="{{ site_url('dmca?lang=ja') }}">
+    <link rel="alternate" hreflang="ko" href="{{ site_url('dmca?lang=ko') }}">
+    <link rel="alternate" hreflang="hi" href="{{ site_url('dmca?lang=hi') }}">
+    <link rel="alternate" hreflang="ar" href="{{ site_url('dmca?lang=ar') }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -57,7 +57,7 @@
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url_root }}dmca?lang={{ current_locale }}">
+    <link rel="canonical" href="{{ site_url('dmca?lang=' + current_locale) }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -70,14 +70,14 @@
         "@type": "WebPage",
         "name": "{{ t('dmca.schema.page_name') }}",
         "description": "{{ t('dmca.schema.page_description') }}",
-        "url": "{{ request.url_root }}dmca",
+        "url": "{{ site_url('dmca') }}",
         "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar"],
         "datePublished": "{{ t('dmca.schema.date_published') }}",
         "dateModified": "{{ t('dmca.schema.date_modified') }}",
         "publisher": {
             "@type": "Organization",
             "name": "{{ t('dmca.schema.publisher_name') }}",
-            "url": "{{ request.url_root }}"
+            "url": "{{ site_url() }}"
         }
     }
     </script>

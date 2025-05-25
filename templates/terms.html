@@ -15,19 +15,19 @@
     <meta name="revisit-after" content="7 days">
     
     <!-- Language Alternates -->
-    <link rel="alternate" hreflang="x-default" href="{{ request.url_root }}terms">
-    <link rel="alternate" hreflang="en" href="{{ request.url_root }}terms?lang=en">
-    <link rel="alternate" hreflang="es" href="{{ request.url_root }}terms?lang=es">
-    <link rel="alternate" hreflang="fr" href="{{ request.url_root }}terms?lang=fr">
-    <link rel="alternate" hreflang="de" href="{{ request.url_root }}terms?lang=de">
-    <link rel="alternate" hreflang="it" href="{{ request.url_root }}terms?lang=it">
-    <link rel="alternate" hreflang="pt" href="{{ request.url_root }}terms?lang=pt">
-    <link rel="alternate" hreflang="ru" href="{{ request.url_root }}terms?lang=ru">
-    <link rel="alternate" hreflang="zh" href="{{ request.url_root }}terms?lang=zh">
-    <link rel="alternate" hreflang="ja" href="{{ request.url_root }}terms?lang=ja">
-    <link rel="alternate" hreflang="ko" href="{{ request.url_root }}terms?lang=ko">
-    <link rel="alternate" hreflang="hi" href="{{ request.url_root }}terms?lang=hi">
-    <link rel="alternate" hreflang="ar" href="{{ request.url_root }}terms?lang=ar">
+    <link rel="alternate" hreflang="x-default" href="{{ site_url('terms') }}">
+    <link rel="alternate" hreflang="en" href="{{ site_url('terms?lang=en') }}">
+    <link rel="alternate" hreflang="es" href="{{ site_url('terms?lang=es') }}">
+    <link rel="alternate" hreflang="fr" href="{{ site_url('terms?lang=fr') }}">
+    <link rel="alternate" hreflang="de" href="{{ site_url('terms?lang=de') }}">
+    <link rel="alternate" hreflang="it" href="{{ site_url('terms?lang=it') }}">
+    <link rel="alternate" hreflang="pt" href="{{ site_url('terms?lang=pt') }}">
+    <link rel="alternate" hreflang="ru" href="{{ site_url('terms?lang=ru') }}">
+    <link rel="alternate" hreflang="zh" href="{{ site_url('terms?lang=zh') }}">
+    <link rel="alternate" hreflang="ja" href="{{ site_url('terms?lang=ja') }}">
+    <link rel="alternate" hreflang="ko" href="{{ site_url('terms?lang=ko') }}">
+    <link rel="alternate" hreflang="hi" href="{{ site_url('terms?lang=hi') }}">
+    <link rel="alternate" hreflang="ar" href="{{ site_url('terms?lang=ar') }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -57,7 +57,7 @@
     <meta property="twitter:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ request.url_root }}terms?lang={{ current_locale }}">
+    <link rel="canonical" href="{{ site_url('terms?lang=' + current_locale) }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
@@ -70,14 +70,14 @@
         "@type": "WebPage",
         "name": "{{ t('terms.schema.page_name') }}",
         "description": "{{ t('terms.schema.page_description') }}",
-        "url": "{{ request.url_root }}terms",
+        "url": "{{ site_url('terms') }}",
         "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar"],
         "datePublished": "{{ t('terms.schema.date_published') }}",
         "dateModified": "{{ t('terms.schema.date_modified') }}",
         "publisher": {
             "@type": "Organization",
             "name": "{{ t('terms.schema.publisher_name') }}",
-            "url": "{{ request.url_root }}"
+            "url": "{{ site_url() }}"
         }
     }
     </script>
