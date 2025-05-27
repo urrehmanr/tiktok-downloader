@@ -38,23 +38,30 @@ babel = Babel(app)
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'languages'
 
-# List of supported languages in international standard order, with 'en' (US) first
+# List of supported languages in order of global popularity
 SUPPORTED_LANGUAGES = [
-    'en',  # English (US)
-    'zh', # Chinese
-    'es', # Spanish
-    'hi', # Hindi
-    'ar', # Arabic
-    'pt', # Portuguese
-    'bn', # Bengali
-    'ru', # Russian
-    'ja', # Japanese
-    'de', # German
-    'id', # Indonesian
-    'fr', # French
-    'ms', # Malay
-    'it', # Italian
-    'ko', # Korean
+    'en',  # English
+    'zh',  # Chinese (Mandarin)
+    'hi',  # Hindi
+    'es',  # Spanish
+    'fr',  # French
+    'ar',  # Arabic
+    'bn',  # Bengali
+    'pt',  # Portuguese
+    'ru',  # Russian
+    'ja',  # Japanese
+    'de',  # German
+    'id',  # Indonesian
+    'tr',  # Turkish
+    'vi',  # Vietnamese
+    'ko',  # Korean
+    'it',  # Italian
+    'th',  # Thai
+    'pl',  # Polish
+    'uk',  # Ukrainian
+    'nl',  # Dutch
+    'ro',  # Romanian
+    'ms',  # Malay
 ]
 
 # Function to get the site URL with the domain
@@ -524,25 +531,66 @@ def inject_language_urls():
     language_names = {
         'en': 'English',
         'zh': '中文',
-        'es': 'Español',
         'hi': 'हिन्दी',
+        'es': 'Español',
+        'fr': 'Français',
         'ar': 'العربية',
-        'pt': 'Português',
         'bn': 'বাংলা',
+        'pt': 'Português',
         'ru': 'Русский',
         'ja': '日本語',
         'de': 'Deutsch',
         'id': 'Bahasa Indonesia',
-        'fr': 'Français',
-        'ms': 'Bahasa Melayu',
-        'it': 'Italiano',
+        'tr': 'Türkçe',
+        'vi': 'Tiếng Việt',
         'ko': '한국어',
+        'it': 'Italiano',
+        'th': 'ไทย',
+        'pl': 'Polski',
+        'uk': 'Українська',
+        'nl': 'Nederlands',
+        'ro': 'Română',
+        'ms': 'Bahasa Melayu',
     }
+    
+    # Map language codes to country codes for OpenGraph locale format
+    def get_og_locale(lang_code):
+        locale_map = {
+            'en': 'US',
+            'zh': 'CN',
+            'hi': 'IN',
+            'es': 'ES',
+            'fr': 'FR',
+            'ar': 'SA',
+            'bn': 'BD',
+            'pt': 'PT',
+            'ru': 'RU',
+            'ja': 'JP',
+            'de': 'DE',
+            'id': 'ID',
+            'tr': 'TR',
+            'vi': 'VN',
+            'ko': 'KR',
+            'it': 'IT',
+            'th': 'TH',
+            'pl': 'PL',
+            'uk': 'UA',
+            'nl': 'NL',
+            'ro': 'RO',
+            'ms': 'MY',
+        }
+        country = locale_map.get(lang_code, 'US')
+        return f"{lang_code}_{country}"
+    
+    # Format locales for OpenGraph meta tags
+    og_locales = {lang: get_og_locale(lang) for lang in SUPPORTED_LANGUAGES}
     
     return {
         'language_urls': language_urls,
         'language_names': language_names,
-        'is_default_language': current_locale == app.config['BABEL_DEFAULT_LOCALE']
+        'is_default_language': current_locale == app.config['BABEL_DEFAULT_LOCALE'],
+        'supported_languages': SUPPORTED_LANGUAGES,
+        'og_locales': og_locales
     }
 
 # Original routes

@@ -16,21 +16,9 @@
     
     <!-- Language Alternates -->
     <link rel="alternate" hreflang="x-default" href="{{ site_url('mp3') }}">
-    <link rel="alternate" hreflang="en" href="{{ site_url('mp3?lang=en') }}">
-    <link rel="alternate" hreflang="es" href="{{ site_url('mp3?lang=es') }}">
-    <link rel="alternate" hreflang="fr" href="{{ site_url('mp3?lang=fr') }}">
-    <link rel="alternate" hreflang="de" href="{{ site_url('mp3?lang=de') }}">
-    <link rel="alternate" hreflang="it" href="{{ site_url('mp3?lang=it') }}">
-    <link rel="alternate" hreflang="pt" href="{{ site_url('mp3?lang=pt') }}">
-    <link rel="alternate" hreflang="ru" href="{{ site_url('mp3?lang=ru') }}">
-    <link rel="alternate" hreflang="zh" href="{{ site_url('mp3?lang=zh') }}">
-    <link rel="alternate" hreflang="ja" href="{{ site_url('mp3?lang=ja') }}">
-    <link rel="alternate" hreflang="ko" href="{{ site_url('mp3?lang=ko') }}">
-    <link rel="alternate" hreflang="hi" href="{{ site_url('mp3?lang=hi') }}">
-    <link rel="alternate" hreflang="ar" href="{{ site_url('mp3?lang=ar') }}">
-    <link rel="alternate" hreflang="id" href="{{ site_url('mp3?lang=id') }}">
-    <link rel="alternate" hreflang="bn" href="{{ site_url('mp3?lang=bn') }}">
-    <link rel="alternate" hreflang="ms" href="{{ site_url('mp3?lang=ms') }}">
+    {% for lang_code in supported_languages %}
+    <link rel="alternate" hreflang="{{ lang_code }}" href="{{ site_url('mp3?lang=' + lang_code) }}">
+    {% endfor %}
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -38,22 +26,10 @@
     <meta property="og:title" content="{{ t('mp3.meta_og_title') }}">
     <meta property="og:description" content="{{ t('mp3.meta_og_description') }}">
     <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
-    <meta property="og:locale" content="{{ current_locale }}">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:locale:alternate" content="de_DE">
-    <meta property="og:locale:alternate" content="it_IT">
-    <meta property="og:locale:alternate" content="pt_PT">
-    <meta property="og:locale:alternate" content="ru_RU">
-    <meta property="og:locale:alternate" content="zh_CN">
-    <meta property="og:locale:alternate" content="ja_JP">
-    <meta property="og:locale:alternate" content="ko_KR">
-    <meta property="og:locale:alternate" content="hi_IN">
-    <meta property="og:locale:alternate" content="ar_SA">
-    <meta property="og:locale:alternate" content="id_ID">
-    <meta property="og:locale:alternate" content="bn_BD">
-    <meta property="og:locale:alternate" content="ms_MY">
+    <meta property="og:locale" content="{{ og_locales[current_locale] }}">
+    {% for lang_code in supported_languages %}
+    <meta property="og:locale:alternate" content="{{ og_locales[lang_code] }}">
+    {% endfor %}
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -81,7 +57,7 @@
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
         "softwareVersion": "1.0",
-        "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar", "id", "bn", "ms"],
+        "inLanguage": {{ supported_languages|tojson }},
         "offers": {
             "@type": "Offer",
             "price": "0",

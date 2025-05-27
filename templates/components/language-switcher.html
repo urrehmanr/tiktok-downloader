@@ -2,88 +2,18 @@
 <div class="language-switcher dropdown relative ml-2">
     <button class="language-toggle flex items-center focus:outline-none">
         <span class="flag-icon">
-            {% if current_locale == 'en' %}
-                <img src="/static/images/flags/en.png" alt="English" class="w-5 h-5">
-            {% elif current_locale == 'es' %}
-                <img src="/static/images/flags/es.png" alt="Español" class="w-5 h-5">
-            {% elif current_locale == 'fr' %}
-                <img src="/static/images/flags/fr.png" alt="Français" class="w-5 h-5">
-            {% elif current_locale == 'de' %}
-                <img src="/static/images/flags/de.png" alt="Deutsch" class="w-5 h-5">
-            {% elif current_locale == 'it' %}
-                <img src="/static/images/flags/it.png" alt="Italiano" class="w-5 h-5">
-            {% elif current_locale == 'pt' %}
-                <img src="/static/images/flags/pt.png" alt="Português" class="w-5 h-5">
-            {% elif current_locale == 'ru' %}
-                <img src="/static/images/flags/ru.png" alt="Русский" class="w-5 h-5">
-            {% elif current_locale == 'zh' %}
-                <img src="/static/images/flags/zh.png" alt="中文" class="w-5 h-5">
-            {% elif current_locale == 'ja' %}
-                <img src="/static/images/flags/ja.png" alt="日本語" class="w-5 h-5">
-            {% elif current_locale == 'ko' %}
-                <img src="/static/images/flags/ko.png" alt="한국어" class="w-5 h-5">
-            {% elif current_locale == 'hi' %}
-                <img src="/static/images/flags/hi.png" alt="हिन्दी" class="w-5 h-5">
-            {% elif current_locale == 'ar' %}
-                <img src="/static/images/flags/ar.png" alt="العربية" class="w-5 h-5">
-            {% elif current_locale == 'id' %}
-                <img src="/static/images/flags/id.png" alt="Bahasa Indonesia" class="w-5 h-5">
-            {% elif current_locale == 'bn' %}
-                <img src="/static/images/flags/bn.png" alt="বাংলা" class="w-5 h-5">
-            {% elif current_locale == 'ms' %}
-                <img src="/static/images/flags/ms.png" alt="Bahasa Melayu" class="w-5 h-5">
-            {% endif %}
+            <img src="/static/images/flags/{{ current_locale }}.png" alt="{{ language_names[current_locale] }}" class="w-5 h-5">
         </span>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
         </svg>
     </button>
     <div class="language-dropdown absolute right-0 mt-2 bg-white rounded-md shadow-lg z-50 py-1">
-        <a href="{{ language_urls['en'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'en' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/en.png" alt="English" class="w-5 h-5 mr-2"> English
+        {% for lang_code in supported_languages %}
+        <a href="{{ language_urls[lang_code] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == lang_code %} bg-gray-100 font-medium{% endif %}">
+            <img src="/static/images/flags/{{ lang_code }}.png" alt="{{ language_names[lang_code] }}" class="w-5 h-5 mr-2"> {{ language_names[lang_code] }}
         </a>
-        <a href="{{ language_urls['zh'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'zh' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/zh.png" alt="中文" class="w-5 h-5 mr-2"> 中文
-        </a>
-        <a href="{{ language_urls['es'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'es' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/es.png" alt="Español" class="w-5 h-5 mr-2"> Español
-        </a>
-        <a href="{{ language_urls['hi'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'hi' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/hi.png" alt="हिन्दी" class="w-5 h-5 mr-2"> हिन्दी
-        </a>
-        <a href="{{ language_urls['ar'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'ar' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/ar.png" alt="العربية" class="w-5 h-5 mr-2"> العربية
-        </a>
-        <a href="{{ language_urls['pt'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'pt' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/pt.png" alt="Português" class="w-5 h-5 mr-2"> Português
-        </a>
-        <a href="{{ language_urls['bn'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'bn' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/bn.png" alt="বাংলা" class="w-5 h-5 mr-2"> বাংলা
-        </a>
-        <a href="{{ language_urls['ru'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'ru' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/ru.png" alt="Русский" class="w-5 h-5 mr-2"> Русский
-        </a>
-        <a href="{{ language_urls['ja'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'ja' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/ja.png" alt="日本語" class="w-5 h-5 mr-2"> 日本語
-        </a>
-        <a href="{{ language_urls['de'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'de' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/de.png" alt="Deutsch" class="w-5 h-5 mr-2"> Deutsch
-        </a>
-        <a href="{{ language_urls['id'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'id' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/id.png" alt="Bahasa Indonesia" class="w-5 h-5 mr-2"> Bahasa Indonesia
-        </a>
-        <a href="{{ language_urls['fr'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'fr' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/fr.png" alt="Français" class="w-5 h-5 mr-2"> Français
-        </a>
-        <a href="{{ language_urls['ms'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'ms' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/ms.png" alt="Bahasa Melayu" class="w-5 h-5 mr-2"> Bahasa Melayu
-        </a>
-        <a href="{{ language_urls['it'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'it' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/it.png" alt="Italiano" class="w-5 h-5 mr-2"> Italiano
-        </a>
-        <a href="{{ language_urls['ko'] }}" class="language-item block px-4 py-2 text-sm hover:bg-gray-100 flex items-center{% if current_locale == 'ko' %} bg-gray-100 font-medium{% endif %}">
-            <img src="/static/images/flags/ko.png" alt="한국어" class="w-5 h-5 mr-2"> 한국어
-        </a>
+        {% endfor %}
     </div>
 </div>
 

@@ -1,0 +1,438 @@
+# Bản dịch tiếng Việt cho TikTok Downloader
+
+# Các yếu tố chung trên các trang
+common:
+  website_name: "Trình tải xuống TikTok"
+  website_tagline: "Tải xuống video TikTok không có hình mờ"
+  copyright_text: "Trình tải xuống TikTok. Đã đăng ký Bản quyền. Không liên kết với TikTok, Douyin hoặc Bytedance."
+
+# Các mục điều hướng
+navigation:
+  home: "Tải xuống MP4"
+  mp3_download: "Tải xuống MP3"
+  how_to_save: "Cách lưu"
+  contact: "Liên hệ"
+  legal: "Pháp lý"
+  privacy_policy: "Chính sách Bảo mật"
+  terms_of_service: "Điều khoản Dịch vụ"
+  dmca_policy: "Chính sách DMCA"
+  
+# Nội dung chân trang
+footer:
+  description: "Tải xuống video TikTok không có hình mờ với chất lượng cao miễn phí. Lưu video TikTok yêu thích của bạn vào thiết bị trong vài giây."
+  quick_links: "Liên kết nhanh"
+  contact_us: "Liên hệ chúng tôi"
+
+# Trang chủ
+home:
+  title: "Trình tải xuống TikTok - Tải xuống video TikTok không có hình mờ | Trình tải xuống video HD miễn phí"
+  meta_description: "Trình tải xuống video TikTok nhanh nhất! Lưu video TikTok ở chế độ HD với hai lần nhấn, nhanh chóng và miễn phí. Tải xuống video không có hình mờ, chất lượng cao và hoàn toàn miễn phí. Bắt đầu tải xuống ngay!"
+  meta_keywords: "trình tải xuống tiktok, trình tải xuống video tiktok, tải xuống video tiktok, tiktok không có hình mờ, trình tiết kiệm video tiktok, trình tải xuống tiktok hd, trình tải xuống tiktok miễn phí"
+  hero:
+    title: "Tải xuống video TikTok không có hình mờ"
+    subtitle: "Trình tải xuống TikTok nhanh nhất và đáng tin cậy nhất. Lưu video ở chế độ HD không có hình mờ miễn phí!"
+  features:
+    title: "Tại sao chọn Trình tải xuống TikTok của chúng tôi"
+    feature1:
+      title: "Không có hình mờ"
+      description: "Tải xuống video TikTok không có hình mờ TikTok khó chịu với chất lượng đầy đủ."
+    feature2:
+      title: "Chất lượng cao"
+      description: "Tải xuống video chất lượng cao nhất trực tiếp vào thiết bị của bạn."
+    feature3:
+      title: "Nhanh và miễn phí"
+      description: "Dịch vụ của chúng tôi hoàn toàn miễn phí và xử lý tải xuống trong vài giây."
+    feature4:
+      title: "Dễ sử dụng"
+      description: "Không cần đăng ký. Chỉ cần dán liên kết và tải xuống video."
+  how_it_works:
+    title: "Cách hoạt động"
+    step1:
+      title: "Sao chép liên kết"
+      description: "Sao chép liên kết video TikTok từ ứng dụng hoặc trang web TikTok."
+    step2:
+      title: "Dán liên kết"
+      description: "Dán liên kết vào hộp nhập liệu ở trên."
+    step3:
+      title: "Tải xuống"
+      description: "Nhấp vào nút tải xuống và lưu video vào thiết bị của bạn."
+  download_form:
+    placeholder: "Dán URL video TikTok vào đây"
+    button: "Tải xuống"
+    error: "Vui lòng nhập URL TikTok hợp lệ"
+    processing: "Đang xử lý..."
+  faq:
+    title: "Các câu hỏi thường gặp"
+    questions:
+      - question: "Có miễn phí tải xuống video TikTok không?"
+        answer: "Có, dịch vụ của chúng tôi hoàn toàn miễn phí để sử dụng. Bạn có thể tải xuống bao nhiêu video TikTok tùy thích mà không mất bất kỳ chi phí nào."
+      - question: "Tôi có cần tạo tài khoản không?"
+        answer: "Không, bạn không cần tạo tài khoản hoặc đăng nhập để sử dụng trình tải xuống TikTok của chúng tôi. Chỉ cần dán liên kết video và tải xuống."
+      - question: "Tải xuống video TikTok có hợp pháp không?"
+        answer: "Tải xuống video TikTok để sử dụng cá nhân thường được chấp nhận. Tuy nhiên, bạn không nên phân phối lại hoặc sử dụng nội dung cho mục đích thương mại mà không có sự cho phép của người tạo."
+      - question: "Tôi có thể tải xuống video TikTok riêng tư không?"
+        answer: "Không, dịch vụ của chúng tôi chỉ có thể tải xuống video TikTok công khai. Video riêng tư không thể truy cập được thông qua trình tải xuống của chúng tôi."
+      - question: "Tại sao nên tải xuống video TikTok không có hình mờ?"
+        answer: "Tải xuống video không có hình mờ cho phép bạn sử dụng chúng trong các tác phẩm của riêng mình, chia sẻ chúng trên các nền tảng khác hoặc đơn giản là thưởng thức chúng mà không bị các lớp phủ gây mất tập trung."
+
+# Trang MP3
+mp3:
+  title: "TikTok sang MP3 - Tải xuống âm thanh TikTok | Chuyển đổi video TikTok sang MP3"
+  meta_description: "Chuyển đổi và tải xuống video TikTok sang tệp âm thanh MP3. Trích xuất nhạc và âm thanh chất lượng cao từ video TikTok miễn phí."
+  meta_keywords: "trình tải xuống mp3 tiktok, trình tải xuống âm thanh tiktok, tiktok sang mp3, trình trích xuất âm thanh tiktok, tải nhạc tiktok, tải âm thanh tiktok, trình chuyển đổi mp3 tiktok miễn phí"
+  meta_author: "Trình tải xuống MP3 TikTok"
+  meta_og_title: "Trình tải xuống MP3 TikTok - Trích xuất âm thanh từ video TikTok"
+  meta_og_description: "Trích xuất âm thanh MP3 chất lượng cao từ bất kỳ video TikTok nào. Nhanh chóng, miễn phí và dễ sử dụng. Chuyển đổi video TikTok sang định dạng MP3 ngay lập tức."
+  meta_twitter_title: "Trình tải xuống MP3 TikTok - Trích xuất âm thanh từ video TikTok"
+  meta_twitter_description: "Trích xuất âm thanh MP3 chất lượng cao từ bất kỳ video TikTok nào. Nhanh chóng, miễn phí và dễ sử dụng. Chuyển đổi video TikTok sang định dạng MP3 ngay lập tức."
+  schema:
+    app_name: "Trình tải xuống MP3 TikTok"
+    app_description: "Trích xuất âm thanh MP3 chất lượng cao từ bất kỳ video TikTok nào. Nhanh chóng, miễn phí và dễ sử dụng. Chuyển đổi video TikTok sang định dạng MP3 ngay lập tức."
+    app_category: "Ứng dụng tiện ích"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "Trích xuất âm thanh MP3 từ video TikTok"
+      - "Chuyển đổi âm thanh chất lượng cao"
+      - "Dịch vụ nhanh chóng và miễn phí"
+      - "Không cần đăng ký"
+      - "Hỗ trợ tất cả các thiết bị"
+    howto_name: "Cách trích xuất âm thanh MP3 từ video TikTok"
+    howto_description: "Hướng dẫn từng bước để trích xuất và tải xuống âm thanh MP3 từ video TikTok bằng công cụ trực tuyến miễn phí của chúng tôi."
+    howto_steps:
+      - name: "Sao chép liên kết âm thanh"
+        text: "Mở TikTok và sao chép liên kết của video có âm thanh bạn muốn tải xuống."
+      - name: "Dán liên kết"
+        text: "Dán liên kết đã sao chép vào trường nhập liệu ở trên."
+      - name: "Tải xuống MP3"
+        text: "Nhấp vào nút tải xuống để trích xuất và lưu âm thanh MP3."
+    faq:
+      - question: "Chất lượng của tệp MP3 là gì?"
+        answer: "Chúng tôi trích xuất âm thanh MP3 với chất lượng cao nhất có sẵn từ video TikTok gốc, thường là 128-192 kbps."
+      - question: "Có giới hạn về số lượng MP3 tôi có thể tải xuống không?"
+        answer: "Không, dịch vụ của chúng tôi hoàn toàn miễn phí không có giới hạn tải xuống. Bạn có thể trích xuất bao nhiêu MP3 tùy thích."
+      - question: "Tôi có thể trích xuất MP3 từ video TikTok riêng tư không?"
+        answer: "Không, dịch vụ của chúng tôi chỉ có thể trích xuất âm thanh từ video TikTok công khai. Video riêng tư không thể truy cập được."
+      - question: "Thiết bị này tương thích với những thiết bị nào?"
+        answer: "Trình tải xuống MP3 TikTok của chúng tôi hoạt động trên tất cả các thiết bị hiện đại bao gồm Windows, Mac, Android và iOS. Nó hoàn toàn dựa trên web nên không cần cài đặt bất kỳ phần mềm nào."
+  hero:
+    title: "Trình tải xuống <span class=\"gradient-text\">MP3</span> TikTok"
+    subtitle: "Trích xuất âm thanh MP3 chất lượng cao từ bất kỳ video TikTok nào. Nhanh chóng, miễn phí và dễ sử dụng."
+  download_form:
+    placeholder: "Dán URL video TikTok vào đây"
+    button: "Trích xuất MP3"
+    error: "Vui lòng nhập URL TikTok hợp lệ"
+    processing: "Đang xử lý..."
+  features:
+    title: "Tại sao chọn Trình tải xuống MP3 TikTok của chúng tôi?"
+    feature1:
+      title: "Âm thanh chất lượng cao"
+      description: "Trích xuất âm thanh ở định dạng MP3 chất lượng cao nhất."
+    feature2:
+      title: "Chuyển đổi nhanh"
+      description: "Chuyển đổi video TikTok sang MP3 trong vài giây."
+    feature3:
+      title: "An toàn và riêng tư"
+      description: "Chúng tôi không lưu trữ các tệp âm thanh của bạn trên máy chủ của chúng tôi."
+    feature4:
+      title: "Không cần mã hóa"
+      description: "Giao diện đơn giản để trích xuất MP3 dễ dàng."
+  how_it_works:
+    title: "Cách trích xuất MP3 từ TikTok"
+    steps:
+      - title: "Sao chép liên kết âm thanh"
+        description: "Mở TikTok và sao chép liên kết của video có âm thanh bạn muốn tải xuống."
+      - title: "Dán liên kết"
+        description: "Dán liên kết đã sao chép vào trường nhập liệu ở trên."
+      - title: "Tải xuống MP3"
+        description: "Nhấp vào nút tải xuống để trích xuất và lưu âm thanh MP3."
+  faq:
+    title: "Các câu hỏi thường gặp"
+    items:
+      - question: "Chất lượng của tệp MP3 là gì?"
+        answer: "Chúng tôi trích xuất âm thanh MP3 với chất lượng cao nhất có sẵn từ video TikTok gốc, thường là 128-192 kbps."
+      - question: "Có giới hạn về số lượng MP3 tôi có thể tải xuống không?"
+        answer: "Không, dịch vụ của chúng tôi hoàn toàn miễn phí không có giới hạn tải xuống. Bạn có thể trích xuất bao nhiêu MP3 tùy thích."
+      - question: "Tôi có thể trích xuất MP3 từ video TikTok riêng tư không?"
+        answer: "Không, dịch vụ của chúng tôi chỉ có thể trích xuất âm thanh từ video TikTok công khai. Video riêng tư không thể truy cập được."
+      - question: "Thiết bị này tương thích với những thiết bị nào?"
+        answer: "Trình tải xuống MP3 TikTok của chúng tôi hoạt động trên tất cả các thiết bị hiện đại bao gồm Windows, Mac, Android và iOS. Nó hoàn toàn dựa trên web nên không cần cài đặt bất kỳ phần mềm nào."
+
+# Trang Cách lưu
+how_to_save:
+  title: "Cách lưu video TikTok không có hình mờ - Hướng dẫn từng bước"
+  meta_description: "Tìm hiểu cách lưu và tải xuống video TikTok không có hình mờ. Hướng dẫn từng bước dễ dàng với hình ảnh để giúp bạn lưu video TikTok với chất lượng HD."
+  meta_keywords: "hướng dẫn tải video tiktok, cách lưu video tiktok, hướng dẫn tải tiktok, lưu tiktok không có hình mờ, hướng dẫn lưu video tiktok"
+  intro: "TikTok đã trở thành một trong những nền tảng truyền thông xã hội phổ biến nhất, với hàng triệu người dùng chia sẻ video sáng tạo và giải trí mỗi ngày. Đôi khi bạn có thể muốn lưu những video này để xem ngoại tuyến hoặc chia sẻ qua các nền tảng khác. Hướng dẫn của chúng tôi cho bạn biết cách tải xuống video TikTok không có hình mờ trong vài bước đơn giản."
+  hero:
+    title: "Cách lưu video TikTok không có hình mờ"
+    subtitle: "Làm theo hướng dẫn từng bước đơn giản này để tải xuống bất kỳ video TikTok nào không có hình mờ với chất lượng cao"
+  steps:
+    step1:
+      title: "Bước 1: Tìm và sao chép liên kết video TikTok"
+      paragraph1: "Mở ứng dụng TikTok trên điện thoại của bạn hoặc truy cập TikTok.com trong trình duyệt của bạn. Tìm video bạn muốn tải xuống và nhấn vào nút "Chia sẻ" (thường được biểu thị bằng biểu tượng mũi tên hoặc văn bản "Chia sẻ")."
+      paragraph2: "Từ các tùy chọn chia sẻ xuất hiện, chọn "Sao chép liên kết" hoặc "Sao chép URL". Thao tác này sẽ lưu URL của video vào khay nhớ tạm của bạn."
+      image_caption: "Hình ảnh: Nhấn vào tùy chọn "Sao chép liên kết" trong menu chia sẻ TikTok"
+    step2:
+      title: "Bước 2: Truy cập trang web Trình tải xuống TikTok của chúng tôi"
+      paragraph1: "Mở trình duyệt web của bạn và truy cập trang web Trình tải xuống TikTok của chúng tôi. Bạn sẽ thấy một giao diện rõ ràng và đơn giản với một trường nhập liệu nơi bạn có thể dán URL video TikTok."
+      paragraph2: "Trang chủ được thiết kế đơn giản và dễ sử dụng trên tất cả các thiết bị, cho dù bạn đang sử dụng điện thoại thông minh, máy tính bảng hay máy tính."
+      image_caption: "Hình ảnh: Trang chủ Trình tải xuống TikTok của chúng tôi với trường dán"
+    step3:
+      title: "Bước 3: Dán liên kết và xử lý video"
+      paragraph1: "Dán liên kết video TikTok bạn đã sao chép vào trường nhập liệu. Trên thiết bị di động, bạn có thể nhấn và giữ trường, sau đó chọn "Dán". Trên máy tính, sử dụng Ctrl+V (hoặc Command+V trên Mac)."
+      paragraph2: "Sau khi bạn đã dán URL, nhấp vào nút "Tải xuống ngay". Hệ thống của chúng tôi sẽ bắt đầu xử lý video ngay lập tức."
+      image_caption: "Hình ảnh: URL TikTok đã được dán và đang trong quá trình xử lý"
+    step4:
+      title: "Bước 4: Tải xuống video TikTok"
+      paragraph1: "Sau khi hệ thống của chúng tôi xử lý video, bạn sẽ thấy thông tin chi tiết về video TikTok bao gồm tác giả, số lượt xem, số lượt thích và thời lượng video."
+      paragraph2: "Bạn có thể nhấp vào nút "Tải xuống" để tải video ở định dạng chất lượng cao mặc định hoặc nhấp vào "Thêm định dạng" để chọn từ các tùy chọn chất lượng khác nhau."
+      paragraph3: "Khi chọn "Thêm định dạng", bạn sẽ thấy tất cả các độ phân giải video và kích thước tệp có sẵn. Chọn tùy chọn phù hợp nhất với nhu cầu của bạn - các định dạng chất lượng cao hơn có kích thước tệp lớn hơn."
+      image_caption: "Hình ảnh: Trang chi tiết video với các tùy chọn tải xuống"
+      modal:
+        image_caption: "Hình ảnh: Hộp thoại lựa chọn định dạng video"
+        paragraph1: "Tùy chọn "Thêm định dạng" sẽ hiển thị một cửa sổ bật lên với tất cả các chất lượng tải xuống có sẵn."
+        paragraph2: "Bạn có thể chọn giữa các tùy chọn HD (720p) hoặc SD (576p) tùy thuộc vào nhu cầu của bạn."
+        paragraph3: "Mỗi định dạng hiển thị độ phân giải video và kích thước tệp, giúp bạn chọn tùy chọn tốt nhất cho kết nối internet và dung lượng lưu trữ của mình."
+    step5:
+      title: "Bước 5: Lưu vào thiết bị của bạn"
+      paragraph1: "Sau khi bạn nhấp vào một tùy chọn tải xuống, trình duyệt của bạn sẽ bắt đầu tải xuống video. Tùy thuộc vào cài đặt trình duyệt của bạn, nó có thể tự động lưu vào thư mục tải xuống mặc định của bạn hoặc nhắc bạn chọn một vị trí."
+      paragraph2: "Sau khi quá trình tải xuống hoàn tất, bạn sẽ có một video TikTok sạch sẽ, không có hình mờ sẵn sàng để xem ngoại tuyến hoặc chia sẻ theo ý muốn."
+      image_caption: "Hình ảnh: Hoàn tất tải xuống thành công"
+  additional_tips:
+    title: "Mẹo bổ sung"
+    tips:
+      - "Trình tải xuống TikTok của chúng tôi hoạt động với cả video TikTok thông thường và bản ghi TikTok LIVE."
+      - "Bạn có thể tải xuống video với chất lượng HD mà không làm giảm độ phân giải."
+      - "Quá trình này hoàn toàn miễn phí, không có phí ẩn hoặc yêu cầu đăng ký."
+      - "Nếu bạn chỉ muốn tải xuống âm thanh, bạn có thể sử dụng Trình tải xuống MP3 TikTok của chúng tôi."
+      - "Chúng tôi không lưu trữ video đã tải xuống của bạn trên máy chủ của chúng tôi, đảm bảo quyền riêng tư của bạn."
+  faq:
+    title: "Các câu hỏi thường gặp"
+    questions:
+      - question: "Tải xuống video TikTok có hợp pháp không?"
+        answer: "Tải xuống video TikTok để sử dụng cá nhân thường được chấp nhận. Tuy nhiên, bạn không nên phân phối lại hoặc sử dụng nội dung cho mục đích thương mại mà không có sự cho phép của người tạo. Luôn tôn trọng bản quyền và quyền sở hữu trí tuệ."
+      - question: "Tôi có thể tải xuống video từ tài khoản TikTok riêng tư không?"
+        answer: "Không, dịch vụ của chúng tôi chỉ có thể tải xuống video TikTok công khai. Video riêng tư không thể truy cập được thông qua trình tải xuống của chúng tôi."
+      - question: "Độ dài tối đa của video TikTok tôi có thể tải xuống là bao nhiêu?"
+        answer: "Trình tải xuống của chúng tôi hỗ trợ tất cả các video TikTok bất kể độ dài của chúng, từ các clip ngắn đến các video dài hơn lên đến 10 phút."
+      - question: "Điều này có hoạt động trên thiết bị di động không?"
+        answer: "Có, trình tải xuống TikTok của chúng tôi hoạt động trên tất cả các thiết bị hiện đại bao gồm điện thoại Android, iPhone, máy tính bảng và máy tính."
+  cta_text: "Sẵn sàng tải xuống video TikTok?"
+  cta_description: "Hãy thử trình tải xuống video TikTok miễn phí của chúng tôi ngay bây giờ và lưu video TikTok yêu thích của bạn không có hình mờ với chất lượng HD."
+  cta_button: "Đi đến Trình tải xuống TikTok"
+
+# Trang liên hệ
+contact:
+  title: "Liên hệ chúng tôi | Trình tải xuống TikTok"
+  meta_description: "Liên hệ với nhóm Trình tải xuống TikTok. Gửi cho chúng tôi câu hỏi, phản hồi của bạn hoặc báo cáo sự cố với dịch vụ của chúng tôi."
+  hero:
+    title: "Liên hệ chúng tôi"
+    subtitle: "Có câu hỏi hoặc phản hồi? Chúng tôi rất muốn nghe từ bạn!"
+  get_in_touch:
+    title: "Liên lạc"
+    description: "Chúng tôi ở đây để giúp đỡ và trả lời bất kỳ câu hỏi nào bạn có thể có. Vui lòng liên hệ với chúng tôi bằng biểu mẫu liên hệ hoặc thông tin bên dưới."
+  response_time:
+    title: "Thời gian phản hồi"
+  form:
+    title: "Gửi tin nhắn cho chúng tôi"
+    name: "Tên của bạn"
+    email: "Email của bạn"
+    subject: "Chủ đề"
+    message: "Tin nhắn"
+    submit: "Gửi tin nhắn"
+    success: "Tin nhắn của bạn đã được gửi thành công. Chúng tôi sẽ liên hệ lại với bạn sớm!"
+    error: "Đã xảy ra lỗi khi gửi tin nhắn của bạn. Vui lòng thử lại."
+  contact_info:
+    title: "Các cách khác để liên hệ với chúng tôi"
+    email_label: "Email"
+    email: "info@ttdl.cc"
+    response_time: "Chúng tôi cố gắng trả lời tất cả các câu hỏi trong vòng 24-48 giờ."
+
+# Trang Điều khoản Dịch vụ
+terms:
+  title: "Điều khoản Dịch vụ | Trình tải xuống TikTok"
+  meta_description: "Điều khoản Dịch vụ cho Trình tải xuống TikTok. Đọc các điều khoản và điều kiện của chúng tôi để sử dụng dịch vụ tải xuống video TikTok của chúng tôi."
+  heading: "Điều khoản Dịch vụ"
+  last_updated: "Cập nhật lần cuối: ngày 1 tháng 5 năm 2023"
+  content:
+    intro: "Vui lòng đọc kỹ các Điều khoản Dịch vụ này ("Điều khoản", "Điều khoản Dịch vụ") trước khi sử dụng trang web Trình tải xuống TikTok ("Dịch vụ") do chúng tôi điều hành."
+    access: "Việc bạn truy cập và sử dụng Dịch vụ phụ thuộc vào việc bạn chấp nhận và tuân thủ các Điều khoản này. Các Điều khoản này áp dụng cho tất cả khách truy cập, người dùng và những người khác truy cập hoặc sử dụng Dịch vụ."
+    agreement: "Bằng cách truy cập hoặc sử dụng Dịch vụ, bạn đồng ý bị ràng buộc bởi các Điều khoản này. Nếu bạn không đồng ý với bất kỳ phần nào của điều khoản thì bạn không thể truy cập Dịch vụ."
+    section1:
+      title: "Sử dụng Dịch vụ"
+      content: "Trình tải xuống TikTok là một dịch vụ cho phép người dùng tải xuống video từ TikTok để sử dụng cá nhân, phi thương mại. Bằng cách sử dụng Dịch vụ của chúng tôi, bạn đồng ý:"
+      item1: "Chỉ sử dụng Dịch vụ cho các mục đích hợp pháp và theo các Điều khoản này."
+      item2: "Không sử dụng Dịch vụ cho bất kỳ mục đích bất hợp pháp hoặc trái phép nào."
+      item3: "Không cố gắng thăm dò, quét hoặc kiểm tra lỗ hổng của Dịch vụ hoặc bất kỳ hệ thống hoặc mạng liên quan nào."
+      item4: "Không can thiệp vào Dịch vụ hoặc máy chủ hoặc mạng được kết nối với Dịch vụ."
+    section2:
+      title: "Sở hữu trí tuệ"
+      content: "Dịch vụ của chúng tôi cho phép bạn tải xuống video từ TikTok. Tuy nhiên, chúng tôi không yêu cầu quyền sở hữu đối với nội dung bạn tải xuống. Tất cả video và nội dung thuộc về chủ sở hữu tương ứng của chúng. Bằng cách sử dụng Dịch vụ của chúng tôi để tải xuống nội dung, bạn tuyên bố rằng:"
+      item1: "Bạn chỉ tải xuống nội dung để sử dụng cá nhân."
+      item2: "Bạn sẽ tôn trọng quyền sở hữu trí tuệ của người tạo nội dung."
+      item3: "Bạn sẽ không phân phối lại, bán hoặc khai thác thương mại nội dung đã tải xuống mà không có sự cho phép thích hợp từ người tạo ban đầu."
+      item4: "Bạn hiểu rằng việc tải xuống nội dung cho một số mục đích sử dụng nhất định có thể yêu cầu sự cho phép của chủ sở hữu bản quyền."
+    section3:
+      title: "Tuyên bố miễn trừ trách nhiệm"
+      content: "Dịch vụ của chúng tôi được cung cấp "nguyên trạng" và "khi có sẵn" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Chúng tôi không bảo đảm rằng:"
+      item1: "Dịch vụ sẽ không bị gián đoạn, kịp thời, an toàn hoặc không có lỗi."
+      item2: "Kết quả có thể thu được từ việc sử dụng Dịch vụ sẽ chính xác hoặc đáng tin cậy."
+      item3: "Chất lượng của bất kỳ sản phẩm, dịch vụ, thông tin hoặc tài liệu nào khác mà bạn mua hoặc thu được thông qua Dịch vụ sẽ đáp ứng mong đợi của bạn."
+    section4:
+      title: "Giới hạn trách nhiệm"
+      content: "Trong mọi trường hợp, chúng tôi sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, do hậu quả hoặc trừng phạt nào, bao gồm nhưng không giới hạn ở việc mất lợi nhuận, dữ liệu, sử dụng, thiện chí hoặc các tổn thất vô hình khác, phát sinh từ:"
+      item1: "Việc bạn truy cập hoặc sử dụng hoặc không thể truy cập hoặc sử dụng Dịch vụ."
+      item2: "Bất kỳ hành vi hoặc nội dung nào của bất kỳ bên thứ ba nào trên Dịch vụ."
+      item3: "Bất kỳ nội dung nào thu được từ Dịch vụ."
+      item4: "Truy cập, sử dụng hoặc thay đổi trái phép các đường truyền hoặc nội dung của bạn."
+    section5:
+      title: "Chấm dứt"
+      content: "Chúng tôi có thể chấm dứt hoặc tạm dừng quyền truy cập vào Dịch vụ của chúng tôi ngay lập tức, mà không cần thông báo trước hoặc chịu trách nhiệm pháp lý, vì bất kỳ lý do gì, bao gồm nhưng không giới hạn nếu bạn vi phạm Điều khoản."
+    section6:
+      title: "Thay đổi Điều khoản"
+      content: "Chúng tôi có quyền, theo quyết định riêng của mình, sửa đổi hoặc thay thế các Điều khoản này bất kỳ lúc nào. Nếu một bản sửa đổi là quan trọng, chúng tôi sẽ cố gắng cung cấp thông báo trước ít nhất 15 ngày trước khi bất kỳ điều khoản mới nào có hiệu lực. Điều gì cấu thành một thay đổi quan trọng sẽ được xác định theo quyết định riêng của chúng tôi."
+      additional: "Bằng cách tiếp tục truy cập hoặc sử dụng Dịch vụ của chúng tôi sau khi các bản sửa đổi đó có hiệu lực, bạn đồng ý bị ràng buộc bởi các điều khoản đã sửa đổi. Nếu bạn không đồng ý với các điều khoản mới, vui lòng ngừng sử dụng Dịch vụ."
+    section7:
+      title: "Luật điều chỉnh"
+      content: "Các Điều khoản này sẽ được điều chỉnh và giải thích theo luật pháp, bất kể các quy định về xung đột pháp luật của nó."
+      additional: "Việc chúng tôi không thực thi bất kỳ quyền hoặc quy định nào của các Điều khoản này sẽ không được coi là từ bỏ các quyền đó. Nếu bất kỳ quy định nào của các Điều khoản này bị tòa án coi là không hợp lệ hoặc không thể thi hành, các quy định còn lại của các Điều khoản này sẽ vẫn có hiệu lực."
+    section8:
+      title: "Liên hệ chúng tôi"
+      content: "Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản này, vui lòng liên hệ với chúng tôi tại"
+
+# Trang Chính sách Bảo mật
+privacy:
+  title: "Chính sách Bảo mật | Trình tải xuống TikTok"
+  meta_description: "Chính sách Bảo mật cho Trình tải xuống TikTok. Tìm hiểu cách chúng tôi bảo vệ quyền riêng tư của bạn khi sử dụng dịch vụ tải xuống video TikTok của chúng tôi."
+  heading: "Chính sách Bảo mật"
+  last_updated: "Cập nhật lần cuối: ngày 1 tháng 5 năm 2023"
+  content:
+    intro: "Chính sách Bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn truy cập trang web Trình tải xuống TikTok của chúng tôi ("Dịch vụ")."
+    respect: "Chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ dữ liệu cá nhân của bạn. Vui lòng đọc kỹ Chính sách Bảo mật này để hiểu cách chúng tôi xử lý thông tin của bạn."
+    section1:
+      title: "Thông tin chúng tôi thu thập"
+      content: "Chúng tôi có thể thu thập một số loại thông tin, bao gồm:"
+      item1_title: "Dữ liệu sử dụng"
+      item1: "Chúng tôi có thể thu thập dữ liệu ẩn danh về cách bạn tương tác với Dịch vụ của chúng tôi, bao gồm loại trình duyệt, trang giới thiệu, thời gian dành cho các trang và số lần nhấp vào các yếu tố. Điều này giúp chúng tôi hiểu cách người dùng tương tác với Dịch vụ để cải thiện chức năng."
+      item2_title: "Dữ liệu nhật ký"
+      item2: "Máy chủ của chúng tôi tự động ghi lại thông tin tiêu chuẩn như địa chỉ IP, loại trình duyệt, hệ điều hành, các trang đã truy cập và thời gian sử dụng. Dữ liệu này được sử dụng để duy trì chất lượng dịch vụ và bảo mật."
+      item3_title: "Cookie"
+      item3: "Chúng tôi sử dụng cookie để phân tích, lưu trữ tùy chọn người dùng và chức năng cơ bản của trang web. Bạn có thể kiểm soát cài đặt cookie trong trình duyệt của mình."
+      item4_title: "Thông tin liên hệ"
+      item4: "Nếu bạn liên hệ với chúng tôi qua biểu mẫu liên hệ, chúng tôi sẽ thu thập thông tin bạn cung cấp, chẳng hạn như tên, địa chỉ email và nội dung tin nhắn của bạn."
+    note_title: "Ghi chú"
+    note: "Chúng tôi không lưu trữ bất kỳ video hoặc nội dung TikTok nào mà bạn tải xuống thông qua Dịch vụ của chúng tôi."
+    section2:
+      title: "Cách chúng tôi sử dụng thông tin của bạn"
+      intro: "Chúng tôi có thể sử dụng thông tin chúng tôi thu thập để:"
+      item1: "Cung cấp, vận hành và duy trì Dịch vụ của chúng tôi"
+      item2: "Cải thiện, cá nhân hóa và mở rộng Dịch vụ của chúng tôi"
+      item3: "Hiểu cách người dùng tương tác với Dịch vụ của chúng tôi"
+      item4: "Phát triển các sản phẩm, dịch vụ và tính năng mới"
+      item5: "Ngăn chặn gian lận và lạm dụng Dịch vụ của chúng tôi"
+      item6: "Trả lời các câu hỏi của bạn và cung cấp hỗ trợ khách hàng"
+    section3:
+      title: "Chia sẻ dữ liệu"
+      content: "Chúng tôi không bán, trao đổi hoặc chuyển giao thông tin của bạn cho bên thứ ba trừ các trường hợp sau:"
+      item1_title: "Nhà cung cấp dịch vụ"
+      item1: "Chúng tôi có thể chia sẻ dữ liệu với các bên thứ ba đáng tin cậy hỗ trợ chúng tôi vận hành Dịch vụ của mình, với điều kiện họ đồng ý giữ bí mật thông tin này."
+      item2_title: "Yêu cầu pháp lý"
+      item2: "Chúng tôi có thể tiết lộ thông tin khi luật pháp yêu cầu hoặc để bảo vệ quyền, sự an toàn của chúng tôi hoặc sự an toàn của người khác."
+      item3_title: "Phân tích"
+      item3: "Chúng tôi sử dụng các nhà cung cấp phân tích như Google Analytics để hiểu cách người dùng tương tác với Dịch vụ của chúng tôi."
+    section4:
+      title: "Bảo mật dữ liệu"
+      content: "Chúng tôi thực hiện các biện pháp bảo mật thích hợp để bảo vệ thông tin của bạn khỏi bị truy cập, thay đổi hoặc tiết lộ trái phép. Tuy nhiên, không có dịch vụ dựa trên internet nào có thể đảm bảo an ninh tuyệt đối."
+    section5:
+      title: "Quyền của bạn"
+      content: "Tùy thuộc vào vị trí của bạn, bạn có thể có một số quyền nhất định liên quan đến thông tin cá nhân của mình, bao gồm:"
+      item1: "Quyền truy cập thông tin chúng tôi lưu giữ về bạn"
+      item2: "Quyền sửa chữa thông tin cá nhân không chính xác"
+      item3: "Quyền yêu cầu xóa thông tin cá nhân của bạn"
+      item4: "Quyền hạn chế hoặc phản đối việc xử lý thông tin của bạn"
+      item5: "Quyền di chuyển dữ liệu"
+    section6:
+      title: "Quyền riêng tư của trẻ em"
+      content: "Dịch vụ của chúng tôi không dành cho các cá nhân dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Nếu bạn là cha mẹ hoặc người giám hộ và tin rằng con bạn đã cung cấp cho chúng tôi thông tin cá nhân, vui lòng liên hệ với chúng tôi."
+    section7:
+      title: "Thay đổi Chính sách Bảo mật này"
+      content: "Chúng tôi có thể cập nhật Chính sách Bảo mật này theo thời gian. Phiên bản cập nhật sẽ được biểu thị bằng ngày "Cập nhật lần cuối" được cập nhật. Chúng tôi khuyến khích bạn xem lại Chính sách Bảo mật này định kỳ."
+    section8:
+      title: "Liên hệ chúng tôi"
+      content: "Nếu bạn có bất kỳ câu hỏi nào về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi tại"
+
+# Trang Chính sách DMCA
+dmca:
+  title: "Chính sách DMCA | Trình tải xuống TikTok"
+  meta_description: "Chính sách DMCA cho Trình tải xuống TikTok. Tìm hiểu về các thủ tục báo cáo vi phạm bản quyền của chúng tôi."
+  heading: "Chính sách DMCA"
+  last_updated: "Cập nhật lần cuối: ngày 1 tháng 5 năm 2023"
+  content:
+    intro: "Trình tải xuống TikTok tôn trọng quyền sở hữu trí tuệ của người khác và mong đợi người dùng của chúng tôi cũng làm như vậy. Theo Đạo luật Bản quyền Thiên niên kỷ Kỹ thuật số năm 1998 ("DMCA"), chúng tôi sẽ phản hồi nhanh chóng các khiếu nại về vi phạm bản quyền được báo cáo cho đại lý bản quyền được chỉ định của chúng tôi được xác định bên dưới."
+    section1:
+      title: "Thông báo về vi phạm bản quyền"
+      content: "Nếu bạn tin rằng tác phẩm có bản quyền của mình đã bị sao chép theo cách cấu thành vi phạm bản quyền và có thể truy cập được trên dịch vụ của chúng tôi, bạn có thể thông báo cho đại lý bản quyền của chúng tôi như được quy định trong DMCA. Để khiếu nại của bạn hợp lệ theo DMCA, bạn phải cung cấp thông tin sau khi cung cấp thông báo về hành vi vi phạm bản quyền bị khiếu nại:"
+      item1: "Chữ ký thực tế hoặc điện tử của một người được ủy quyền hành động thay mặt cho chủ sở hữu bản quyền."
+      item2: "Xác định tác phẩm có bản quyền bị khiếu nại là đã bị vi phạm."
+      item3: "Xác định tài liệu bị khiếu nại là vi phạm hoặc là đối tượng của hoạt động vi phạm và sẽ bị xóa hoặc quyền truy cập vào đó sẽ bị vô hiệu hóa, và thông tin đủ hợp lý để cho phép chúng tôi xác định vị trí tài liệu."
+      item4: "Thông tin đủ hợp lý để cho phép chúng tôi liên hệ với bên khiếu nại, chẳng hạn như địa chỉ, số điện thoại và, nếu có, địa chỉ email."
+      item5: "Một tuyên bố rằng bên khiếu nại có thiện ý tin rằng việc sử dụng tài liệu theo cách bị khiếu nại không được chủ sở hữu bản quyền, đại lý của chủ sở hữu bản quyền hoặc luật pháp cho phép."
+      item6: "Một tuyên bố rằng thông tin trong thông báo là chính xác và, với hình phạt khai man, rằng bên khiếu nại được ủy quyền hành động thay mặt cho chủ sở hữu độc quyền bị cáo buộc là đã bị vi phạm."
+    section2:
+      title: "Thông báo phản đối"
+      content: "Nếu bạn tin rằng nội dung của mình đã bị xóa (hoặc quyền truy cập vào đó đã bị vô hiệu hóa) không vi phạm, hoặc bạn có ủy quyền từ chủ sở hữu bản quyền, đại lý của chủ sở hữu bản quyền hoặc theo luật pháp, để đăng và sử dụng nội dung, bạn có thể gửi thông báo phản đối cho đại lý bản quyền của chúng tôi chứa thông tin sau:"
+      item1: "Chữ ký thực tế hoặc điện tử của bạn."
+      item2: "Xác định nội dung đã bị xóa hoặc quyền truy cập vào đó đã bị vô hiệu hóa và vị trí mà nội dung đó xuất hiện trước khi bị xóa hoặc vô hiệu hóa."
+      item3: "Một tuyên bố rằng bạn có thiện ý tin rằng nội dung đã bị xóa hoặc vô hiệu hóa do nhầm lẫn hoặc xác định sai nội dung."
+      item4: "Tên, địa chỉ, số điện thoại và địa chỉ email của bạn."
+      item5: "Một tuyên bố rằng bạn đồng ý với quyền tài phán của tòa án liên bang tại quận nơi bạn sinh sống (nếu bạn ở Hoa Kỳ) hoặc sự đồng ý của bạn với quyền tài phán của tòa án liên방 tại quận nơi công ty của chúng tôi đặt trụ sở (nếu bạn không ở Hoa Kỳ)."
+      item6: "Một tuyên bố rằng bạn sẽ chấp nhận việc tống đạt văn bản tố tụng từ người đã cung cấp thông báo về hành vi vi phạm bị cáo buộc."
+    section3:
+      title: "Thông tin liên hệ của Đại lý DMCA"
+      email_title: "Email"
+      note: "Xin lưu ý rằng theo Mục 512(f) của DMCA, bất kỳ người nào cố ý xuyên tạc một cách nghiêm trọng rằng tài liệu hoặc hoạt động là vi phạm đều có thể phải chịu trách nhiệm pháp lý."
+    section4:
+      title: "Người vi phạm lặp lại"
+      content: "Chính sách của chúng tôi là chấm dứt tài khoản của những người vi phạm lặp lại khi thích hợp. Chúng tôi sẽ chấm dứt tài khoản của những người dùng được chúng tôi xác định là người vi phạm lặp lại. Nếu bạn tải xuống nhiều lần nội dung vi phạm bản quyền của người khác, quyền truy cập của bạn vào dịch vụ của chúng tôi cũng có thể bị chấm dứt."
+    section5:
+      title: "Thay đổi Chính sách này"
+      content: "Chúng tôi có thể cập nhật Chính sách DMCA này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng chính sách mới trên trang này. Bạn nên xem lại chính sách này định kỳ để biết bất kỳ thay đổi nào."
+    section6:
+      title: "Liên hệ chúng tôi"
+      content: "Nếu bạn có bất kỳ câu hỏi nào về Chính sách DMCA này, vui lòng liên hệ với chúng tôi tại"
+
+# Kết quả tải xuống
+results:
+  video_info:
+    title: "Chi tiết video"
+    author: "Người tạo"
+    duration: "Thời lượng"
+    quality: "Chất lượng"
+  download_options:
+    title: "Tùy chọn tải xuống"
+    without_watermark: "Không có hình mờ"
+    mp3: "Âm thanh MP3"
+    hd_quality: "Chất lượng HD"
+    download_button: "Tải xuống ngay"
+    save_to_gallery: "Lưu vào thư viện"
+  notice:
+    title: "Thông báo quan trọng"
+    content: "Nội dung đã tải xuống chỉ nên được sử dụng cho mục đích cá nhân. Tôn trọng bản quyền của người tạo ban đầu."
+  error:
+    title: "Lỗi"
+    not_found: "Không tìm thấy video. Video có thể ở chế độ riêng tư hoặc đã bị xóa."
+    processing: "Lỗi xử lý video. Vui lòng thử lại sau."
+    invalid_url: "URL không hợp lệ. Vui lòng đảm bảo bạn đã sao chép đúng liên kết TikTok."
+
+# Bản dịch liên quan đến video
+video:
+  views: "Lượt xem"
+  likes: "Lượt thích"
+  duration: "Thời lượng video"
+  download: "Tải xuống"
+  more_formats: "Thêm định dạng"
+  processing: "Đang xử lý..."
+  downloaded: "Đã tải xuống"
+  retrying: "Đang thử lại..."
+  available_formats: "Tất cả các định dạng có sẵn" 

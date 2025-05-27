@@ -1,0 +1,438 @@
+# TikTok Downloader için Türkçe çeviriler
+
+# Sayfalar arası ortak öğeler
+common:
+  website_name: "TikTok İndirici"
+  website_tagline: "TikTok Videolarını Filigransız İndirin"
+  copyright_text: "TikTok İndirici. Tüm hakları saklıdır. TikTok, Douyin veya Bytedance ile bağlantılı değildir."
+
+# Gezinme öğeleri
+navigation:
+  home: "MP4 İndir"
+  mp3_download: "MP3 İndir"
+  how_to_save: "Nasıl Kaydedilir"
+  contact: "İletişim"
+  legal: "Yasal"
+  privacy_policy: "Gizlilik Politikası"
+  terms_of_service: "Hizmet Şartları"
+  dmca_policy: "DMCA Politikası"
+  
+# Footer content
+footer:
+  description: "TikTok videolarını filigransız, yüksek kalitede ücretsiz indirin. Favori TikTok videolarınızı saniyeler içinde cihazınıza kaydedin."
+  quick_links: "Hızlı Bağlantılar"
+  contact_us: "Bize Ulaşın"
+
+# Home page
+home:
+  title: "TikTok İndirici - TikTok Videolarını Filigransız İndirin | Ücretsiz HD Video İndirici"
+  meta_description: "En hızlı TikTok video indiricisi! TikTok videolarını HD kalitede, iki dokunuşla, hızlı ve ücretsiz kaydedin. Videoları filigransız, yüksek kalitede ve tamamen ücretsiz indirin. Hemen indirmeye başlayın!"
+  meta_keywords: "tiktok indirici, tiktok video indirici, tiktok videoları indir, filigransız tiktok, tiktok video kaydedici, tiktok hd indirici, ücretsiz tiktok indirici"
+  hero:
+    title: "TikTok Videolarını Filigransız İndirin"
+    subtitle: "En hızlı ve en güvenilir TikTok indiricisi. Videoları HD kalitede, filigransız ve ücretsiz kaydedin!"
+  features:
+    title: "Neden TikTok İndiricimizi Seçmelisiniz?"
+    feature1:
+      title: "Filigransız"
+      description: "TikTok videolarını rahatsız edici TikTok filigranı olmadan tam kalitede indirin."
+    feature2:
+      title: "Yüksek Kalite"
+      description: "En yüksek kalitede video indirmelerini doğrudan cihazınıza alın."
+    feature3:
+      title: "Hızlı ve Ücretsiz"
+      description: "Hizmetimiz tamamen ücretsizdir ve indirmeleri saniyeler içinde işler."
+    feature4:
+      title: "Kullanımı Kolay"
+      description: "Kayıt gerekmez. Sadece bağlantıyı yapıştırın ve videoyu indirin."
+  how_it_works:
+    title: "Nasıl Çalışır?"
+    step1:
+      title: "Bağlantıyı Kopyala"
+      description: "TikTok uygulamasından veya web sitesinden TikTok video bağlantısını kopyalayın."
+    step2:
+      title: "Bağlantıyı Yapıştır"
+      description: "Bağlantıyı yukarıdaki giriş kutusuna yapıştırın."
+    step3:
+      title: "İndir"
+      description: "İndirme düğmesine tıklayın ve videoyu cihazınıza kaydedin."
+  download_form:
+    placeholder: "TikTok video URL'sini buraya yapıştırın"
+    button: "İndir"
+    error: "Lütfen geçerli bir TikTok URL'si girin"
+    processing: "İşleniyor..."
+  faq:
+    title: "Sıkça Sorulan Sorular"
+    questions:
+      - question: "TikTok videolarını indirmek ücretsiz mi?"
+        answer: "Evet, hizmetimiz tamamen ücretsizdir. İstediğiniz kadar TikTok videosunu hiçbir ücret ödemeden indirebilirsiniz."
+      - question: "Bir hesap oluşturmam gerekiyor mu?"
+        answer: "Hayır, TikTok indiricimizi kullanmak için bir hesap oluşturmanız veya oturum açmanız gerekmez. Sadece video bağlantısını yapıştırın ve indirin."
+      - question: "TikTok videolarını indirmek yasal mı?"
+        answer: "TikTok videolarını kişisel kullanım için indirmek genellikle kabul edilebilirdir. Ancak, içerik oluşturucusunun izni olmadan içeriği yeniden dağıtmamalı veya ticari olarak kullanmamalısınız."
+      - question: "Özel TikTok videolarını indirebilir miyim?"
+        answer: "Hayır, hizmetimiz yalnızca herkese açık TikTok videolarını indirebilir. Özel videolara indiricimiz üzerinden erişilemez."
+      - question: "Neden TikTok videolarını filigransız indirmeliyim?"
+        answer: "Videoları filigransız indirmek, onları kendi yaratımlarınızda kullanmanıza, diğer platformlarda paylaşmanıza veya dikkat dağıtıcı katmanlar olmadan keyfini çıkarmanıza olanak tanır."
+
+# MP3 sayfası
+mp3:
+  title: "TikTok'tan MP3'e - TikTok Ses İndir | TikTok Videolarını MP3'e Dönüştür"
+  meta_description: "TikTok videolarını MP3 ses dosyalarına dönüştürün ve indirin. TikTok videolarından yüksek kaliteli müzik ve sesleri ücretsiz olarak çıkarın."
+  meta_keywords: "tiktok mp3 indirici, tiktok ses indirici, tiktok'tan mp3'e, tiktok ses çıkarıcı, tiktok müzik indir, tiktok ses indir, ücretsiz tiktok mp3 dönüştürücü"
+  meta_author: "TikTok MP3 İndirici"
+  meta_og_title: "TikTok MP3 İndirici - TikTok Videolarından Ses Çıkarın"
+  meta_og_description: "Herhangi bir TikTok videosundan yüksek kaliteli MP3 sesi çıkarın. Hızlı, ücretsiz ve kullanımı kolay. TikTok videolarını anında MP3 formatına dönüştürün."
+  meta_twitter_title: "TikTok MP3 İndirici - TikTok Videolarından Ses Çıkarın"
+  meta_twitter_description: "Herhangi bir TikTok videosundan yüksek kaliteli MP3 sesi çıkarın. Hızlı, ücretsiz ve kullanımı kolay. TikTok videolarını anında MP3 formatına dönüştürün."
+  schema:
+    app_name: "TikTok MP3 İndirici"
+    app_description: "Herhangi bir TikTok videosundan yüksek kaliteli MP3 sesi çıkarın. Hızlı, ücretsiz ve kullanımı kolay. TikTok videolarını anında MP3 formatına dönüştürün."
+    app_category: "Yardımcı Uygulama"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "TikTok videolarından MP3 sesi çıkarın"
+      - "Yüksek kaliteli ses dönüştürme"
+      - "Hızlı ve ücretsiz hizmet"
+      - "Kayıt gerekmez"
+      - "Tüm cihazlar için destek"
+    howto_name: "TikTok Videolarından MP3 Sesi Nasıl Çıkarılır"
+    howto_description: "Ücretsiz çevrimiçi aracımızı kullanarak TikTok videolarından MP3 sesi çıkarmak ve indirmek için adım adım kılavuz."
+    howto_steps:
+      - name: "Ses Bağlantısını Kopyala"
+        text: "TikTok'u açın ve indirmek istediğiniz sesin bulunduğu videonun bağlantısını kopyalayın."
+      - name: "Bağlantıyı Yapıştır"
+        text: "Kopyalanan bağlantıyı yukarıdaki giriş alanına yapıştırın."
+      - name: "MP3 İndir"
+        text: "MP3 sesini çıkarmak ve kaydetmek için indirme düğmesine tıklayın."
+    faq:
+      - question: "MP3 dosyalarının kalitesi nedir?"
+        answer: "MP3 sesini orijinal TikTok videosundan mevcut en yüksek kalitede, genellikle 128-192 kbps olarak çıkarırız."
+      - question: "İndirebileceğim MP3 sayısı sınırı var mı?"
+        answer: "Hayır, hizmetimiz indirme sınırı olmaksızın tamamen ücretsizdir. İhtiyacınız olduğu kadar MP3 çıkarabilirsiniz."
+      - question: "Özel TikTok videolarından MP3 çıkarabilir miyim?"
+        answer: "Hayır, hizmetimiz yalnızca herkese açık TikTok videolarından ses çıkarabilir. Özel videolara erişilemez."
+      - question: "Bu hangi cihazlarla uyumludur?"
+        answer: "TikTok MP3 indiricimiz Windows, Mac, Android ve iOS dahil tüm modern cihazlarda çalışır. Tamamen web tabanlıdır, bu nedenle herhangi bir yazılım yüklemeniz gerekmez."
+  hero:
+    title: "TikTok <span class=\"gradient-text\">MP3</span> İndirici"
+    subtitle: "Herhangi bir TikTok videosundan yüksek kaliteli MP3 sesi çıkarın. Hızlı, ücretsiz ve kullanımı kolay."
+  download_form:
+    placeholder: "TikTok video URL'sini buraya yapıştırın"
+    button: "MP3 Çıkar"
+    error: "Lütfen geçerli bir TikTok URL'si girin"
+    processing: "İşleniyor..."
+  features:
+    title: "Neden TikTok MP3 İndiricimizi Seçmelisiniz?"
+    feature1:
+      title: "Yüksek Kaliteli Ses"
+      description: "Sesi en yüksek kalitede MP3 formatında çıkarın."
+    feature2:
+      title: "Hızlı Dönüştürme"
+      description: "TikTok videolarını saniyeler içinde MP3'e dönüştürün."
+    feature3:
+      title: "Güvenli ve Özel"
+      description: "Ses dosyalarınızı sunucularımızda saklamıyoruz."
+    feature4:
+      title: "Kodlama Gerekmez"
+      description: "Kolay MP3 çıkarma için basit arayüz."
+  how_it_works:
+    title: "TikTok'tan MP3 Nasıl Çıkarılır"
+    steps:
+      - title: "Ses Bağlantısını Kopyala"
+        description: "TikTok'u açın ve indirmek istediğiniz sesin bulunduğu videonun bağlantısını kopyalayın."
+      - title: "Bağlantıyı Yapıştır"
+        description: "Kopyalanan bağlantıyı yukarıdaki giriş alanına yapıştırın."
+      - title: "MP3 İndir"
+        description: "MP3 sesini çıkarmak ve kaydetmek için indirme düğmesine tıklayın."
+  faq:
+    title: "Sıkça Sorulan Sorular"
+    items:
+      - question: "MP3 dosyalarının kalitesi nedir?"
+        answer: "MP3 sesini orijinal TikTok videosundan mevcut en yüksek kalitede, genellikle 128-192 kbps olarak çıkarırız."
+      - question: "İndirebileceğim MP3 sayısı sınırı var mı?"
+        answer: "Hayır, hizmetimiz indirme sınırı olmaksızın tamamen ücretsizdir. İhtiyacınız olduğu kadar MP3 çıkarabilirsiniz."
+      - question: "Özel TikTok videolarından MP3 çıkarabilir miyim?"
+        answer: "Hayır, hizmetimiz yalnızca herkese açık TikTok videolarından ses çıkarabilir. Özel videolara erişilemez."
+      - question: "Bu hangi cihazlarla uyumludur?"
+        answer: "TikTok MP3 indiricimiz Windows, Mac, Android ve iOS dahil tüm modern cihazlarda çalışır. Tamamen web tabanlıdır, bu nedenle herhangi bir yazılım yüklemeniz gerekmez."
+
+# Nasıl Kaydedilir sayfası
+how_to_save:
+  title: "TikTok Videoları Filigransız Nasıl Kaydedilir - Adım Adım Kılavuz"
+  meta_description: "TikTok videolarını filigransız nasıl kaydedeceğinizi ve indireceğinizi öğrenin. TikTok videolarını HD kalitede kaydetmenize yardımcı olacak resimli, kolay adım adım eğitim."
+  meta_keywords: "tiktok video indirme kılavuzu, tiktok videoları nasıl kaydedilir, tiktok indirme eğitimi, filigransız tiktok kaydet, tiktok video kaydedici eğitimi"
+  intro: "TikTok, milyonlarca kullanıcının her gün yaratıcı ve eğlenceli videolar paylaştığı en popüler sosyal medya platformlarından biri haline geldi. Bazen bu videoları çevrimdışı izlemek veya diğer platformlar aracılığıyla paylaşmak için kaydetmek isteyebilirsiniz. Kılavuzumuz, TikTok videolarını filigransız olarak birkaç basit adımda nasıl indireceğinizi gösterir."
+  hero:
+    title: "TikTok Videoları Filigransız Nasıl Kaydedilir"
+    subtitle: "Herhangi bir TikTok videosunu filigransız ve yüksek kalitede indirmek için bu basit adım adım kılavuzu izleyin"
+  steps:
+    step1:
+      title: "Adım 1: TikTok Video Bağlantısını Bulun ve Kopyalayın"
+      paragraph1: "Telefonunuzda TikTok uygulamasını açın veya tarayıcınızda TikTok.com'u ziyaret edin. İndirmek istediğiniz videoyu bulun ve "Paylaş" düğmesine (genellikle bir ok simgesi veya "Paylaş" metni ile temsil edilir) dokunun."
+      paragraph2: "Görünen paylaşım seçeneklerinden "Bağlantıyı Kopyala" veya "URL'yi Kopyala"yı seçin. Bu, videonun URL'sini panonuza kaydedecektir."
+      image_caption: "Resim: TikTok paylaşım menüsündeki "Bağlantıyı kopyala" seçeneğine dokunun"
+    step2:
+      title: "Adım 2: TikTok İndirici Web Sitemizi Ziyaret Edin"
+      paragraph1: "Web tarayıcınızı açın ve TikTok İndirici web sitemizi ziyaret edin. TikTok video URL'sini yapıştırabileceğiniz bir giriş alanına sahip temiz ve basit bir arayüz göreceksiniz."
+      paragraph2: "Ana sayfa, akıllı telefon, tablet veya bilgisayar kullanıyor olun, tüm cihazlarda basit ve kullanımı kolay olacak şekilde tasarlanmıştır."
+      image_caption: "Resim: Yapıştırma alanına sahip TikTok İndirici ana sayfamız"
+    step3:
+      title: "Adım 3: Bağlantıyı Yapıştırın ve Videoyu İşleyin"
+      paragraph1: "Kopyaladığınız TikTok video bağlantısını giriş alanına yapıştırın. Mobil cihazlarda alana dokunup basılı tutabilir, ardından "Yapıştır"ı seçebilirsiniz. Bilgisayarlarda Ctrl+V (veya Mac'te Command+V) kullanın."
+      paragraph2: "URL'yi yapıştırdıktan sonra "Şimdi İndir" düğmesine tıklayın. Sistemimiz videoyu hemen işlemeye başlayacaktır."
+      image_caption: "Resim: TikTok URL'si yapıştırıldı ve işlem devam ediyor"
+    step4:
+      title: "Adım 4: TikTok Videosunu İndirin"
+      paragraph1: "Sistemimiz videoyu işledikten sonra, yazar, görüntülenme sayısı, beğeni sayısı ve video süresi dahil olmak üzere TikTok videosu hakkında ayrıntılı bilgileri göreceksiniz."
+      paragraph2: "Videoyu varsayılan yüksek kaliteli formatta almak için "İndir" düğmesine tıklayabilir veya farklı kalite seçenekleri arasından seçim yapmak için "Daha fazla format"a tıklayabilirsiniz."
+      paragraph3: ""Daha fazla format" seçeneğini seçtiğinizde, mevcut tüm video çözünürlüklerini ve dosya boyutlarını göreceksiniz. İhtiyaçlarınıza en uygun seçeneği seçin - daha yüksek kaliteli formatların dosya boyutları daha büyüktür."
+      image_caption: "Resim: İndirme seçenekleriyle video ayrıntıları sayfası"
+      modal:
+        image_caption: "Resim: Video formatları seçim modu"
+        paragraph1: ""Daha fazla format" seçeneği, mevcut tüm indirme kalitelerini içeren bir kalıcı pencere görüntüler."
+        paragraph2: "İhtiyaçlarınıza bağlı olarak HD (720p) veya SD (576p) seçenekleri arasından seçim yapabilirsiniz."
+        paragraph3: "Her format, video çözünürlüğünü ve dosya boyutunu göstererek internet bağlantınız ve depolama kapasiteniz için en iyi seçeneği seçmenize yardımcı olur."
+    step5:
+      title: "Adım 5: Cihazınıza Kaydedin"
+      paragraph1: "Bir indirme seçeneğine tıkladığınızda, tarayıcınız videoyu indirmeye başlayacaktır. Tarayıcı ayarlarınıza bağlı olarak, varsayılan indirme klasörünüze otomatik olarak kaydedebilir veya bir konum seçmenizi isteyebilir."
+      paragraph2: "İndirme tamamlandıktan sonra, çevrimdışı izlemeye veya istediğiniz gibi paylaşmaya hazır, temiz, filigransız bir TikTok videonuz olacaktır."
+      image_caption: "Resim: Başarılı indirme tamamlama"
+  additional_tips:
+    title: "Ek İpuçları"
+    tips:
+      - "TikTok indiricimiz hem normal TikTok videolarıyla hem de TikTok CANLI kayıtlarıyla çalışır."
+      - "Videoları herhangi bir çözünürlük kaybetmeden HD kalitesinde indirebilirsiniz."
+      - "İşlem tamamen ücretsizdir, gizli ücret veya kayıt gerekmez."
+      - "Yalnızca sesi indirmek istiyorsanız, TikTok MP3 İndiricimizi kullanabilirsiniz."
+      - "İndirdiğiniz videoları sunucularımızda saklamıyoruz, gizliliğinizi sağlıyoruz."
+  faq:
+    title: "Sıkça Sorulan Sorular"
+    questions:
+      - question: "TikTok videolarını indirmek yasal mı?"
+        answer: "TikTok videolarını kişisel kullanım için indirmek genellikle kabul edilebilirdir. Ancak, içerik oluşturucusunun izni olmadan içeriği yeniden dağıtmamalı veya ticari olarak kullanmamalısınız. Her zaman telif hakkı ve fikri mülkiyet haklarına saygı gösterin."
+      - question: "Özel bir TikTok hesabından video indirebilir miyim?"
+        answer: "Hayır, hizmetimiz yalnızca herkese açık TikTok videolarını indirebilir. Özel videolara indiricimiz üzerinden erişilemez."
+      - question: "İndirebileceğim maksimum TikTok video uzunluğu nedir?"
+        answer: "İndiricimiz, kısa kliplerden 10 dakikaya kadar daha uzun videolara kadar uzunluklarından bağımsız olarak tüm TikTok videolarını destekler."
+      - question: "Bu mobil cihazlarda çalışır mı?"
+        answer: "Evet, TikTok indiricimiz Android telefonlar, iPhone'lar, tabletler ve bilgisayarlar dahil tüm modern cihazlarda çalışır."
+  cta_text: "TikTok videolarını indirmeye hazır mısınız?"
+  cta_description: "Ücretsiz TikTok video indiricimizi şimdi deneyin ve favori TikTok videolarınızı filigransız HD kalitede kaydedin."
+  cta_button: "TikTok İndiriciye Git"
+
+# İletişim sayfası
+contact:
+  title: "Bize Ulaşın | TikTok İndirici"
+  meta_description: "TikTok İndirici ekibiyle iletişime geçin. Sorularınızı, geri bildirimlerinizi gönderin veya hizmetimizle ilgili sorunları bildirin."
+  hero:
+    title: "Bize Ulaşın"
+    subtitle: "Sorularınız veya geri bildirimleriniz mi var? Sizden haber almak isteriz!"
+  get_in_touch:
+    title: "İletişime Geçin"
+    description: "Size yardımcı olmak ve olabilecek tüm sorularınızı yanıtlamak için buradayız. İletişim formunu veya aşağıdaki bilgileri kullanarak bizimle iletişime geçmekten çekinmeyin."
+  response_time:
+    title: "Yanıt Süresi"
+  form:
+    title: "Bize Mesaj Gönderin"
+    name: "Adınız"
+    email: "E-postanız"
+    subject: "Konu"
+    message: "Mesaj"
+    submit: "Mesaj Gönder"
+    success: "Mesajınız başarıyla gönderildi. Size en kısa sürede geri döneceğiz!"
+    error: "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+  contact_info:
+    title: "Bize Ulaşmanın Diğer Yolları"
+    email_label: "E-posta"
+    email: "info@ttdl.cc"
+    response_time: "Tüm sorulara 24-48 saat içinde yanıt vermeyi hedefliyoruz."
+
+# Hizmet Şartları sayfası
+terms:
+  title: "Hizmet Şartları | TikTok İndirici"
+  meta_description: "TikTok İndirici için Hizmet Şartları. TikTok video indirme hizmetimizi kullanma hüküm ve koşullarımızı okuyun."
+  heading: "Hizmet Şartları"
+  last_updated: "Son Güncelleme: 1 Mayıs 2023"
+  content:
+    intro: "Lütfen tarafımızca işletilen TikTok İndirici web sitesini ("Hizmet") kullanmadan önce bu Hizmet Şartlarını ("Şartlar", "Hizmet Şartları") dikkatlice okuyun."
+    access: "Hizmete erişiminiz ve Hizmeti kullanımınız, bu Şartları kabul etmenize ve bunlara uymanıza bağlıdır. Bu Şartlar, Hizmete erişen veya Hizmeti kullanan tüm ziyaretçiler, kullanıcılar ve diğerleri için geçerlidir."
+    agreement: "Hizmete erişerek veya Hizmeti kullanarak bu Şartlara bağlı kalmayı kabul edersiniz. Şartların herhangi bir bölümüne katılmıyorsanız, Hizmete erişemezsiniz."
+    section1:
+      title: "Hizmetin Kullanımı"
+      content: "TikTok İndirici, kullanıcıların kişisel, ticari olmayan kullanım için TikTok'tan video indirmelerine olanak tanıyan bir hizmettir. Hizmetimizi kullanarak şunları kabul edersiniz:"
+      item1: "Hizmeti yalnızca yasal amaçlarla ve bu Şartlara uygun olarak kullanmak."
+      item2: "Hizmeti herhangi bir yasa dışı veya yetkisiz amaç için kullanmamak."
+      item3: "Hizmetin veya ilgili herhangi bir sistemin veya ağın güvenlik açığını araştırmaya, taramaya veya test etmeye çalışmamak."
+      item4: "Hizmete veya Hizmete bağlı sunuculara veya ağlara müdahale etmemek."
+    section2:
+      title: "Fikri Mülkiyet"
+      content: "Hizmetimiz, TikTok'tan video indirmenize olanak tanır. Ancak, indirdiğiniz içeriğin mülkiyetini iddia etmiyoruz. Tüm videolar ve içerikler ilgili sahiplerine aittir. İçerik indirmek için Hizmetimizi kullanarak şunları beyan edersiniz:"
+      item1: "İçeriği yalnızca kişisel kullanım için indiriyorsunuz."
+      item2: "İçerik oluşturucularının fikri mülkiyet haklarına saygı duyacaksınız."
+      item3: "İndirilen içeriği orijinal oluşturucudan uygun yetki almadan yeniden dağıtmayacak, satmayacak veya ticari olarak kullanmayacaksınız."
+      item4: "Belirli kullanımlar için içerik indirmenin telif hakkı sahibinden izin gerektirebileceğini anlıyorsunuz."
+    section3:
+      title: "Sorumluluk Reddi"
+      content: "Hizmetimiz, açık veya zımni hiçbir garanti olmaksızın "olduğu gibi" ve "mevcut olduğu gibi" sağlanır. Şunları garanti etmiyoruz:"
+      item1: "Hizmet kesintisiz, zamanında, güvenli veya hatasız olacaktır."
+      item2: "Hizmetin kullanımından elde edilebilecek sonuçlar doğru veya güvenilir olacaktır."
+      item3: "Hizmet aracılığıyla satın aldığınız veya elde ettiğiniz herhangi bir ürün, hizmet, bilgi veya diğer materyalin kalitesi beklentilerinizi karşılayacaktır."
+    section4:
+      title: "Sorumluluğun Sınırlandırılması"
+      content: "Hiçbir durumda, aşağıdakilerden kaynaklanan kar, veri, kullanım, iyi niyet veya diğer maddi olmayan kayıplar dahil ancak bunlarla sınırlı olmamak üzere dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zararlardan sorumlu olmayacağız:"
+      item1: "Hizmete erişiminiz veya Hizmeti kullanımınız veya Hizmete erişememeniz veya Hizmeti kullanamamanız."
+      item2: "Hizmetteki herhangi bir üçüncü tarafın herhangi bir davranışı veya içeriği."
+      item3: "Hizmetten elde edilen herhangi bir içerik."
+      item4: "İletimlerinize veya içeriğinize yetkisiz erişim, kullanım veya değişiklik."
+    section5:
+      title: "Fesih"
+      content: "Şartları ihlal etmeniz dahil ancak bunlarla sınırlı olmamak üzere herhangi bir nedenle, önceden bildirimde bulunmaksızın veya sorumluluk üstlenmeksizin Hizmetimize erişimi derhal feshedebilir veya askıya alabiliriz."
+    section6:
+      title: "Şartlarda Değişiklikler"
+      content: "Bu Şartları herhangi bir zamanda kendi takdirimize bağlı olarak değiştirme veya yerine yenisini koyma hakkımızı saklı tutarız. Bir revizyon önemliyse, yeni şartların yürürlüğe girmesinden en az 15 gün önce bildirimde bulunmaya çalışacağız. Önemli bir değişikliğin ne teşkil ettiği kendi takdirimize bağlı olarak belirlenecektir."
+      additional: "Bu revizyonlar yürürlüğe girdikten sonra Hizmetimize erişmeye veya Hizmetimizi kullanmaya devam ederek, revize edilmiş şartlara bağlı kalmayı kabul edersiniz. Yeni şartları kabul etmiyorsanız, lütfen Hizmeti kullanmayı bırakın."
+    section7:
+      title: "Geçerli Kanun"
+      content: "Bu Şartlar, kanunlar ihtilafı hükümlerine bakılmaksızın yasalara göre yönetilecek ve yorumlanacaktır."
+      additional: "Bu Şartların herhangi bir hakkını veya hükmünü uygulamamamız, bu haklardan feragat edildiği anlamına gelmeyecektir. Bu Şartların herhangi bir hükmünün bir mahkeme tarafından geçersiz veya uygulanamaz olduğuna karar verilirse, bu Şartların geri kalan hükümleri yürürlükte kalacaktır."
+    section8:
+      title: "Bize Ulaşın"
+      content: "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen bize ulaşın:"
+
+# Gizlilik Politikası sayfası
+privacy:
+  title: "Gizlilik Politikası | TikTok İndirici"
+  meta_description: "TikTok İndirici için Gizlilik Politikası. TikTok video indirme hizmetimizi kullanırken gizliliğinizi nasıl koruduğumuzu öğrenin."
+  heading: "Gizlilik Politikası"
+  last_updated: "Son Güncelleme: 1 Mayıs 2023"
+  content:
+    intro: "Bu Gizlilik Politikası, TikTok İndirici web sitemizi ("Hizmet") ziyaret ettiğinizde bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklamaktadır."
+    respect: "Gizliliğinize saygı duyuyoruz ve kişisel verilerinizi korumayı taahhüt ediyoruz. Bilgilerinizi nasıl işlediğimizi anlamak için lütfen bu Gizlilik Politikasını dikkatlice okuyun."
+    section1:
+      title: "Topladığımız Bilgiler"
+      content: "Aşağıdakiler dahil olmak üzere birkaç tür bilgi toplayabiliriz:"
+      item1_title: "Kullanım Verileri"
+      item1: "Tarayıcı türü, yönlendiren sayfalar, sayfalarda geçirilen süre ve öğelere tıklamalar dahil olmak üzere Hizmetimizle nasıl etkileşim kurduğunuza dair anonim veriler toplayabiliriz. Bu, kullanıcıların işlevselliği geliştirmek için Hizmetle nasıl etkileşim kurduğunu anlamamıza yardımcı olur."
+      item2_title: "Günlük Verileri"
+      item2: "Sunucularımız, IP adresi, tarayıcı türü, işletim sistemi, ziyaret edilen sayfalar ve geçirilen süre gibi standart bilgileri otomatik olarak günlüğe kaydeder. Bu veriler, hizmet kalitesini ve güvenliğini korumak için kullanılır."
+      item3_title: "Çerezler"
+      item3: "Analitik, kullanıcı tercihi depolama ve temel web sitesi işlevselliği için çerezler kullanıyoruz. Tarayıcınızda çerez ayarlarını kontrol edebilirsiniz."
+      item4_title: "İletişim Bilgileri"
+      item4: "İletişim formu aracılığıyla bize ulaşırsanız, adınız, e-posta adresiniz ve mesaj içeriğiniz gibi sağladığınız bilgileri toplayacağız."
+    note_title: "Not"
+    note: "Hizmetimiz aracılığıyla indirdiğiniz hiçbir TikTok videosunu veya içeriğini saklamıyoruz."
+    section2:
+      title: "Bilgilerinizi Nasıl Kullanıyoruz"
+      intro: "Topladığımız bilgileri şunlar için kullanabiliriz:"
+      item1: "Hizmetimizi sağlamak, işletmek ve sürdürmek"
+      item2: "Hizmetimizi geliştirmek, kişiselleştirmek ve genişletmek"
+      item3: "Kullanıcıların Hizmetimizle nasıl etkileşim kurduğunu anlamak"
+      item4: "Yeni ürünler, hizmetler ve özellikler geliştirmek"
+      item5: "Hizmetimizin dolandırıcılığını ve kötüye kullanılmasını önlemek"
+      item6: "Sorularınıza yanıt vermek ve müşteri desteği sağlamak"
+    section3:
+      title: "Veri Paylaşımı"
+      content: "Aşağıdaki durumlar dışında bilgilerinizi üçüncü taraflara satmıyor, takas etmiyor veya başka bir şekilde aktarmıyoruz:"
+      item1_title: "Hizmet Sağlayıcıları"
+      item1: "Bu bilgileri gizli tutmayı kabul etmeleri koşuluyla, Hizmetimizi işletmemize yardımcı olan güvenilir üçüncü taraflarla veri paylaşabiliriz."
+      item2_title: "Yasal Gereklilikler"
+      item2: "Yasaların gerektirdiği durumlarda veya haklarımızı, güvenliğimizi veya başkalarının güvenliğini korumak için bilgileri ifşa edebiliriz."
+      item3_title: "Analitik"
+      item3: "Kullanıcıların Hizmetimizle nasıl etkileşim kurduğunu anlamak için Google Analytics gibi analitik sağlayıcıları kullanıyoruz."
+    section4:
+      title: "Veri Güvenliği"
+      content: "Bilgilerinizi yetkisiz erişim, değişiklik veya ifşadan korumak için uygun güvenlik önlemleri uyguluyoruz. Ancak, hiçbir internet tabanlı hizmet mutlak güvenliği garanti edemez."
+    section5:
+      title: "Haklarınız"
+      content: "Bulunduğunuz yere bağlı olarak, kişisel bilgilerinizle ilgili belirli haklara sahip olabilirsiniz, bunlar arasında:"
+      item1: "Hakkınızda tuttuğumuz bilgilere erişme hakkı"
+      item2: "Yanlış kişisel bilgileri düzeltme hakkı"
+      item3: "Kişisel bilgilerinizin silinmesini talep etme hakkı"
+      item4: "Bilgilerinizin işlenmesini kısıtlama veya itiraz etme hakkı"
+      item5: "Veri taşınabilirliği hakkı"
+    section6:
+      title: "Çocukların Gizliliği"
+      content: "Hizmetimiz 13 yaşın altındaki bireyler için tasarlanmamıştır. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir ebeveyn veya vasiyseniz ve çocuğunuzun bize kişisel bilgi verdiğine inanıyorsanız, lütfen bizimle iletişime geçin."
+    section7:
+      title: "Bu Gizlilik Politikasındaki Değişiklikler"
+      content: "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Güncellenmiş sürüm, güncellenmiş bir "Son Güncelleme" tarihiyle belirtilecektir. Bu Gizlilik Politikasını periyodik olarak gözden geçirmenizi öneririz."
+    section8:
+      title: "Bize Ulaşın"
+      content: "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bize ulaşın:"
+
+# DMCA Politikası sayfası
+dmca:
+  title: "DMCA Politikası | TikTok İndirici"
+  meta_description: "TikTok İndirici için DMCA Politikası. Telif hakkı ihlali bildirme prosedürlerimiz hakkında bilgi edinin."
+  heading: "DMCA Politikası"
+  last_updated: "Son Güncelleme: 1 Mayıs 2023"
+  content:
+    intro: "TikTok İndirici, başkalarının fikri mülkiyet haklarına saygı duyar ve kullanıcılarımızın da aynı şeyi yapmasını bekler. 1998 Dijital Milenyum Telif Hakkı Yasası ("DMCA") uyarınca, aşağıda belirtilen belirlenmiş telif hakkı temsilcimize bildirilen telif hakkı ihlali iddialarına hızla yanıt vereceğiz."
+    section1:
+      title: "Telif Hakkı İhlali Bildirimi"
+      content: "Telif hakkıyla korunan çalışmanızın telif hakkı ihlali oluşturacak şekilde kopyalandığına ve hizmetimizde erişilebilir olduğuna inanıyorsanız, DMCA'da belirtildiği gibi telif hakkı temsilcimize bildirimde bulunabilirsiniz. Şikayetinizin DMCA kapsamında geçerli olması için, iddia edilen telif hakkı ihlalini bildirirken aşağıdaki bilgileri sağlamanız gerekir:"
+      item1: "Telif hakkı sahibi adına hareket etmeye yetkili bir kişinin fiziki veya elektronik imzası."
+      item2: "İhlal edildiği iddia edilen telif hakkıyla korunan çalışmanın kimliği."
+      item3: "İhlal ettiği veya ihlal edici faaliyetin konusu olduğu iddia edilen ve kaldırılacak veya erişimi devre dışı bırakılacak materyalin kimliği ve materyali bulmamızı sağlayacak makul ölçüde yeterli bilgi."
+      item4: "Şikayetçi tarafla iletişim kurmamızı sağlayacak makul ölçüde yeterli bilgi, örneğin bir adres, telefon numarası ve varsa bir e-posta adresi."
+      item5: "Şikayetçi tarafın, materyalin şikayet edilen şekilde kullanılmasının telif hakkı sahibi, temsilcisi veya yasa tarafından yetkilendirilmediğine dair iyi niyetli bir inanca sahip olduğuna dair bir beyan."
+      item6: "Bildirimdeki bilgilerin doğru olduğuna ve yalan yere yemin etme cezası altında, şikayetçi tarafın iddia edilen şekilde ihlal edilen münhasır bir hakkın sahibi adına hareket etmeye yetkili olduğuna dair bir beyan."
+    section2:
+      title: "Karşı Bildirim"
+      content: "Kaldırılan (veya erişimi devre dışı bırakılan) içeriğinizin ihlal edici olmadığına veya telif hakkı sahibinden, telif hakkı sahibinin temsilcisinden veya yasaya uygun olarak içeriği yayınlama ve kullanma yetkiniz olduğuna inanıyorsanız, telif hakkı temsilcimize aşağıdaki bilgileri içeren bir karşı bildirim gönderebilirsiniz:"
+      item1: "Fiziki veya elektronik imzanız."
+      item2: "Kaldırılan veya erişimi devre dışı bırakılan içeriğin ve içeriğin kaldırılmadan veya devre dışı bırakılmadan önce göründüğü yerin kimliği."
+      item3: "İçeriğin yanlışlık veya yanlış tanımlama sonucu kaldırıldığına veya devre dışı bırakıldığına dair iyi niyetli bir inanca sahip olduğunuza dair bir beyan."
+      item4: "Adınız, adresiniz, telefon numaranız ve e-posta adresiniz."
+      item5: "Yaşadığınız bölgedeki federal mahkemenin yargı yetkisini (Amerika Birleşik Devletleri'ndeyseniz) veya şirketimizin bulunduğu bölgedeki federal mahkemenin yargı yetkisini (Amerika Birleşik Devletleri'nde değilseniz) kabul ettiğinize dair bir beyan."
+      item6: "İddia edilen ihlali bildiren kişiden dava tebligatını kabul edeceğinize dair bir beyan."
+    section3:
+      title: "DMCA Temsilcisi İletişim Bilgileri"
+      email_title: "E-posta"
+      note: "Lütfen DMCA'nın 512(f) Bölümü uyarınca, materyalin veya faaliyetin ihlal edici olduğunu bilerek maddi olarak yanlış beyan eden herhangi bir kişinin sorumluluğa tabi olabileceğini unutmayın."
+    section4:
+      title: "Tekrarlayan İhlalciler"
+      content: "Uygun olduğunda tekrarlayan ihlalcilerin hesaplarını sonlandırmak politikamızdır. Tarafımızca tekrarlayan ihlalci olduğu belirlenen kullanıcıların hesaplarını sonlandıracağız. Başkalarının telif haklarını ihlal eden içeriği tekrar tekrar indirirseniz, hizmetimize erişiminiz de sonlandırılabilir."
+    section5:
+      title: "Bu Politikadaki Değişiklikler"
+      content: "Bu DMCA Politikasını zaman zaman güncelleyebiliriz. Bu sayfada yeni politikayı yayınlayarak herhangi bir değişiklik hakkında sizi bilgilendireceğiz. Herhangi bir değişiklik için bu politikayı periyodik olarak gözden geçirmeniz önerilir."
+    section6:
+      title: "Bize Ulaşın"
+      content: "Bu DMCA Politikası hakkında herhangi bir sorunuz varsa, lütfen bize ulaşın:"
+
+# İndirme sonuçları
+results:
+  video_info:
+    title: "Video Detayları"
+    author: "İçerik Oluşturucu"
+    duration: "Süre"
+    quality: "Kalite"
+  download_options:
+    title: "İndirme Seçenekleri"
+    without_watermark: "Filigransız"
+    mp3: "MP3 Ses"
+    hd_quality: "HD Kalite"
+    download_button: "Şimdi İndir"
+    save_to_gallery: "Galeriye Kaydet"
+  notice:
+    title: "Önemli Uyarı"
+    content: "İndirilen içerik yalnızca kişisel amaçlarla kullanılmalıdır. Orijinal içerik oluşturucunun telif hakkına saygı gösterin."
+  error:
+    title: "Hata"
+    not_found: "Video bulunamadı. Video özel veya silinmiş olabilir."
+    processing: "Video işlenirken hata oluştu. Lütfen daha sonra tekrar deneyin."
+    invalid_url: "Geçersiz URL. Lütfen doğru TikTok bağlantısını kopyaladığınızdan emin olun."
+
+# Video ile ilgili çeviriler
+video:
+  views: "Görüntüleme"
+  likes: "Beğeni"
+  duration: "Video Süresi"
+  download: "İndir"
+  more_formats: "Daha Fazla Format"
+  processing: "İşleniyor..."
+  downloaded: "İndirildi"
+  retrying: "Yeniden deneniyor..."
+  available_formats: "Tüm Mevcut Formatlar" 

@@ -26,23 +26,10 @@
     <meta property="og:title" content="{{ t('common.website_name') }} - {{ t('common.website_tagline') }}">
     <meta property="og:description" content="{{ t('home.meta_description') }}">
     <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3046/3046121.png">
-    <meta property="og:locale" content="{{ current_locale }}">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:locale:alternate" content="de_DE">
-    <meta property="og:locale:alternate" content="it_IT">
-    <meta property="og:locale:alternate" content="pt_PT">
-    <meta property="og:locale:alternate" content="ru_RU">
-    <meta property="og:locale:alternate" content="zh_CN">
-    <meta property="og:locale:alternate" content="ja_JP">
-    <meta property="og:locale:alternate" content="ko_KR">
-    <meta property="og:locale:alternate" content="hi_IN">
-    <meta property="og:locale:alternate" content="ar_SA">
-    <meta property="og:locale:alternate" content="ar_AE">
-    <meta property="og:locale:alternate" content="id_ID">
-    <meta property="og:locale:alternate" content="bn_BD">
-    <meta property="og:locale:alternate" content="ms_MY">
+    <meta property="og:locale" content="{{ og_locales[current_locale] }}">
+    {% for lang_code in supported_languages %}
+    <meta property="og:locale:alternate" content="{{ og_locales[lang_code] }}">
+    {% endfor %}
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -70,7 +57,7 @@
         "operatingSystem": "Any",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
         "softwareVersion": "1.0",
-        "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar", "id", "bn", "ms"],
+        "inLanguage": {{ supported_languages|tojson }},
         "offers": {
             "@type": "Offer",
             "price": "0",

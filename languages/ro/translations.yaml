@@ -1,0 +1,438 @@
+# Romanian translations for TikTok Downloader
+
+# Common elements across pages
+common:
+  website_name: "TikTok Downloader"
+  website_tagline: "Descărcați Videoclipuri TikTok Fără Watermark"
+  copyright_text: "TikTok Downloader. Toate drepturile rezervate. Nu este afiliat cu TikTok, Douyin sau Bytedance."
+
+# Navigation items
+navigation:
+  home: "Descărcare MP4"
+  mp3_download: "Descărcare MP3"
+  how_to_save: "Cum Să Salvați"
+  contact: "Contact"
+  legal: "Legal"
+  privacy_policy: "Politică de Confidențialitate"
+  terms_of_service: "Termeni și Condiții"
+  dmca_policy: "Politică DMCA"
+  
+# Footer content
+footer:
+  description: "Descărcați videoclipuri TikTok fără watermark la calitate înaltă gratuit. Salvați videoclipurile TikTok preferate pe dispozitivul dvs. în câteva secunde."
+  quick_links: "Linkuri Rapide"
+  contact_us: "Contactați-ne"
+
+# Home page
+home:
+  title: "TikTok Downloader - Descărcați Videoclipuri TikTok Fără Watermark | Descărcător Video HD Gratuit"
+  meta_description: "Cel mai rapid descărcător de videoclipuri TikTok! Salvați videoclipuri TikTok în HD cu două atingeri, rapid și gratuit. Descărcați videoclipuri fără watermark, la calitate înaltă și complet gratuit. Începeți să descărcați acum!"
+  meta_keywords: "descărcător tiktok, descărcător video tiktok, descărcare videoclipuri tiktok, tiktok fără watermark, salvator video tiktok, descărcător hd tiktok, descărcător tiktok gratuit"
+  hero:
+    title: "Descărcați Videoclipuri TikTok Fără Watermark"
+    subtitle: "Cel mai rapid și mai fiabil descărcător TikTok. Salvați videoclipuri în HD fără watermarks gratuit!"
+  features:
+    title: "De Ce Să Alegeți Descărcătorul Nostru TikTok"
+    feature1:
+      title: "Fără Watermark"
+      description: "Descărcați videoclipuri TikTok fără watermark-ul enervant TikTok la calitate maximă."
+    feature2:
+      title: "Calitate Înaltă"
+      description: "Obțineți descărcări video de cea mai înaltă calitate direct pe dispozitivul dvs."
+    feature3:
+      title: "Rapid și Gratuit"
+      description: "Serviciul nostru este complet gratuit și procesează descărcările în câteva secunde."
+    feature4:
+      title: "Ușor de Utilizat"
+      description: "Nu este necesară înregistrarea. Doar lipiți linkul și descărcați videoclipul."
+  how_it_works:
+    title: "Cum Funcționează"
+    step1:
+      title: "Copiați Linkul"
+      description: "Copiați linkul videoclipului TikTok din aplicația TikTok sau de pe site-ul web."
+    step2:
+      title: "Lipiți Linkul"
+      description: "Lipiți linkul în caseta de introducere de mai sus."
+    step3:
+      title: "Descărcați"
+      description: "Faceți clic pe butonul de descărcare și salvați videoclipul pe dispozitivul dvs."
+  download_form:
+    placeholder: "Lipiți URL-ul videoclipului TikTok aici"
+    button: "Descărcați"
+    error: "Vă rugăm să introduceți un URL TikTok valid"
+    processing: "Procesare..."
+  faq:
+    title: "Întrebări Frecvente"
+    questions:
+      - question: "Este gratuit să descărcați videoclipuri TikTok?"
+        answer: "Da, serviciul nostru este complet gratuit. Puteți descărca câte videoclipuri TikTok doriți fără niciun cost."
+      - question: "Trebuie să creez un cont?"
+        answer: "Nu, nu trebuie să creați un cont sau să vă autentificați pentru a utiliza descărcătorul nostru TikTok. Pur și simplu lipiți linkul videoclipului și descărcați."
+      - question: "Este legal să descărcați videoclipuri TikTok?"
+        answer: "Descărcarea videoclipurilor TikTok pentru uz personal este în general acceptabilă. Cu toate acestea, nu ar trebui să redistribuiți sau să utilizați conținutul în scopuri comerciale fără permisiunea creatorului."
+      - question: "Pot descărca videoclipuri TikTok private?"
+        answer: "Nu, serviciul nostru poate descărca doar videoclipuri TikTok publice. Videoclipurile private nu sunt accesibile prin descărcătorul nostru."
+      - question: "De ce să descărcați videoclipuri TikTok fără watermark?"
+        answer: "Descărcarea videoclipurilor fără watermark vă permite să le utilizați în propriile creații, să le partajați pe alte platforme sau pur și simplu să le vizionați fără suprapuneri care distrag atenția."
+
+# MP3 page
+mp3:
+  title: "TikTok în MP3 - Descărcați Audio TikTok | Convertiți Videoclipuri TikTok în MP3"
+  meta_description: "Convertiți și descărcați videoclipuri TikTok în fișiere audio MP3. Extrageți muzică și sunete de înaltă calitate din videoclipurile TikTok gratuit."
+  meta_keywords: "descărcător mp3 tiktok, descărcător audio tiktok, tiktok în mp3, extractor audio tiktok, descărcare muzică tiktok, descărcare sunet tiktok, convertor mp3 tiktok gratuit"
+  meta_author: "Descărcător MP3 TikTok"
+  meta_og_title: "Descărcător MP3 TikTok - Extrageți Audio din Videoclipuri TikTok"
+  meta_og_description: "Extrageți audio MP3 de înaltă calitate din orice videoclip TikTok. Rapid, gratuit și ușor de utilizat. Convertiți videoclipuri TikTok în format MP3 instantaneu."
+  meta_twitter_title: "Descărcător MP3 TikTok - Extrageți Audio din Videoclipuri TikTok"
+  meta_twitter_description: "Extrageți audio MP3 de înaltă calitate din orice videoclip TikTok. Rapid, gratuit și ușor de utilizat. Convertiți videoclipuri TikTok în format MP3 instantaneu."
+  schema:
+    app_name: "Descărcător MP3 TikTok"
+    app_description: "Extrageți audio MP3 de înaltă calitate din orice videoclip TikTok. Rapid, gratuit și ușor de utilizat. Convertiți videoclipuri TikTok în format MP3 instantaneu."
+    app_category: "UtilityApplication"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "Extrageți audio MP3 din videoclipuri TikTok"
+      - "Conversie audio de înaltă calitate"
+      - "Serviciu rapid și gratuit"
+      - "Nu este necesară înregistrarea"
+      - "Suport pentru toate dispozitivele"
+    howto_name: "Cum Să Extrageți Audio MP3 din Videoclipuri TikTok"
+    howto_description: "Ghid pas cu pas pentru a extrage și descărca audio MP3 din videoclipuri TikTok folosind instrumentul nostru online gratuit."
+    howto_steps:
+      - name: "Copiați Linkul Audio"
+        text: "Deschideți TikTok și copiați linkul videoclipului cu audio pe care doriți să îl descărcați."
+      - name: "Lipiți Linkul"
+        text: "Lipiți linkul copiat în câmpul de introducere de mai sus."
+      - name: "Descărcați MP3"
+        text: "Faceți clic pe butonul de descărcare pentru a extrage și salva audio MP3."
+    faq:
+      - question: "Ce calitate au fișierele MP3?"
+        answer: "Extragem audio MP3 la cea mai înaltă calitate disponibilă din videoclipul TikTok original, de obicei 128-192 kbps."
+      - question: "Există o limită la câte MP3-uri pot descărca?"
+        answer: "Nu, serviciul nostru este complet gratuit, fără limite de descărcare. Puteți extrage câte MP3-uri aveți nevoie."
+      - question: "Pot extrage MP3 din videoclipuri TikTok private?"
+        answer: "Nu, serviciul nostru poate extrage audio doar din videoclipuri TikTok publice. Videoclipurile private nu sunt accesibile."
+      - question: "Cu ce dispozitive este compatibil?"
+        answer: "Descărcătorul nostru MP3 TikTok funcționează pe toate dispozitivele moderne, inclusiv Windows, Mac, Android și iOS. Este complet bazat pe web, deci nu este nevoie să instalați niciun software."
+  hero:
+    title: "Descărcător <span class=\"gradient-text\">MP3</span> TikTok"
+    subtitle: "Extrageți audio MP3 de înaltă calitate din orice videoclip TikTok. Rapid, gratuit și ușor de utilizat."
+  download_form:
+    placeholder: "Lipiți URL-ul videoclipului TikTok aici"
+    button: "Extrageți MP3"
+    error: "Vă rugăm să introduceți un URL TikTok valid"
+    processing: "Procesare..."
+  features:
+    title: "De Ce Să Alegeți Descărcătorul Nostru MP3 TikTok?"
+    feature1:
+      title: "Audio de Înaltă Calitate"
+      description: "Extrageți audio în format MP3 de cea mai înaltă calitate."
+    feature2:
+      title: "Conversie Rapidă"
+      description: "Convertiți videoclipuri TikTok în MP3 în câteva secunde."
+    feature3:
+      title: "Securizat și Privat"
+      description: "Nu stocăm fișierele dvs. audio pe serverele noastre."
+    feature4:
+      title: "Nu Este Necesară Codificarea"
+      description: "Interfață simplă pentru extragerea ușoară a MP3-urilor."
+  how_it_works:
+    title: "Cum Să Extrageți MP3 din TikTok"
+    steps:
+      - title: "Copiați Linkul Audio"
+        description: "Deschideți TikTok și copiați linkul videoclipului cu audio pe care doriți să îl descărcați."
+      - title: "Lipiți Linkul"
+        description: "Lipiți linkul copiat în câmpul de introducere de mai sus."
+      - title: "Descărcați MP3"
+        description: "Faceți clic pe butonul de descărcare pentru a extrage și salva audio MP3."
+  faq:
+    title: "Întrebări Frecvente"
+    items:
+      - question: "Ce calitate au fișierele MP3?"
+        answer: "Extragem audio MP3 la cea mai înaltă calitate disponibilă din videoclipul TikTok original, de obicei 128-192 kbps."
+      - question: "Există o limită la câte MP3-uri pot descărca?"
+        answer: "Nu, serviciul nostru este complet gratuit, fără limite de descărcare. Puteți extrage câte MP3-uri aveți nevoie."
+      - question: "Pot extrage MP3 din videoclipuri TikTok private?"
+        answer: "Nu, serviciul nostru poate extrage audio doar din videoclipuri TikTok publice. Videoclipurile private nu sunt accesibile."
+      - question: "Cu ce dispozitive este compatibil?"
+        answer: "Descărcătorul nostru MP3 TikTok funcționează pe toate dispozitivele moderne, inclusiv Windows, Mac, Android și iOS. Este complet bazat pe web, deci nu este nevoie să instalați niciun software."
+
+# How-to-Save page
+how_to_save:
+  title: "Cum Să Salvați Videoclipuri TikTok Fără Watermark - Ghid Pas cu Pas"
+  meta_description: "Aflați cum să salvați și să descărcați videoclipuri TikTok fără watermark. Tutorial ușor pas cu pas cu imagini pentru a vă ajuta să salvați videoclipuri TikTok la calitate HD."
+  meta_keywords: "ghid descărcare video tiktok, cum să salvați videoclipuri tiktok, tutorial descărcare tiktok, salvare tiktok fără watermark, tutorial salvator video tiktok"
+  intro: "TikTok a devenit una dintre cele mai populare platforme de social media, cu milioane de utilizatori care partajează zilnic videoclipuri creative și distractive. Uneori, poate doriți să salvați aceste videoclipuri pentru a le viziona offline sau pentru a le partaja pe alte platforme. Ghidul nostru vă arată cum să descărcați videoclipuri TikTok fără watermark în câțiva pași simpli."
+  hero:
+    title: "Cum Să Salvați Videoclipuri TikTok Fără Watermark"
+    subtitle: "Urmați acest ghid simplu pas cu pas pentru a descărca orice videoclip TikTok fără watermark la calitate înaltă"
+  steps:
+    step1:
+      title: "Pasul 1: Găsiți și Copiați Linkul Videoclipului TikTok"
+      paragraph1: "Deschideți aplicația TikTok pe telefon sau vizitați TikTok.com în browser. Găsiți videoclipul pe care doriți să îl descărcați și atingeți butonul \"Partajare\" (de obicei reprezentat de o pictogramă săgeată sau textul \"Partajare\")."
+      paragraph2: "Din opțiunile de partajare care apar, selectați \"Copiați Linkul\" sau \"Copiați URL-ul\". Acest lucru va salva URL-ul videoclipului în clipboard."
+      image_caption: "Imagine: Atingeți opțiunea \"Copiați linkul\" din meniul de partajare TikTok"
+    step2:
+      title: "Pasul 2: Vizitați Site-ul Nostru de Descărcare TikTok"
+      paragraph1: "Deschideți browserul web și vizitați site-ul nostru de descărcare TikTok. Veți vedea o interfață curată și simplă cu un câmp de introducere unde puteți lipi URL-ul videoclipului TikTok."
+      paragraph2: "Pagina principală este concepută pentru a fi directă și ușor de utilizat pe toate dispozitivele, indiferent dacă utilizați un smartphone, o tabletă sau un computer."
+      image_caption: "Imagine: Pagina principală a descărcătorului nostru TikTok cu câmpul de lipire"
+    step3:
+      title: "Pasul 3: Lipiți Linkul și Procesați Videoclipul"
+      paragraph1: "Lipiți linkul videoclipului TikTok pe care l-ați copiat în câmpul de introducere. Pe dispozitivele mobile, puteți atinge și menține apăsat câmpul, apoi selectați \"Lipire\". Pe computere, utilizați Ctrl+V (sau Command+V pe Mac)."
+      paragraph2: "După ce ați lipit URL-ul, faceți clic pe butonul \"Descărcați Acum\". Sistemul nostru va începe imediat procesarea videoclipului."
+      image_caption: "Imagine: URL TikTok lipit și procesare în curs"
+    step4:
+      title: "Pasul 4: Descărcați Videoclipul TikTok"
+      paragraph1: "După ce sistemul nostru procesează videoclipul, veți vedea informații detaliate despre videoclipul TikTok, inclusiv autorul, numărul de vizualizări, numărul de aprecieri și durata videoclipului."
+      paragraph2: "Puteți face clic pe butonul \"Descărcare\" pentru a obține videoclipul în formatul implicit de înaltă calitate sau faceți clic pe \"Mai multe formate\" pentru a alege dintre diferite opțiuni de calitate."
+      paragraph3: "Când selectați \"Mai multe formate\", veți vedea toate rezoluțiile video și dimensiunile fișierelor disponibile. Alegeți opțiunea care se potrivește cel mai bine nevoilor dvs. - formatele de calitate superioară au dimensiuni mai mari ale fișierelor."
+      image_caption: "Imagine: Pagina cu detalii video cu opțiuni de descărcare"
+      modal:
+        image_caption: "Imagine: Fereastră modală de selecție a formatelor video"
+        paragraph1: "Opțiunea \"Mai multe formate\" va afișa o fereastră modală cu toate calitățile de descărcare disponibile."
+        paragraph2: "Puteți alege între opțiunile HD (720p) sau SD (576p), în funcție de nevoile dvs."
+        paragraph3: "Fiecare format arată rezoluția video și dimensiunea fișierului, ajutându-vă să alegeți cea mai bună opțiune pentru conexiunea dvs. la internet și capacitatea de stocare."
+    step5:
+      title: "Pasul 5: Salvați pe Dispozitivul Dvs."
+      paragraph1: "După ce faceți clic pe o opțiune de descărcare, browserul dvs. va începe descărcarea videoclipului. În funcție de setările browserului dvs., acesta se poate salva automat în folderul de descărcări implicit sau vă poate solicita să alegeți o locație."
+      paragraph2: "După finalizarea descărcării, veți avea un videoclip TikTok curat, fără watermark, gata de vizionat offline sau de partajat după cum doriți."
+      image_caption: "Imagine: Finalizarea cu succes a descărcării"
+  additional_tips:
+    title: "Sfaturi Suplimentare"
+    tips:
+      - "Descărcătorul nostru TikTok funcționează atât cu videoclipuri TikTok obișnuite, cât și cu înregistrări TikTok LIVE."
+      - "Puteți descărca videoclipuri la calitate HD fără a pierde nicio rezoluție."
+      - "Procesul este complet gratuit, fără taxe ascunse sau înregistrare necesară."
+      - "Dacă doriți să descărcați doar audio, puteți utiliza Descărcătorul nostru MP3 TikTok."
+      - "Nu stocăm videoclipurile descărcate pe serverele noastre, asigurându-vă confidențialitatea."
+  faq:
+    title: "Întrebări Frecvente"
+    questions:
+      - question: "Este legal să descărcați videoclipuri TikTok?"
+        answer: "Descărcarea videoclipurilor TikTok pentru uz personal este în general acceptabilă. Cu toate acestea, nu ar trebui să redistribuiți sau să utilizați conținutul în scopuri comerciale fără permisiunea creatorului. Respectați întotdeauna drepturile de autor și proprietatea intelectuală."
+      - question: "Pot descărca videoclipuri dintr-un cont TikTok privat?"
+        answer: "Nu, serviciul nostru poate descărca doar videoclipuri TikTok publice. Videoclipurile private nu sunt accesibile prin descărcătorul nostru."
+      - question: "Care este lungimea maximă a videoclipului TikTok pe care îl pot descărca?"
+        answer: "Descărcătorul nostru acceptă toate videoclipurile TikTok indiferent de lungimea lor, de la clipuri scurte la videoclipuri mai lungi de până la 10 minute."
+      - question: "Funcționează pe dispozitive mobile?"
+        answer: "Da, descărcătorul nostru TikTok funcționează pe toate dispozitivele moderne, inclusiv telefoane Android, iPhone-uri, tablete și computere."
+  cta_text: "Sunteți gata să descărcați videoclipuri TikTok?"
+  cta_description: "Încercați acum descărcătorul nostru video TikTok gratuit și salvați videoclipurile TikTok preferate fără watermark la calitate HD."
+  cta_button: "Mergeți la Descărcătorul TikTok"
+
+# Contact page
+contact:
+  title: "Contactați-ne | TikTok Downloader"
+  meta_description: "Luați legătura cu echipa TikTok Downloader. Trimiteți-ne întrebările, feedback-ul sau raportați probleme cu serviciul nostru."
+  hero:
+    title: "Contactați-ne"
+    subtitle: "Aveți întrebări sau feedback? Ne-ar plăcea să auzim de la dvs.!"
+  get_in_touch:
+    title: "Luați Legătura"
+    description: "Suntem aici pentru a vă ajuta și a răspunde la orice întrebări ați putea avea. Nu ezitați să ne contactați folosind formularul de contact sau informațiile de mai jos."
+  response_time:
+    title: "Timp de Răspuns"
+  form:
+    title: "Trimiteți-ne un Mesaj"
+    name: "Numele Dvs."
+    email: "Emailul Dvs."
+    subject: "Subiect"
+    message: "Mesaj"
+    submit: "Trimite Mesajul"
+    success: "Mesajul dvs. a fost trimis cu succes. Vă vom contacta în curând!"
+    error: "A apărut o eroare la trimiterea mesajului dvs. Vă rugăm să încercați din nou."
+  contact_info:
+    title: "Alte Modalități de a ne Contacta"
+    email_label: "Email"
+    email: "info@ttdl.cc"
+    response_time: "Ne propunem să răspundem la toate solicitările în 24-48 de ore."
+
+# Terms of Service page
+terms:
+  title: "Termeni și Condiții | TikTok Downloader"
+  meta_description: "Termeni și Condiții pentru TikTok Downloader. Citiți termenii și condițiile noastre pentru utilizarea serviciului nostru de descărcare video TikTok."
+  heading: "Termeni și Condiții"
+  last_updated: "Ultima Actualizare: 1 Mai 2023"
+  content:
+    intro: "Vă rugăm să citiți cu atenție acești Termeni și Condiții (\"Termeni\", \"Termeni și Condiții\") înainte de a utiliza site-ul web TikTok Downloader (\"Serviciul\") operat de noi."
+    access: "Accesul și utilizarea Serviciului sunt condiționate de acceptarea și respectarea acestor Termeni. Acești Termeni se aplică tuturor vizitatorilor, utilizatorilor și altor persoane care accesează sau utilizează Serviciul."
+    agreement: "Prin accesarea sau utilizarea Serviciului, sunteți de acord să fiți obligat de acești Termeni. Dacă nu sunteți de acord cu vreo parte a termenilor, atunci nu puteți accesa Serviciul."
+    section1:
+      title: "Utilizarea Serviciului"
+      content: "TikTok Downloader este un serviciu care permite utilizatorilor să descarce videoclipuri de pe TikTok pentru uz personal, necomercial. Prin utilizarea Serviciului nostru, sunteți de acord să:"
+      item1: "Utilizați Serviciul numai în scopuri legale și în conformitate cu acești Termeni."
+      item2: "Nu utilizați Serviciul în niciun scop ilegal sau neautorizat."
+      item3: "Nu încercați să sondați, scanați sau testați vulnerabilitatea Serviciului sau a oricărui sistem sau rețea conexe."
+      item4: "Nu interferați cu Serviciul sau cu serverele sau rețelele conectate la Serviciu."
+    section2: 
+      title: "Proprietate Intelectuală"
+      content: "Serviciul nostru vă permite să descărcați videoclipuri de pe TikTok. Cu toate acestea, nu revendicăm proprietatea asupra conținutului pe care îl descărcați. Toate videoclipurile și conținutul aparțin proprietarilor respectivi. Prin utilizarea Serviciului nostru pentru a descărca conținut, declarați că:"
+      item1: "Descărcați conținut numai pentru uz personal."
+      item2: "Veți respecta drepturile de proprietate intelectuală ale creatorilor de conținut."
+      item3: "Nu veți redistribui, vinde sau exploata comercial conținutul descărcat fără autorizația corespunzătoare de la creatorul original."
+      item4: "Înțelegeți că descărcarea conținutului pentru anumite utilizări poate necesita permisiunea deținătorului drepturilor de autor."
+    section3:
+      title: "Declinarea Responsabilității"
+      content: "Serviciul nostru este furnizat \"așa cum este\" și \"așa cum este disponibil\" fără garanții de niciun fel, fie explicite, fie implicite. Nu garantăm că:"
+      item1: "Serviciul va fi neîntrerupt, la timp, sigur sau fără erori."
+      item2: "Rezultatele care pot fi obținute din utilizarea Serviciului vor fi exacte sau fiabile."
+      item3: "Calitatea oricăror produse, servicii, informații sau alte materiale achiziționate sau obținute de dvs. prin intermediul Serviciului va satisface așteptările dvs."
+    section4:
+      title: "Limitarea Răspunderii"
+      content: "În niciun caz nu vom fi răspunzători pentru daune indirecte, accidentale, speciale, consecutive sau punitive, inclusiv, fără limitare, pierderea profiturilor, datelor, utilizării, fondului comercial sau alte pierderi intangibile, rezultate din:"
+      item1: "Accesul sau utilizarea dvs. sau incapacitatea de a accesa sau utiliza Serviciul."
+      item2: "Orice conduită sau conținut al oricărei terțe părți în cadrul Serviciului."
+      item3: "Orice conținut obținut din Serviciu."
+      item4: "Accesul, utilizarea sau modificarea neautorizată a transmisiilor sau conținutului dvs."
+    section5:
+      title: "Reziliere"
+      content: "Putem rezilia sau suspenda accesul la Serviciul nostru imediat, fără notificare prealabilă sau răspundere, din orice motiv, inclusiv, fără limitare, dacă încălcați Termenii."
+    section6:
+      title: "Modificări ale Termenilor"
+      content: "Ne rezervăm dreptul, la discreția noastră exclusivă, de a modifica sau înlocui acești Termeni în orice moment. Dacă o revizuire este materială, vom încerca să furnizăm o notificare cu cel puțin 15 zile înainte ca noii termeni să intre în vigoare. Ceea ce constituie o modificare materială va fi determinat la discreția noastră exclusivă."
+      additional: "Continuând să accesați sau să utilizați Serviciul nostru după ce aceste revizuiri intră în vigoare, sunteți de acord să fiți obligat de termenii revizuiți. Dacă nu sunteți de acord cu noii termeni, vă rugăm să încetați să utilizați Serviciul."
+    section7:
+      title: "Legea Aplicabilă"
+      content: "Acești Termeni vor fi guvernați și interpretați în conformitate cu legile, fără a ține cont de dispozițiile privind conflictul de legi."
+      additional: "Eșecul nostru de a pune în aplicare orice drept sau dispoziție a acestor Termeni nu va fi considerat o renunțare la aceste drepturi. Dacă vreo dispoziție a acestor Termeni este considerată invalidă sau inaplicabilă de către o instanță, celelalte dispoziții ale acestor Termeni vor rămâne în vigoare."
+    section8:
+      title: "Contactați-ne"
+      content: "Dacă aveți întrebări despre acești Termeni, vă rugăm să ne contactați la"
+  
+# Privacy Policy page
+privacy:
+  title: "Politică de Confidențialitate | TikTok Downloader"
+  meta_description: "Politică de Confidențialitate pentru TikTok Downloader. Aflați cum vă protejăm confidențialitatea atunci când utilizați serviciul nostru de descărcare video TikTok."
+  heading: "Politică de Confidențialitate"
+  last_updated: "Ultima Actualizare: 1 Mai 2023"
+  content:
+    intro: "Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile dvs. atunci când vizitați site-ul nostru web TikTok Downloader (\"Serviciul\")."
+    respect: "Respectăm confidențialitatea dvs. și ne angajăm să vă protejăm datele personale. Vă rugăm să citiți cu atenție această Politică de Confidențialitate pentru a înțelege cum gestionăm informațiile dvs."
+    section1:
+      title: "Informațiile pe care le Colectăm"
+      content: "Putem colecta mai multe tipuri de informații, inclusiv:"
+      item1_title: "Date de Utilizare"
+      item1: "Putem colecta date anonime despre modul în care interacționați cu Serviciul nostru, inclusiv tipul de browser, paginile de referință, timpul petrecut pe pagini și clicurile pe elemente. Acest lucru ne ajută să înțelegem cum interacționează utilizatorii cu Serviciul pentru a îmbunătăți funcționalitatea."
+      item2_title: "Date de Jurnal"
+      item2: "Serverele noastre înregistrează automat informații standard, cum ar fi adresa IP, tipul de browser, sistemul de operare, paginile vizitate și timpul petrecut. Aceste date sunt utilizate pentru menținerea calității și securității serviciului."
+      item3_title: "Cookie-uri"
+      item3: "Utilizăm cookie-uri pentru analiză, stocarea preferințelor utilizatorilor și funcționalitatea de bază a site-ului web. Puteți controla setările cookie-urilor în browserul dvs."
+      item4_title: "Informații de Contact"
+      item4: "Dacă ne contactați prin formularul de contact, vom colecta informațiile pe care le furnizați, cum ar fi numele dvs., adresa de e-mail și conținutul mesajului."
+    note_title: "Notă"
+    note: "Nu stocăm niciun videoclip TikTok sau conținut pe care îl descărcați prin Serviciul nostru."
+    section2:
+      title: "Cum Utilizăm Informațiile Dvs."
+      intro: "Putem utiliza informațiile pe care le colectăm pentru a:"
+      item1: "Furniza, opera și menține Serviciul nostru"
+      item2: "Îmbunătăți, personaliza și extinde Serviciul nostru"
+      item3: "Înțelege cum interacționează utilizatorii cu Serviciul nostru"
+      item4: "Dezvolta noi produse, servicii și funcții"
+      item5: "Preveni frauda și abuzul Serviciului nostru"
+      item6: "Răspunde la întrebările dvs. și oferi suport clienți"
+    section3:
+      title: "Partajarea Datelor"
+      content: "Nu vindem, comercializăm sau transferăm în alt mod informațiile dvs. către terți, cu excepția următoarelor circumstanțe:"
+      item1_title: "Furnizori de Servicii"
+      item1: "Putem partaja date cu terți de încredere care ne ajută să operăm Serviciul nostru, cu condiția ca aceștia să fie de acord să păstreze aceste informații confidențiale."
+      item2_title: "Cerințe Legale"
+      item2: "Putem divulga informații atunci când este cerut de lege sau pentru a ne proteja drepturile, siguranța sau siguranța altora."
+      item3_title: "Analiză"
+      item3: "Utilizăm furnizori de analiză precum Google Analytics pentru a înțelege cum interacționează utilizatorii cu Serviciul nostru."
+    section4:
+      title: "Securitatea Datelor"
+      content: "Implementăm măsuri de securitate adecvate pentru a vă proteja informațiile împotriva accesului, modificării sau divulgării neautorizate. Cu toate acestea, niciun serviciu bazat pe internet nu poate garanta securitatea absolută."
+    section5:
+      title: "Drepturile Dvs."
+      content: "În funcție de locația dvs., puteți avea anumite drepturi cu privire la informațiile dvs. personale, inclusiv:"
+      item1: "Dreptul de a accesa informațiile pe care le deținem despre dvs."
+      item2: "Dreptul de a rectifica informațiile personale inexacte"
+      item3: "Dreptul de a solicita ștergerea informațiilor dvs. personale"
+      item4: "Dreptul de a restricționa sau de a vă opune prelucrării informațiilor dvs."
+      item5: "Dreptul la portabilitatea datelor"
+    section6:
+      title: "Confidențialitatea Copiilor"
+      content: "Serviciul nostru nu este destinat persoanelor cu vârsta sub 13 ani. Nu colectăm cu bună știință informații personale de la copii sub 13 ani. Dacă sunteți părinte sau tutore și credeți că copilul dvs. ne-a furnizat informații personale, vă rugăm să ne contactați."
+    section7:
+      title: "Modificări ale Acestei Politici de Confidențialitate"
+      content: "Putem actualiza această Politică de Confidențialitate din când în când. Versiunea actualizată va fi indicată printr-o dată actualizată \"Ultima Actualizare\". Vă încurajăm să revizuiți periodic această Politică de Confidențialitate."
+    section8:
+      title: "Contactați-ne"
+      content: "Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la"
+  
+# DMCA Policy page
+dmca:
+  title: "Politică DMCA | TikTok Downloader"
+  meta_description: "Politică DMCA pentru TikTok Downloader. Aflați despre procedurile noastre de raportare a încălcării drepturilor de autor."
+  heading: "Politică DMCA"
+  last_updated: "Ultima Actualizare: 1 Mai 2023"
+  content:
+    intro: "TikTok Downloader respectă drepturile de proprietate intelectuală ale altora și se așteaptă ca utilizatorii noștri să facă același lucru. În conformitate cu Digital Millennium Copyright Act din 1998 (\"DMCA\"), vom răspunde rapid la reclamațiile privind încălcarea drepturilor de autor care sunt raportate agentului nostru desemnat pentru drepturile de autor identificat mai jos."
+    section1:
+      title: "Notificarea Încălcării Drepturilor de Autor"
+      content: "Dacă credeți că lucrarea dvs. protejată prin drepturi de autor a fost copiată într-un mod care constituie o încălcare a drepturilor de autor și este accesibilă în serviciul nostru, puteți notifica agentul nostru pentru drepturile de autor așa cum este stabilit în DMCA. Pentru ca plângerea dvs. să fie valabilă în conformitate cu DMCA, trebuie să furnizați următoarele informații atunci când furnizați notificarea privind încălcarea drepturilor de autor revendicată:"
+      item1: "O semnătură fizică sau electronică a unei persoane autorizate să acționeze în numele proprietarului drepturilor de autor."
+      item2: "Identificarea lucrării protejate prin drepturi de autor despre care se pretinde că a fost încălcată."
+      item3: "Identificarea materialului despre care se pretinde că încalcă drepturile de autor sau că face obiectul unei activități de încălcare și care urmează să fie eliminat sau accesul la care urmează să fie dezactivat, precum și informații suficient de rezonabile pentru a ne permite să localizăm materialul."
+      item4: "Informații suficient de rezonabile pentru a ne permite să contactăm partea reclamantă, cum ar fi o adresă, un număr de telefon și, dacă este disponibil, o adresă de e-mail."
+      item5: "O declarație conform căreia partea reclamantă consideră cu bună-credință că utilizarea materialului în maniera reclamată nu este autorizată de proprietarul drepturilor de autor, de agentul acestuia sau de lege."
+      item6: "O declarație conform căreia informațiile din notificare sunt exacte și, sub sancțiunea sperjurului, că partea reclamantă este autorizată să acționeze în numele proprietarului unui drept exclusiv care se presupune că a fost încălcat."
+    section2:
+      title: "Contra-Notificare"
+      content: "Dacă credeți că conținutul dvs. care a fost eliminat (sau la care accesul a fost dezactivat) nu încalcă drepturile de autor sau că aveți autorizația de la proprietarul drepturilor de autor, de la agentul proprietarului drepturilor de autor sau în conformitate cu legea, de a posta și utiliza conținutul, puteți trimite o contra-notificare agentului nostru pentru drepturile de autor care să conțină următoarele informații:"
+      item1: "Semnătura dvs. fizică sau electronică."
+      item2: "Identificarea conținutului care a fost eliminat sau la care accesul a fost dezactivat și locația în care a apărut conținutul înainte de a fi eliminat sau dezactivat."
+      item3: "O declarație conform căreia considerați cu bună-credință că conținutul a fost eliminat sau dezactivat ca urmare a unei greșeli sau a unei identificări greșite a conținutului."
+      item4: "Numele, adresa, numărul de telefon și adresa dvs. de e-mail."
+      item5: "O declarație conform căreia sunteți de acord cu jurisdicția instanței federale din districtul în care locuiți (dacă vă aflați în Statele Unite) sau cu jurisdicția unei instanțe federale din districtul în care se află compania noastră (dacă nu vă aflați în Statele Unite)."
+      item6: "O declarație conform căreia veți accepta notificarea procesului de la persoana care a furnizat notificarea presupusei încălcări."
+    section3:
+      title: "Informații de Contact ale Agentului DMCA"
+      email_title: "Email"
+      note: "Vă rugăm să rețineți că, în conformitate cu Secțiunea 512(f) din DMCA, orice persoană care denaturează cu bună știință și în mod material că materialul sau activitatea încalcă drepturile de autor poate fi supusă răspunderii."
+    section4:
+      title: "Infractori Recidiviști"
+      content: "Este politica noastră să închidem conturile infractorilor recidiviști atunci când este cazul. Vom închide conturile utilizatorilor despre care stabilim că sunt infractori recidiviști. Dacă descărcați în mod repetat conținut care încalcă drepturile de autor ale altora, accesul dvs. la serviciul nostru poate fi, de asemenea, închis."
+    section5:
+      title: "Modificări ale Acestei Politici"
+      content: "Putem actualiza această Politică DMCA din când în când. Vă vom notifica cu privire la orice modificări prin postarea noii politici pe această pagină. Sunteți sfătuit să revizuiți periodic această politică pentru orice modificări."
+    section6:
+      title: "Contactați-ne"
+      content: "Dacă aveți întrebări despre această Politică DMCA, vă rugăm să ne contactați la"
+
+# Download results
+results:
+  video_info:
+    title: "Detalii Video"
+    author: "Creator"
+    duration: "Durată"
+    quality: "Calitate"
+  download_options:
+    title: "Opțiuni de Descărcare"
+    without_watermark: "Fără Watermark"
+    mp3: "Audio MP3"
+    hd_quality: "Calitate HD"
+    download_button: "Descărcați Acum"
+    save_to_gallery: "Salvați în Galerie"
+  notice:
+    title: "Notificare Importantă"
+    content: "Conținutul descărcat ar trebui utilizat numai în scopuri personale. Respectați drepturile de autor ale creatorului original."
+  error:
+    title: "Eroare"
+    not_found: "Videoclip negăsit. Videoclipul ar putea fi privat sau șters."
+    processing: "Eroare la procesarea videoclipului. Vă rugăm să încercați din nou mai târziu."
+    invalid_url: "URL invalid. Asigurați-vă că ați copiat linkul TikTok corect."
+
+# Video related translations
+video:
+  views: "Vizualizări"
+  likes: "Aprecieri"
+  duration: "Durata Videoclipului"
+  download: "Descărcare"
+  more_formats: "Mai Multe Formate"
+  processing: "Procesare..."
+  downloaded: "Descărcat"
+  retrying: "Reîncercare..."
+  available_formats: "Toate Formatele Disponibile" 

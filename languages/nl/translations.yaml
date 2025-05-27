@@ -1,0 +1,438 @@
+# Nederlandse vertalingen voor TikTok Downloader
+
+# Algemene elementen op pagina's
+common:
+  website_name: "TikTok Downloader"
+  website_tagline: "Download TikTok-video's zonder watermerk"
+  copyright_text: "TikTok Downloader. Alle rechten voorbehouden. Niet gelieerd aan TikTok, Douyin of Bytedance."
+
+# Navigatie-items
+navigation:
+  home: "MP4 Downloaden"
+  mp3_download: "MP3 Downloaden"
+  how_to_save: "Hoe op te slaan"
+  contact: "Contact"
+  legal: "Juridisch"
+  privacy_policy: "Privacybeleid"
+  terms_of_service: "Servicevoorwaarden"
+  dmca_policy: "DMCA-beleid"
+  
+# Footer-inhoud
+footer:
+  description: "Download TikTok-video's zonder watermerk in hoge kwaliteit gratis. Sla uw favoriete TikTok-video's binnen enkele seconden op uw apparaat op."
+  quick_links: "Snelle links"
+  contact_us: "Neem contact met ons op"
+
+# Startpagina
+home:
+  title: "TikTok Downloader - Download TikTok-video's zonder watermerk | Gratis HD Video Downloader"
+  meta_description: "Snelste TikTok video downloader! Sla TikTok-video's op in HD met twee tikken, snel en gratis. Download video's zonder watermerk, in hoge kwaliteit en volledig gratis. Begin nu met downloaden!"
+  meta_keywords: "tiktok downloader, tiktok video downloader, tiktok video's downloaden, tiktok zonder watermerk, tiktok video saver, tiktok hd downloader, gratis tiktok downloader"
+  hero:
+    title: "Download TikTok-video's zonder watermerk"
+    subtitle: "De snelste en meest betrouwbare TikTok-downloader. Sla video's gratis op in HD zonder watermerken!"
+  features:
+    title: "Waarom kiezen voor onze TikTok Downloader"
+    feature1:
+      title: "Geen watermerk"
+      description: "Download TikTok-video's zonder het vervelende TikTok-watermerk in volledige kwaliteit."
+    feature2:
+      title: "Hoge kwaliteit"
+      description: "Krijg videodownloads van de hoogste kwaliteit rechtstreeks op uw apparaat."
+    feature3:
+      title: "Snel & gratis"
+      description: "Onze service is volledig gratis en verwerkt downloads binnen enkele seconden."
+    feature4:
+      title: "Makkelijk te gebruiken"
+      description: "Geen registratie vereist. Plak gewoon de link en download de video."
+  how_it_works:
+    title: "Hoe het werkt"
+    step1:
+      title: "Kopieer link"
+      description: "Kopieer de TikTok-videolink van de TikTok-app of -website."
+    step2:
+      title: "Plak link"
+      description: "Plak de link in het bovenstaande invoervak."
+    step3:
+      title: "Downloaden"
+      description: "Klik op de downloadknop en sla de video op uw apparaat op."
+  download_form:
+    placeholder: "Plak hier de TikTok-video-URL"
+    button: "Downloaden"
+    error: "Voer een geldige TikTok-URL in"
+    processing: "Verwerken..."
+  faq:
+    title: "Veelgestelde vragen"
+    questions:
+      - question: "Is het gratis om TikTok-video's te downloaden?"
+        answer: "Ja, onze service is volledig gratis te gebruiken. U kunt zoveel TikTok-video's downloaden als u wilt, zonder enige kosten."
+      - question: "Moet ik een account aanmaken?"
+        answer: "Nee, u hoeft geen account aan te maken of in te loggen om onze TikTok-downloader te gebruiken. Plak gewoon de videolink en download."
+      - question: "Is het legaal om TikTok-video's te downloaden?"
+        answer: "Het downloaden van TikTok-video's voor persoonlijk gebruik is over het algemeen acceptabel. U mag de inhoud echter niet herdistribueren of commercieel gebruiken zonder toestemming van de maker."
+      - question: "Kan ik privé TikTok-video's downloaden?"
+        answer: "Nee, onze service kan alleen openbare TikTok-video's downloaden. Privévideo's zijn niet toegankelijk via onze downloader."
+      - question: "Waarom TikTok-video's downloaden zonder watermerk?"
+        answer: "Door video's zonder watermerk te downloaden, kunt u ze in uw eigen creaties gebruiken, ze op andere platforms delen of er gewoon van genieten zonder storende overlays."
+
+# MP3-pagina
+mp3:
+  title: "TikTok naar MP3 - Download TikTok Audio | Converteer TikTok-video's naar MP3"
+  meta_description: "Converteer en download TikTok-video's naar MP3-audiobestanden. Extraheer gratis muziek en geluiden van hoge kwaliteit uit TikTok-video's."
+  meta_keywords: "tiktok mp3 downloader, tiktok audio downloader, tiktok naar mp3, tiktok audio extractor, tiktok muziek downloaden, tiktok geluid downloaden, gratis tiktok mp3 converter"
+  meta_author: "TikTok MP3 Downloader"
+  meta_og_title: "TikTok MP3 Downloader - Extraheer audio uit TikTok-video's"
+  meta_og_description: "Extraheer MP3-audio van hoge kwaliteit uit elke TikTok-video. Snel, gratis en gemakkelijk te gebruiken. Converteer TikTok-video's direct naar MP3-formaat."
+  meta_twitter_title: "TikTok MP3 Downloader - Extraheer audio uit TikTok-video's"
+  meta_twitter_description: "Extraheer MP3-audio van hoge kwaliteit uit elke TikTok-video. Snel, gratis en gemakkelijk te gebruiken. Converteer TikTok-video's direct naar MP3-formaat."
+  schema:
+    app_name: "TikTok MP3 Downloader"
+    app_description: "Extraheer MP3-audio van hoge kwaliteit uit elke TikTok-video. Snel, gratis en gemakkelijk te gebruiken. Converteer TikTok-video's direct naar MP3-formaat."
+    app_category: "UtilityApplication"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "Extraheer MP3-audio uit TikTok-video's"
+      - "Audioconversie van hoge kwaliteit"
+      - "Snelle en gratis service"
+      - "Geen registratie vereist"
+      - "Ondersteuning voor alle apparaten"
+    howto_name: "Hoe MP3-audio uit TikTok-video's te extraheren"
+    howto_description: "Stapsgewijze handleiding om MP3-audio uit TikTok-video's te extraheren en te downloaden met onze gratis online tool."
+    howto_steps:
+      - name: "Kopieer audiolink"
+        text: "Open TikTok en kopieer de link van de video met audio die u wilt downloaden."
+      - name: "Plak link"
+        text: "Plak de gekopieerde link in het bovenstaande invoerveld."
+      - name: "Download MP3"
+        text: "Klik op de downloadknop om de MP3-audio te extraheren en op te slaan."
+    faq:
+      - question: "Wat is de kwaliteit van de MP3-bestanden?"
+        answer: "We extraheren MP3-audio in de hoogst beschikbare kwaliteit van de originele TikTok-video, meestal 128-192 kbps."
+      - question: "Is er een limiet aan het aantal MP3's dat ik kan downloaden?"
+        answer: "Nee, onze service is volledig gratis zonder downloadlimieten. U kunt zoveel MP3's extraheren als u nodig heeft."
+      - question: "Kan ik MP3 extraheren uit privé TikTok-video's?"
+        answer: "Nee, onze service kan alleen audio extraheren uit openbare TikTok-video's. Privévideo's zijn niet toegankelijk."
+      - question: "Met welke apparaten is dit compatibel?"
+        answer: "Onze TikTok MP3-downloader werkt op alle moderne apparaten, inclusief Windows, Mac, Android en iOS. Het is volledig webgebaseerd, dus er hoeft geen software te worden geïnstalleerd."
+  hero:
+    title: "TikTok <span class=\"gradient-text\">MP3</span> Downloader"
+    subtitle: "Extraheer MP3-audio van hoge kwaliteit uit elke TikTok-video. Snel, gratis en gemakkelijk te gebruiken."
+  download_form:
+    placeholder: "Plak hier de TikTok-video-URL"
+    button: "Extraheer MP3"
+    error: "Voer een geldige TikTok-URL in"
+    processing: "Verwerken..."
+  features:
+    title: "Waarom kiezen voor onze TikTok MP3 Downloader?"
+    feature1:
+      title: "Audio van hoge kwaliteit"
+      description: "Extraheer audio in MP3-formaat van de hoogste kwaliteit."
+    feature2:
+      title: "Snelle conversie"
+      description: "Converteer TikTok-video's binnen enkele seconden naar MP3."
+    feature3:
+      title: "Veilig & privé"
+      description: "We slaan uw audiobestanden niet op onze servers op."
+    feature4:
+      title: "Geen codering vereist"
+      description: "Eenvoudige interface voor eenvoudige MP3-extractie."
+  how_it_works:
+    title: "Hoe MP3 uit TikTok te extraheren"
+    steps:
+      - title: "Kopieer audiolink"
+        description: "Open TikTok en kopieer de link van de video met audio die u wilt downloaden."
+      - title: "Plak link"
+        description: "Plak de gekopieerde link in het bovenstaande invoerveld."
+      - title: "Download MP3"
+        description: "Klik op de downloadknop om de MP3-audio te extraheren en op te slaan."
+  faq:
+    title: "Veelgestelde vragen"
+    items:
+      - question: "Wat is de kwaliteit van de MP3-bestanden?"
+        answer: "We extraheren MP3-audio in de hoogst beschikbare kwaliteit van de originele TikTok-video, meestal 128-192 kbps."
+      - question: "Is er een limiet aan het aantal MP3's dat ik kan downloaden?"
+        answer: "Nee, onze service is volledig gratis zonder downloadlimieten. U kunt zoveel MP3's extraheren als u nodig heeft."
+      - question: "Kan ik MP3 extraheren uit privé TikTok-video's?"
+        answer: "Nee, onze service kan alleen audio extraheren uit openbare TikTok-video's. Privévideo's zijn niet toegankelijk."
+      - question: "Met welke apparaten is dit compatibel?"
+        answer: "Onze TikTok MP3-downloader werkt op alle moderne apparaten, inclusief Windows, Mac, Android en iOS. Het is volledig webgebaseerd, dus er hoeft geen software te worden geïnstalleerd."
+
+# Pagina Hoe op te slaan
+how_to_save:
+  title: "Hoe TikTok-video's op te slaan zonder watermerk - Stapsgewijze handleiding"
+  meta_description: "Leer hoe u TikTok-video's kunt opslaan en downloaden zonder watermerk. Eenvoudige stapsgewijze tutorial met afbeeldingen om u te helpen TikTok-video's in HD-kwaliteit op te slaan."
+  meta_keywords: "tiktok video download gids, hoe tiktok video's op te slaan, tiktok download tutorial, tiktok opslaan zonder watermerk, tiktok video saver tutorial"
+  intro: "TikTok is een van de populairste sociale mediaplatforms geworden, met miljoenen gebruikers die dagelijks creatieve en vermakelijke video's delen. Soms wilt u deze video's misschien opslaan om offline te bekijken of via andere platforms te delen. Onze gids laat u zien hoe u TikTok-video's zonder watermerk in een paar eenvoudige stappen kunt downloaden."
+  hero:
+    title: "Hoe TikTok-video's op te slaan zonder watermerk"
+    subtitle: "Volg deze eenvoudige stapsgewijze handleiding om elke TikTok-video zonder watermerk in hoge kwaliteit te downloaden"
+  steps:
+    step1:
+      title: "Stap 1: Zoek en kopieer de TikTok-videolink"
+      paragraph1: "Open de TikTok-app op uw telefoon of bezoek TikTok.com in uw browser. Zoek de video die u wilt downloaden en tik op de knop \"Delen\" (meestal weergegeven door een pijlpictogram of de tekst \"Delen\")."
+      paragraph2: "Selecteer in de weergegeven deelopties \"Link kopiëren\" of \"URL kopiëren\". Hiermee wordt de URL van de video naar uw klembord opgeslagen."
+      image_caption: "Afbeelding: Tik op de optie \"Link kopiëren\" in het TikTok-deelmenu"
+    step2:
+      title: "Stap 2: Bezoek onze TikTok Downloader-website"
+      paragraph1: "Open uw webbrowser en bezoek onze TikTok Downloader-website. U ziet een duidelijke en eenvoudige interface met een invoerveld waar u de TikTok-video-URL kunt plakken."
+      paragraph2: "De startpagina is ontworpen om eenvoudig en gemakkelijk te gebruiken te zijn op alle apparaten, of u nu een smartphone, tablet of computer gebruikt."
+      image_caption: "Afbeelding: Onze TikTok Downloader-startpagina met het plakveld"
+    step3:
+      title: "Stap 3: Plak de link en verwerk de video"
+      paragraph1: "Plak de gekopieerde TikTok-videolink in het invoerveld. Op mobiele apparaten kunt u het veld aanraken en vasthouden en vervolgens \"Plakken\" selecteren. Gebruik op computers Ctrl+V (of Command+V op Mac)."
+      paragraph2: "Nadat u de URL hebt geplakt, klikt u op de knop \"Nu downloaden\". Ons systeem begint onmiddellijk met het verwerken van de video."
+      image_caption: "Afbeelding: TikTok-URL geplakt en verwerking bezig"
+    step4:
+      title: "Stap 4: Download de TikTok-video"
+      paragraph1: "Nadat ons systeem de video heeft verwerkt, ziet u gedetailleerde informatie over de TikTok-video, inclusief de auteur, het aantal weergaven, het aantal likes en de videoduur."
+      paragraph2: "U kunt op de knop \"Downloaden\" klikken om de video in het standaardformaat van hoge kwaliteit te krijgen, of op \"Meer formaten\" klikken om uit verschillende kwaliteitsopties te kiezen."
+      paragraph3: "Wanneer u \"Meer formaten\" selecteert, ziet u alle beschikbare videoresoluties en bestandsgroottes. Kies de optie die het beste bij uw behoeften past - formaten van hogere kwaliteit hebben grotere bestandsgroottes."
+      image_caption: "Afbeelding: Videodetailpagina met downloadopties"
+      modal:
+        image_caption: "Afbeelding: Modaal voor selectie van videoformaten"
+        paragraph1: "De optie \"Meer formaten\" geeft een modaal venster weer met alle beschikbare downloadkwaliteiten."
+        paragraph2: "U kunt kiezen tussen HD (720p) of SD (576p) opties, afhankelijk van uw behoeften."
+        paragraph3: "Elk formaat toont de videoresolutie en bestandsgrootte, zodat u de beste optie kunt kiezen voor uw internetverbinding en opslagcapaciteit."
+    step5:
+      title: "Stap 5: Opslaan op uw apparaat"
+      paragraph1: "Zodra u op een downloadoptie klikt, begint uw browser met het downloaden van de video. Afhankelijk van uw browserinstellingen wordt deze mogelijk automatisch opgeslagen in uw standaard downloadmap of wordt u gevraagd een locatie te kiezen."
+      paragraph2: "Nadat de download is voltooid, hebt u een schone TikTok-video zonder watermerk, klaar om offline te bekijken of naar wens te delen."
+      image_caption: "Afbeelding: Succesvolle voltooiing van de download"
+  additional_tips:
+    title: "Aanvullende tips"
+    tips:
+      - "Onze TikTok-downloader werkt met zowel reguliere TikTok-video's als TikTok LIVE-opnamen."
+      - "U kunt video's in HD-kwaliteit downloaden zonder resolutieverlies."
+      - "Het proces is volledig gratis, zonder verborgen kosten of registratie vereist."
+      - "Als u alleen de audio wilt downloaden, kunt u onze TikTok MP3 Downloader gebruiken."
+      - "We slaan uw gedownloade video's niet op onze servers op, waardoor uw privacy wordt gewaarborgd."
+  faq:
+    title: "Veelgestelde vragen"
+    questions:
+      - question: "Is het legaal om TikTok-video's te downloaden?"
+        answer: "Het downloaden van TikTok-video's voor persoonlijk gebruik is over het algemeen acceptabel. U mag de inhoud echter niet herdistribueren of commercieel gebruiken zonder toestemming van de maker. Respecteer altijd auteursrechten en intellectuele eigendomsrechten."
+      - question: "Kan ik video's downloaden van een privé TikTok-account?"
+        answer: "Nee, onze service kan alleen openbare TikTok-video's downloaden. Privévideo's zijn niet toegankelijk via onze downloader."
+      - question: "Wat is de maximale lengte van een TikTok-video die ik kan downloaden?"
+        answer: "Onze downloader ondersteunt alle TikTok-video's, ongeacht hun lengte, van korte clips tot langere video's tot 10 minuten."
+      - question: "Werkt dit op mobiele apparaten?"
+        answer: "Ja, onze TikTok-downloader werkt op alle moderne apparaten, inclusief Android-telefoons, iPhones, tablets en computers."
+  cta_text: "Klaar om TikTok-video's te downloaden?"
+  cta_description: "Probeer nu onze gratis TikTok-video-downloader en sla uw favoriete TikTok-video's zonder watermerk op in HD-kwaliteit."
+  cta_button: "Ga naar TikTok Downloader"
+
+# Contactpagina
+contact:
+  title: "Neem contact met ons op | TikTok Downloader"
+  meta_description: "Neem contact op met het TikTok Downloader-team. Stuur ons uw vragen, feedback of meld problemen met onze service."
+  hero:
+    title: "Neem contact met ons op"
+    subtitle: "Heeft u vragen of feedback? We horen graag van u!"
+  get_in_touch:
+    title: "Neem contact op"
+    description: "We zijn er om te helpen en eventuele vragen te beantwoorden. Neem gerust contact met ons op via het contactformulier of de onderstaande informatie."
+  response_time:
+    title: "Reactietijd"
+  form:
+    title: "Stuur ons een bericht"
+    name: "Uw naam"
+    email: "Uw e-mailadres"
+    subject: "Onderwerp"
+    message: "Bericht"
+    submit: "Verstuur bericht"
+    success: "Uw bericht is succesvol verzonden. We nemen snel contact met u op!"
+    error: "Er is een fout opgetreden bij het verzenden van uw bericht. Probeer het opnieuw."
+  contact_info:
+    title: "Andere manieren om ons te bereiken"
+    email_label: "E-mail"
+    email: "info@ttdl.cc"
+    response_time: "We streven ernaar om alle vragen binnen 24-48 uur te beantwoorden."
+
+# Pagina Servicevoorwaarden
+terms:
+  title: "Servicevoorwaarden | TikTok Downloader"
+  meta_description: "Servicevoorwaarden voor TikTok Downloader. Lees onze algemene voorwaarden voor het gebruik van onze TikTok-video-downloadservice."
+  heading: "Servicevoorwaarden"
+  last_updated: "Laatst bijgewerkt: 1 mei 2023"
+  content:
+    intro: "Lees deze Servicevoorwaarden (\"Voorwaarden\", \"Servicevoorwaarden\") zorgvuldig door voordat u de TikTok Downloader-website (de \"Service\") gebruikt die door ons wordt beheerd."
+    access: "Uw toegang tot en gebruik van de Service is afhankelijk van uw aanvaarding van en naleving van deze Voorwaarden. Deze Voorwaarden zijn van toepassing op alle bezoekers, gebruikers en anderen die toegang hebben tot of gebruik maken van de Service."
+    agreement: "Door toegang te krijgen tot of gebruik te maken van de Service gaat u ermee akkoord gebonden te zijn aan deze Voorwaarden. Als u het niet eens bent met enig deel van de voorwaarden, mag u geen toegang krijgen tot de Service."
+    section1:
+      title: "Gebruik van de service"
+      content: "TikTok Downloader is een service waarmee gebruikers video's van TikTok kunnen downloaden voor persoonlijk, niet-commercieel gebruik. Door onze Service te gebruiken, gaat u ermee akkoord om:"
+      item1: "De Service alleen te gebruiken voor wettige doeleinden en in overeenstemming met deze Voorwaarden."
+      item2: "De Service niet te gebruiken voor illegale of ongeautoriseerde doeleinden."
+      item3: "Niet te proberen de kwetsbaarheid van de Service of een gerelateerd systeem of netwerk te onderzoeken, scannen of testen."
+      item4: "De Service of servers of netwerken die op de Service zijn aangesloten niet te verstoren."
+    section2:
+      title: "Intellectueel eigendom"
+      content: "Onze Service stelt u in staat video's van TikTok te downloaden. We claimen echter geen eigendom van de inhoud die u downloadt. Alle video's en inhoud behoren toe aan hun respectieve eigenaren. Door onze Service te gebruiken om inhoud te downloaden, verklaart u dat:"
+      item1: "U inhoud alleen voor persoonlijk gebruik downloadt."
+      item2: "U de intellectuele eigendomsrechten van de makers van de inhoud zult respecteren."
+      item3: "U de gedownloade inhoud niet zult herdistribueren, verkopen of commercieel exploiteren zonder de juiste toestemming van de oorspronkelijke maker."
+      item4: "U begrijpt dat het downloaden van inhoud voor bepaalde toepassingen toestemming van de auteursrechthebbende kan vereisen."
+    section3:
+      title: "Disclaimer"
+      content: "Onze Service wordt geleverd \"zoals deze is\" en \"zoals beschikbaar\" zonder enige vorm van garantie, expliciet of impliciet. We garanderen niet dat:"
+      item1: "De Service ononderbroken, tijdig, veilig of foutloos zal zijn."
+      item2: "De resultaten die kunnen worden verkregen door het gebruik van de Service nauwkeurig of betrouwbaar zullen zijn."
+      item3: "De kwaliteit van producten, services, informatie of ander materiaal dat u via de Service hebt gekocht of verkregen, aan uw verwachtingen zal voldoen."
+    section4:
+      title: "Beperking van aansprakelijkheid"
+      content: "In geen geval zijn wij aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade, inclusief maar niet beperkt tot winstderving, gegevensverlies, gebruiksderving, goodwillverlies of andere immateriële verliezen, als gevolg van:"
+      item1: "Uw toegang tot of gebruik van of onvermogen tot toegang tot of gebruik van de Service."
+      item2: "Gedrag of inhoud van derden op de Service."
+      item3: "Inhoud verkregen van de Service."
+      item4: "Ongeautoriseerde toegang, gebruik of wijziging van uw transmissies of inhoud."
+    section5:
+      title: "Beëindiging"
+      content: "We kunnen de toegang tot onze Service onmiddellijk beëindigen of opschorten, zonder voorafgaande kennisgeving of aansprakelijkheid, om welke reden dan ook, inclusief maar niet beperkt tot als u de Voorwaarden schendt."
+    section6:
+      title: "Wijzigingen in de voorwaarden"
+      content: "We behouden ons het recht voor om deze Voorwaarden naar eigen goeddunken op elk moment te wijzigen of te vervangen. Als een herziening wezenlijk is, proberen we ten minste 15 dagen van tevoren kennis te geven voordat nieuwe voorwaarden van kracht worden. Wat een wezenlijke wijziging inhoudt, wordt naar eigen goeddunken bepaald."
+      additional: "Door onze Service te blijven openen of gebruiken nadat die herzieningen van kracht zijn geworden, gaat u ermee akkoord gebonden te zijn aan de herziene voorwaarden. Als u niet akkoord gaat met de nieuwe voorwaarden, stop dan met het gebruik van de Service."
+    section7:
+      title: "Toepasselijk recht"
+      content: "Deze Voorwaarden worden beheerst en geïnterpreteerd in overeenstemming met de wetten, zonder rekening te houden met de bepalingen inzake wetsconflicten."
+      additional: "Ons verzuim om enig recht of enige bepaling van deze Voorwaarden af te dwingen, wordt niet beschouwd als een verklaring van afstand van die rechten. Als een bepaling van deze Voorwaarden door een rechtbank ongeldig of niet-afdwingbaar wordt bevonden, blijven de overige bepalingen van deze Voorwaarden van kracht."
+    section8:
+      title: "Neem contact met ons op"
+      content: "Als u vragen heeft over deze Voorwaarden, neem dan contact met ons op via"
+  
+# Pagina Privacybeleid
+privacy:
+  title: "Privacybeleid | TikTok Downloader"
+  meta_description: "Privacybeleid voor TikTok Downloader. Lees hoe we uw privacy beschermen bij het gebruik van onze TikTok-video-downloadservice."
+  heading: "Privacybeleid"
+  last_updated: "Laatst bijgewerkt: 1 mei 2023"
+  content:
+    intro: "Dit privacybeleid legt uit hoe we uw informatie verzamelen, gebruiken en beschermen wanneer u onze TikTok Downloader-website (\"Service\") bezoekt."
+    respect: "We respecteren uw privacy en zijn toegewijd aan het beschermen van uw persoonlijke gegevens. Lees dit privacybeleid zorgvuldig door om te begrijpen hoe we met uw informatie omgaan."
+    section1:
+      title: "Informatie die we verzamelen"
+      content: "We kunnen verschillende soorten informatie verzamelen, waaronder:"
+      item1_title: "Gebruiksgegevens"
+      item1: "We kunnen anonieme gegevens verzamelen over hoe u met onze Service omgaat, inclusief browsertype, verwijzende pagina's, tijd besteed aan pagina's en klikken op elementen. Dit helpt ons te begrijpen hoe gebruikers met de Service omgaan om de functionaliteit te verbeteren."
+      item2_title: "Loggegevens"
+      item2: "Onze servers registreren automatisch standaardinformatie zoals IP-adres, browsertype, besturingssysteem, bezochte pagina's en bestede tijd. Deze gegevens worden gebruikt voor het handhaven van de servicekwaliteit en -beveiliging."
+      item3_title: "Cookies"
+      item3: "We gebruiken cookies voor analyse, opslag van gebruikersvoorkeuren en basiswebsitefunctionaliteit. U kunt cookie-instellingen in uw browser beheren."
+      item4_title: "Contactgegevens"
+      item4: "Als u contact met ons opneemt via het contactformulier, verzamelen we de informatie die u verstrekt, zoals uw naam, e-mailadres en berichtinhoud."
+    note_title: "Opmerking"
+    note: "We slaan geen TikTok-video's of -inhoud op die u via onze Service downloadt."
+    section2:
+      title: "Hoe we uw informatie gebruiken"
+      intro: "We kunnen de informatie die we verzamelen gebruiken om:"
+      item1: "Onze Service te leveren, te exploiteren en te onderhouden"
+      item2: "Onze Service te verbeteren, personaliseren en uit te breiden"
+      item3: "Te begrijpen hoe gebruikers met onze Service omgaan"
+      item4: "Nieuwe producten, services en functies te ontwikkelen"
+      item5: "Fraude en misbruik van onze Service te voorkomen"
+      item6: "Op uw vragen te reageren en klantenondersteuning te bieden"
+    section3:
+      title: "Gegevens delen"
+      content: "We verkopen, verhandelen of dragen uw informatie niet over aan derden, behalve in de volgende omstandigheden:"
+      item1_title: "Dienstverleners"
+      item1: "We kunnen gegevens delen met vertrouwde derden die ons helpen bij het exploiteren van onze Service, op voorwaarde dat zij ermee instemmen deze informatie vertrouwelijk te houden."
+      item2_title: "Wettelijke vereisten"
+      item2: "We kunnen informatie vrijgeven wanneer dit wettelijk vereist is of om onze rechten, veiligheid of de veiligheid van anderen te beschermen."
+      item3_title: "Analyse"
+      item3: "We gebruiken analyseproviders zoals Google Analytics om te begrijpen hoe gebruikers met onze Service omgaan."
+    section4:
+      title: "Gegevensbeveiliging"
+      content: "We implementeren passende beveiligingsmaatregelen om uw informatie te beschermen tegen ongeautoriseerde toegang, wijziging of openbaarmaking. Geen enkele op internet gebaseerde service kan echter absolute veiligheid garanderen."
+    section5:
+      title: "Uw rechten"
+      content: "Afhankelijk van uw locatie kunt u bepaalde rechten hebben met betrekking tot uw persoonlijke informatie, waaronder:"
+      item1: "Het recht op toegang tot informatie die we over u bewaren"
+      item2: "Het recht om onjuiste persoonlijke informatie te corrigeren"
+      item3: "Het recht om verwijdering van uw persoonlijke informatie te vragen"
+      item4: "Het recht om de verwerking van uw informatie te beperken of er bezwaar tegen te maken"
+      item5: "Het recht op gegevensoverdraagbaarheid"
+    section6:
+      title: "Privacy van kinderen"
+      content: "Onze Service is niet bedoeld voor personen jonger dan 13 jaar. We verzamelen niet bewust persoonlijke informatie van kinderen jonger dan 13 jaar. Als u een ouder of voogd bent en van mening bent dat uw kind ons persoonlijke informatie heeft verstrekt, neem dan contact met ons op."
+    section7:
+      title: "Wijzigingen in dit privacybeleid"
+      content: "We kunnen dit privacybeleid van tijd tot tijd bijwerken. De bijgewerkte versie wordt aangegeven met een bijgewerkte datum \"Laatst bijgewerkt\". We raden u aan dit privacybeleid periodiek te controleren."
+    section8:
+      title: "Neem contact met ons op"
+      content: "Als u vragen heeft over dit privacybeleid, neem dan contact met ons op via"
+  
+# Pagina DMCA-beleid
+dmca:
+  title: "DMCA-beleid | TikTok Downloader"
+  meta_description: "DMCA-beleid voor TikTok Downloader. Lees meer over onze procedures voor het melden van auteursrechtschendingen."
+  heading: "DMCA-beleid"
+  last_updated: "Laatst bijgewerkt: 1 mei 2023"
+  content:
+    intro: "TikTok Downloader respecteert de intellectuele eigendomsrechten van anderen en verwacht dat onze gebruikers hetzelfde doen. In overeenstemming met de Digital Millennium Copyright Act van 1998 (\"DMCA\") zullen we snel reageren op claims van auteursrechtschending die worden gemeld aan onze aangewezen auteursrechtagent die hieronder wordt genoemd."
+    section1:
+      title: "Melding van auteursrechtschending"
+      content: "Als u van mening bent dat uw auteursrechtelijk beschermde werk is gekopieerd op een manier die auteursrechtschending vormt en toegankelijk is op onze service, kunt u onze auteursrechtagent op de hoogte stellen zoals uiteengezet in de DMCA. Om uw klacht geldig te laten zijn onder de DMCA, moet u de volgende informatie verstrekken bij het melden van de vermeende auteursrechtschending:"
+      item1: "Een fysieke of elektronische handtekening van een persoon die bevoegd is om namens de auteursrechthebbende op te treden."
+      item2: "Identificatie van het auteursrechtelijk beschermde werk waarvan wordt beweerd dat het is geschonden."
+      item3: "Identificatie van het materiaal waarvan wordt beweerd dat het inbreuk maakt of het onderwerp is van inbreukmakende activiteiten en dat moet worden verwijderd of waartoe de toegang moet worden uitgeschakeld, en informatie die redelijkerwijs voldoende is om ons in staat te stellen het materiaal te lokaliseren."
+      item4: "Informatie die redelijkerwijs voldoende is om ons in staat te stellen contact op te nemen met de klagende partij, zoals een adres, telefoonnummer en, indien beschikbaar, een e-mailadres."
+      item5: "Een verklaring dat de klagende partij te goeder trouw van mening is dat het gebruik van het materiaal op de manier waarover wordt geklaagd niet is toegestaan door de auteursrechthebbende, diens agent of de wet."
+      item6: "Een verklaring dat de informatie in de melding juist is en, op straffe van meineed, dat de klagende partij bevoegd is om namens de eigenaar van een exclusief recht op te treden dat naar verluidt wordt geschonden."
+    section2:
+      title: "Tegenbericht"
+      content: "Als u van mening bent dat uw inhoud die is verwijderd (of waartoe de toegang is uitgeschakeld) geen inbreuk maakt, of dat u toestemming hebt van de auteursrechthebbende, de agent van de auteursrechthebbende of op grond van de wet om de inhoud te plaatsen en te gebruiken, kunt u een tegenbericht sturen naar onze auteursrechtagent met de volgende informatie:"
+      item1: "Uw fysieke of elektronische handtekening."
+      item2: "Identificatie van de inhoud die is verwijderd of waartoe de toegang is uitgeschakeld en de locatie waar de inhoud verscheen voordat deze werd verwijderd of uitgeschakeld."
+      item3: "Een verklaring dat u te goeder trouw van mening bent dat de inhoud is verwijderd of uitgeschakeld als gevolg van een vergissing of een verkeerde identificatie van de inhoud."
+      item4: "Uw naam, adres, telefoonnummer en e-mailadres."
+      item5: "Een verklaring dat u instemt met de jurisdictie van de federale rechtbank in het district waar u woont (als u in de Verenigde Staten bent), of uw instemming met de jurisdictie van een federale rechtbank in het district waar ons bedrijf is gevestigd (als u niet in de Verenigde Staten bent)."
+      item6: "Een verklaring dat u de betekening van het proces zult aanvaarden van de persoon die de melding van de vermeende inbreuk heeft gedaan."
+    section3:
+      title: "Contactgegevens DMCA-agent"
+      email_title: "E-mail"
+      note: "Houd er rekening mee dat op grond van sectie 512(f) van de DMCA elke persoon die willens en wetens wezenlijk verkeerd voorstelt dat materiaal of activiteit inbreuk maakt, aansprakelijk kan worden gesteld."
+    section4:
+      title: "Herhaalde inbreukmakers"
+      content: "Het is ons beleid om de accounts van herhaalde inbreukmakers te beëindigen wanneer dit passend is. We zullen de accounts beëindigen van gebruikers waarvan wij vaststellen dat zij herhaalde inbreukmakers zijn. Als u herhaaldelijk inhoud downloadt die inbreuk maakt op de auteursrechten van anderen, kan uw toegang tot onze service ook worden beëindigd."
+    section5:
+      title: "Wijzigingen in dit beleid"
+      content: "We kunnen dit DMCA-beleid van tijd tot tijd bijwerken. We zullen u op de hoogte stellen van eventuele wijzigingen door het nieuwe beleid op deze pagina te plaatsen. U wordt geadviseerd dit beleid periodiek te controleren op eventuele wijzigingen."
+    section6:
+      title: "Neem contact met ons op"
+      content: "Als u vragen heeft over dit DMCA-beleid, neem dan contact met ons op via"
+
+# Downloadresultaten
+results:
+  video_info:
+    title: "Videodetails"
+    author: "Maker"
+    duration: "Duur"
+    quality: "Kwaliteit"
+  download_options:
+    title: "Downloadopties"
+    without_watermark: "Zonder watermerk"
+    mp3: "MP3-audio"
+    hd_quality: "HD-kwaliteit"
+    download_button: "Nu downloaden"
+    save_to_gallery: "Opslaan in galerij"
+  notice:
+    title: "Belangrijke mededeling"
+    content: "Gedownloade inhoud mag alleen voor persoonlijke doeleinden worden gebruikt. Respecteer het auteursrecht van de oorspronkelijke maker."
+  error:
+    title: "Fout"
+    not_found: "Video niet gevonden. De video is mogelijk privé of verwijderd."
+    processing: "Fout bij het verwerken van de video. Probeer het later opnieuw."
+    invalid_url: "Ongeldige URL. Zorg ervoor dat u de juiste TikTok-link hebt gekopieerd."
+
+# Video gerelateerde vertalingen
+video:
+  views: "Weergaven"
+  likes: "Vind-ik-leuks"
+  duration: "Videoduur"
+  download: "Downloaden"
+  more_formats: "Meer formaten"
+  processing: "Verwerken..."
+  downloaded: "Gedownload"
+  retrying: "Opnieuw proberen..."
+  available_formats: "Alle beschikbare formaten" 

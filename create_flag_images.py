@@ -84,6 +84,59 @@ flags = {
         'canton': {'x': 0, 'y': 0, 'width': FLAG_WIDTH // 2, 'height': FLAG_HEIGHT // 2, 'color': (0, 0, 128)},  # Blue canton
         'has_crescent': True,
         'has_star': True
+    },
+    # Turkish flag - Red with white crescent and star
+    'tr': {
+        'description': 'Turkish flag - Red with white crescent and star',
+        'background': (227, 10, 23),  # Red
+        'custom_draw': 'turkish'
+    },
+    # Vietnamese flag - Red with yellow star
+    'vi': {
+        'description': 'Vietnamese flag - Red with yellow star in center',
+        'background': (218, 37, 29),  # Red
+        'custom_draw': 'vietnamese'
+    },
+    # Thai flag - Red, white, blue horizontal stripes
+    'th': {
+        'description': 'Thai flag - Red, white, blue horizontal stripes',
+        'stripes': [
+            {'color': (237, 28, 36), 'height': FLAG_HEIGHT // 6},  # Red
+            {'color': (255, 255, 255), 'height': FLAG_HEIGHT // 6},  # White
+            {'color': (0, 32, 91), 'height': FLAG_HEIGHT // 3},  # Blue (middle stripe is twice as tall)
+            {'color': (255, 255, 255), 'height': FLAG_HEIGHT // 6},  # White
+            {'color': (237, 28, 36), 'height': FLAG_HEIGHT // 6},  # Red
+        ]
+    },
+    # Polish flag - White (top) and red (bottom)
+    'pl': {
+        'description': 'Polish flag - White (top) and red (bottom)',
+        'stripes': [
+            {'color': (255, 255, 255), 'height': FLAG_HEIGHT // 2},  # White top half
+            {'color': (220, 20, 60), 'height': FLAG_HEIGHT // 2}   # Red bottom half
+        ]
+    },
+    # Ukrainian flag - Blue (top) and yellow (bottom)
+    'uk': {
+        'description': 'Ukrainian flag - Blue (top) and yellow (bottom)',
+        'stripes': [
+            {'color': (0, 87, 183), 'height': FLAG_HEIGHT // 2},  # Blue top half
+            {'color': (255, 215, 0), 'height': FLAG_HEIGHT // 2}  # Yellow bottom half
+        ]
+    },
+    # Dutch flag - Red, white, blue horizontal stripes
+    'nl': {
+        'description': 'Dutch flag - Red, white, blue horizontal stripes',
+        'stripes': [
+            {'color': (174, 28, 40), 'height': FLAG_HEIGHT // 3},  # Red
+            {'color': (255, 255, 255), 'height': FLAG_HEIGHT // 3},  # White
+            {'color': (33, 70, 139), 'height': FLAG_HEIGHT // 3}   # Blue
+        ]
+    },
+    # Romanian flag - Blue, yellow, red vertical stripes
+    'ro': {
+        'description': 'Romanian flag - Blue, yellow, red vertical stripes',
+        'custom_draw': 'romanian'
     }
 }
 
@@ -130,9 +183,68 @@ for lang_code, flag_spec in flags.items():
         # Draw star
         draw_star(draw, FLAG_WIDTH // 4, FLAG_HEIGHT // 4, FLAG_HEIGHT // 12, (255, 204, 0))
     
+    # Custom drawing for specific flags
+    if 'custom_draw' in flag_spec:
+        if flag_spec['custom_draw'] == 'turkish':
+            # Turkish flag
+            # White crescent and star
+            crescent_center_x = FLAG_WIDTH * 0.35
+            crescent_center_y = FLAG_HEIGHT * 0.5
+            crescent_radius = FLAG_HEIGHT * 0.3
+            
+            # Draw crescent (white circle with smaller red circle offset)
+            draw.ellipse((
+                crescent_center_x - crescent_radius, 
+                crescent_center_y - crescent_radius,
+                crescent_center_x + crescent_radius,
+                crescent_center_y + crescent_radius
+            ), fill=(255, 255, 255))
+            
+            # Offset circle to create crescent
+            offset = crescent_radius * 0.35
+            draw.ellipse((
+                crescent_center_x - crescent_radius + offset, 
+                crescent_center_y - crescent_radius,
+                crescent_center_x + crescent_radius + offset,
+                crescent_center_y + crescent_radius
+            ), fill=(227, 10, 23))  # Same as background color
+            
+            # Draw star
+            star_center_x = FLAG_WIDTH * 0.5
+            star_center_y = FLAG_HEIGHT * 0.5
+            draw_star(draw, star_center_x, star_center_y, FLAG_HEIGHT * 0.15, (255, 255, 255))
+        
+        elif flag_spec['custom_draw'] == 'vietnamese':
+            # Draw yellow star in the center
+            draw_star(draw, FLAG_WIDTH // 2, FLAG_HEIGHT // 2, FLAG_HEIGHT // 4, (255, 255, 0))
+        
+        elif flag_spec['custom_draw'] == 'romanian':
+            # Romanian flag - vertical stripes
+            stripe_width = FLAG_WIDTH // 3
+            # Blue stripe
+            draw.rectangle([(0, 0), (stripe_width, FLAG_HEIGHT)], fill=(0, 43, 127))
+            # Yellow stripe
+            draw.rectangle([(stripe_width, 0), (stripe_width * 2, FLAG_HEIGHT)], fill=(252, 209, 22))
+            # Red stripe
+            draw.rectangle([(stripe_width * 2, 0), (FLAG_WIDTH, FLAG_HEIGHT)], fill=(206, 17, 38))
+    
     # Save the flag image
     output_path = os.path.join(OUTPUT_DIR, f"{lang_code}.png")
     img.save(output_path)
     print(f"Saved flag image for {lang_code} to {output_path}")
+
+# Fix for Ukrainian flag - Create it again explicitly to ensure it's generated
+print("Ensuring Ukrainian flag is generated...")
+# Ukrainian flag - Blue (top) and yellow (bottom)
+img = Image.new('RGB', (FLAG_WIDTH, FLAG_HEIGHT), color=(255, 255, 255))
+draw = ImageDraw.Draw(img)
+# Blue top half
+draw.rectangle([(0, 0), (FLAG_WIDTH, FLAG_HEIGHT // 2)], fill=(0, 87, 183))
+# Yellow bottom half
+draw.rectangle([(0, FLAG_HEIGHT // 2), (FLAG_WIDTH, FLAG_HEIGHT)], fill=(255, 215, 0))
+# Save the Ukrainian flag
+output_path = os.path.join(OUTPUT_DIR, "uk.png")
+img.save(output_path)
+print(f"Saved Ukrainian flag to {output_path}")
 
 print("Flag image creation complete!") 
