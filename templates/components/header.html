@@ -15,22 +15,6 @@
                 <a href="{{ page_url() }}" class="text-gray-700 hover:text-primary-600 font-medium">{{ t('navigation.home') }}</a>
                 <a href="{{ page_url('mp3') }}" class="text-gray-700 hover:text-primary-600 font-medium">{{ t('navigation.mp3_download') }}</a>
                 <a href="{{ page_url('how-to-save') }}" class="text-gray-700 hover:text-primary-600 font-medium">{{ t('navigation.how_to_save') }}</a>
-                <a href="{{ page_url('contact') }}" class="text-gray-700 hover:text-primary-600 font-medium">{{ t('navigation.contact') }}</a>
-                <div class="relative group">
-                    <button class="text-gray-700 hover:text-primary-600 font-medium flex items-center">
-                        {{ t('navigation.legal') }}
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="absolute left-0 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden group-hover:block">
-                        <div class="py-1">
-                            <a href="{{ page_url('privacy-policy') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ t('navigation.privacy_policy') }}</a>
-                            <a href="{{ page_url('terms') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ t('navigation.terms_of_service') }}</a>
-                            <a href="{{ page_url('dmca') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ t('navigation.dmca_policy') }}</a>
-                        </div>
-                    </div>
-                </div>
                 
                 <!-- Language Switcher (Desktop) -->
                 {% include 'components/language-switcher.html' %}

@@ -3,8 +3,8 @@
 # Common elements across pages
 common:
   website_name: "TikTok डाउनलोडर"
-  website_tagline: "वॉटरमार्क के बिना TikTok वीडियो डाउनलोड करें"
-  copyright_text: "TikTok डाउनलोडर। सर्वाधिकार सुरक्षित। TikTok से संबद्ध नहीं है।"
+  website_tagline: "TikTok वीडियो बिना वॉटरमार्क डाउनलोड करें"
+  copyright_text: "TikTok डाउनलोडर. सर्वाधिकार सुरक्षित. TikTok, Douyin या Bytedance से संबद्ध नहीं है."
 
 # Navigation items
 navigation:

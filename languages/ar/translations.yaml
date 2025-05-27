@@ -2,9 +2,9 @@
 
 # Common elements across pages
 common:
-  website_name: "TikTok داونلودر"
+  website_name: "تيك توك داونلودر"
   website_tagline: "تحميل فيديوهات تيك توك بدون علامة مائية"
-  copyright_text: "TikTok داونلودر. جميع الحقوق محفوظة. غير مرتبط بتيك توك."
+  copyright_text: "تيك توك داونلودر. جميع الحقوق محفوظة. غير مرتبط بـ TikTok أو Douyin أو Bytedance."
 
 # Navigation items
 navigation:

@@ -4,7 +4,7 @@
 common:
   website_name: "TikTok Downloader"
   website_tagline: "Скачать Видео из TikTok Без Водяного Знака"
-  copyright_text: "TikTok Downloader. Все права защищены. Не связано с TikTok."
+  copyright_text: "TikTok Downloader. Все права защищены. Не связано с TikTok, Douyin или Bytedance."
 
 # Navigation items
 navigation:

@@ -1,0 +1,250 @@
+# Indonesian translations for TikTok Downloader
+
+# Common elements across pages
+common:
+  website_name: "TikTok Downloader"
+  website_tagline: "Unduh Video TikTok Tanpa Watermark"
+  copyright_text: "TikTok Downloader. Semua hak dilindungi. Tidak berafiliasi dengan TikTok, Douyin, atau Bytedance."
+
+# Navigation items
+navigation:
+  home: "Unduh MP4"
+  mp3_download: "Unduh MP3"
+  how_to_save: "Cara Menyimpan"
+  contact: "Kontak"
+  legal: "Hukum"
+  privacy_policy: "Kebijakan Privasi"
+  terms_of_service: "Ketentuan Layanan"
+  dmca_policy: "Kebijakan DMCA"
+  
+# Footer content
+footer:
+  description: "Unduh video TikTok tanpa watermark dengan kualitas tinggi secara gratis. Simpan video TikTok favorit Anda ke perangkat Anda dalam hitungan detik."
+  quick_links: "Tautan Cepat"
+  contact_us: "Hubungi Kami"
+
+# Home page
+home:
+  title: "TikTok Downloader - Unduh Video TikTok Tanpa Watermark | Pengunduh Video HD Gratis"
+  meta_description: "Pengunduh video TikTok tercepat! Simpan video TikTok dalam HD dengan dua ketukan, cepat dan gratis. Unduh video tanpa watermark, dalam kualitas tinggi, dan sepenuhnya gratis. Mulai mengunduh sekarang!"
+  meta_keywords: "pengunduh tiktok, pengunduh video tiktok, unduh video tiktok, tiktok tanpa watermark, penyimpan video tiktok, pengunduh tiktok hd, pengunduh tiktok gratis"
+  hero:
+    title: "Unduh Video TikTok Tanpa Watermark"
+    subtitle: "Pengunduh TikTok tercepat dan paling andal. Simpan video dalam HD tanpa watermark secara gratis!"
+  features:
+    title: "Mengapa Memilih Pengunduh TikTok Kami"
+    feature1:
+      title: "Tanpa Watermark"
+      description: "Unduh video TikTok tanpa watermark TikTok yang mengganggu dengan kualitas penuh."
+    feature2:
+      title: "Kualitas Tinggi"
+      description: "Dapatkan unduhan video kualitas tertinggi langsung ke perangkat Anda."
+    feature3:
+      title: "Cepat & Gratis"
+      description: "Layanan kami sepenuhnya gratis dan memproses unduhan dalam hitungan detik."
+    feature4:
+      title: "Mudah Digunakan"
+      description: "Tidak perlu registrasi. Cukup tempel tautan dan unduh videonya."
+  how_it_works:
+    title: "Cara Kerjanya"
+    step1:
+      title: "Salin Tautan"
+      description: "Salin tautan video TikTok dari aplikasi TikTok atau situs web."
+    step2:
+      title: "Tempel Tautan"
+      description: "Tempel tautan ke kotak input di atas."
+    step3:
+      title: "Unduh"
+      description: "Klik tombol unduh dan simpan video ke perangkat Anda."
+  download_form:
+    placeholder: "Tempel URL video TikTok di sini"
+    button: "Unduh"
+    error: "Harap masukkan URL TikTok yang valid"
+    processing: "Memproses..."
+  faq:
+    title: "Pertanyaan yang Sering Diajukan"
+    questions:
+      - question: "Apakah gratis untuk mengunduh video TikTok?"
+        answer: "Ya, layanan kami sepenuhnya gratis untuk digunakan. Anda dapat mengunduh sebanyak mungkin video TikTok tanpa biaya apapun."
+      - question: "Apakah saya perlu membuat akun?"
+        answer: "Tidak, Anda tidak perlu membuat akun atau masuk untuk menggunakan pengunduh TikTok kami. Cukup tempel tautan video dan unduh."
+      - question: "Apakah legal untuk mengunduh video TikTok?"
+        answer: "Mengunduh video TikTok untuk penggunaan pribadi umumnya dapat diterima. Namun, Anda tidak boleh mendistribusikan ulang atau menggunakan konten secara komersial tanpa izin dari pembuat."
+      - question: "Bisakah saya mengunduh video TikTok pribadi?"
+        answer: "Tidak, layanan kami hanya dapat mengunduh video TikTok publik. Video pribadi tidak dapat diakses melalui pengunduh kami."
+      - question: "Mengapa mengunduh video TikTok tanpa watermark?"
+        answer: "Mengunduh video tanpa watermark memungkinkan Anda menggunakannya dalam kreasi Anda sendiri, membagikannya di platform lain, atau hanya menikmatinya tanpa overlay yang mengganggu."
+
+# MP3 page
+mp3:
+  title: "TikTok ke MP3 - Unduh Audio TikTok | Konversi Video TikTok ke MP3"
+  meta_description: "Konversi dan unduh video TikTok ke file audio MP3. Ekstrak musik dan suara berkualitas tinggi dari video TikTok secara gratis."
+  meta_keywords: "pengunduh mp3 tiktok, pengunduh audio tiktok, tiktok ke mp3, ekstraktor audio tiktok, unduh musik tiktok, unduh suara tiktok, konverter mp3 tiktok gratis"
+  meta_author: "Pengunduh MP3 TikTok"
+  meta_og_title: "Pengunduh MP3 TikTok - Ekstrak Audio dari Video TikTok"
+  meta_og_description: "Ekstrak audio MP3 berkualitas tinggi dari video TikTok apa pun. Cepat, gratis dan mudah digunakan. Konversi video TikTok ke format MP3 secara instan."
+  meta_twitter_title: "Pengunduh MP3 TikTok - Ekstrak Audio dari Video TikTok"
+  meta_twitter_description: "Ekstrak audio MP3 berkualitas tinggi dari video TikTok apa pun. Cepat, gratis dan mudah digunakan. Konversi video TikTok ke format MP3 secara instan."
+  schema:
+    app_name: "Pengunduh MP3 TikTok"
+    app_description: "Ekstrak audio MP3 berkualitas tinggi dari video TikTok apa pun. Cepat, gratis, dan mudah digunakan. Konversi video TikTok ke format MP3 secara instan."
+    app_category: "AplikasiUtilitas"
+    app_rating: "4.7"
+    app_rating_count: "980"
+    feature_list:
+      - "Ekstrak audio MP3 dari video TikTok"
+      - "Konversi audio berkualitas tinggi"
+      - "Layanan cepat dan gratis"
+      - "Tidak perlu registrasi"
+      - "Mendukung semua perangkat"
+    howto_name: "Cara Mengekstrak Audio MP3 dari Video TikTok"
+    howto_description: "Panduan langkah demi langkah untuk mengekstrak dan mengunduh audio MP3 dari video TikTok menggunakan alat online gratis kami."
+    howto_steps:
+      - name: "Salin Tautan Audio"
+        text: "Buka TikTok dan salin tautan video dengan audio yang ingin Anda unduh."
+      - name: "Tempel Tautan"
+        text: "Tempel tautan yang disalin ke bidang input di atas."
+      - name: "Unduh MP3"
+        text: "Klik tombol unduh untuk mengekstrak dan menyimpan audio MP3."
+    faq:
+      - question: "Berapa kualitas file MP3?"
+        answer: "Kami mengekstrak audio MP3 dalam kualitas tertinggi yang tersedia dari video TikTok asli, biasanya 128-192 kbps."
+      - question: "Apakah ada batasan berapa banyak MP3 yang dapat saya unduh?"
+        answer: "Tidak, layanan kami sepenuhnya gratis tanpa batasan unduhan. Anda dapat mengekstrak sebanyak mungkin MP3 sesuai kebutuhan."
+      - question: "Bisakah saya mengekstrak MP3 dari video TikTok pribadi?"
+        answer: "Tidak, layanan kami hanya dapat mengekstrak audio dari video TikTok publik. Video pribadi tidak dapat diakses."
+      - question: "Perangkat apa yang kompatibel dengan ini?"
+        answer: "Pengunduh MP3 TikTok kami berfungsi pada semua perangkat modern termasuk Windows, Mac, Android dan iOS. Sepenuhnya berbasis web sehingga tidak perlu menginstal perangkat lunak apapun."
+  hero:
+    title: "Pengunduh <span class=\"gradient-text\">MP3</span> TikTok"
+    subtitle: "Ekstrak audio MP3 berkualitas tinggi dari video TikTok apa pun. Cepat, gratis dan mudah digunakan."
+  download_form:
+    placeholder: "Tempel URL video TikTok di sini"
+    button: "Ekstrak MP3"
+    error: "Harap masukkan URL TikTok yang valid"
+    processing: "Memproses..."
+  features:
+    title: "Mengapa Memilih Pengunduh MP3 TikTok Kami?"
+    feature1:
+      title: "Audio Berkualitas Tinggi"
+      description: "Ekstrak audio dalam format MP3 kualitas tertinggi."
+    feature2:
+      title: "Konversi Cepat"
+      description: "Konversi video TikTok ke MP3 dalam hitungan detik."
+    feature3:
+      title: "Aman & Pribadi"
+      description: "Kami tidak menyimpan file audio Anda di server kami."
+    feature4:
+      title: "Tidak Perlu Coding"
+      description: "Antarmuka sederhana untuk ekstraksi MP3 yang mudah."
+  how_it_works:
+    title: "Cara Mengekstrak MP3 dari TikTok"
+    steps:
+      - title: "Salin Tautan Audio"
+        description: "Buka TikTok dan salin tautan video dengan audio yang ingin Anda unduh."
+      - title: "Tempel Tautan"
+        description: "Tempel tautan yang disalin ke bidang input di atas."
+      - title: "Unduh MP3"
+        description: "Klik tombol unduh untuk mengekstrak dan menyimpan audio MP3."
+  faq:
+    title: "Pertanyaan yang Sering Diajukan"
+    items:
+      - question: "Berapa kualitas file MP3?"
+        answer: "Kami mengekstrak audio MP3 dalam kualitas tertinggi yang tersedia dari video TikTok asli, biasanya 128-192 kbps."
+      - question: "Apakah ada batasan berapa banyak MP3 yang dapat saya unduh?"
+        answer: "Tidak, layanan kami sepenuhnya gratis tanpa batasan unduhan. Anda dapat mengekstrak sebanyak mungkin MP3 sesuai kebutuhan."
+      - question: "Bisakah saya mengekstrak MP3 dari video TikTok pribadi?"
+        answer: "Tidak, layanan kami hanya dapat mengekstrak audio dari video TikTok publik. Video pribadi tidak dapat diakses."
+      - question: "Perangkat apa yang kompatibel dengan ini?"
+        answer: "Pengunduh MP3 TikTok kami berfungsi pada semua perangkat modern termasuk Windows, Mac, Android dan iOS. Sepenuhnya berbasis web sehingga tidak perlu menginstal perangkat lunak apapun."
+
+# How-to-Save page
+how_to_save:
+  title: "Cara Menyimpan Video TikTok Tanpa Watermark - Panduan Langkah demi Langkah"
+  meta_description: "Pelajari cara menyimpan dan mengunduh video TikTok tanpa watermark. Tutorial langkah-demi-langkah yang mudah dengan gambar untuk membantu Anda menyimpan video TikTok dalam kualitas HD."
+  meta_keywords: "panduan unduh video tiktok, cara menyimpan video tiktok, tutorial unduh tiktok, simpan tiktok tanpa watermark, tutorial penyimpan video tiktok"
+  intro: "TikTok telah menjadi salah satu platform media sosial paling populer, dengan jutaan pengguna berbagi video kreatif dan menghibur setiap hari. Terkadang Anda mungkin ingin menyimpan video ini untuk ditonton secara offline atau dibagikan melalui platform lain. Panduan kami menunjukkan kepada Anda cara mengunduh video TikTok tanpa watermark dalam beberapa langkah sederhana."
+  hero:
+    title: "Cara Menyimpan Video TikTok Tanpa Watermark"
+    subtitle: "Ikuti panduan langkah demi langkah sederhana ini untuk mengunduh video TikTok apa pun tanpa watermark dalam kualitas tinggi"
+  steps:
+    step1:
+      title: "Langkah 1: Temukan dan Salin Tautan Video TikTok"
+      paragraph1: "Buka aplikasi TikTok di ponsel Anda atau kunjungi TikTok.com di browser Anda. Temukan video yang ingin Anda unduh dan ketuk tombol \"Bagikan\" (biasanya direpresentasikan dengan ikon panah atau teks \"Bagikan\")."
+      paragraph2: "Dari opsi berbagi yang muncul, pilih \"Salin Tautan\" atau \"Salin URL\". Ini akan menyimpan URL video ke clipboard Anda."
+      image_caption: "Gambar: Ketuk opsi \"Salin tautan\" di menu berbagi TikTok"
+    step2:
+      title: "Langkah 2: Kunjungi Situs Web Pengunduh TikTok Kami"
+      paragraph1: "Buka browser web Anda dan kunjungi situs web Pengunduh TikTok kami. Anda akan melihat antarmuka yang bersih dan sederhana dengan bidang input tempat Anda dapat menempel URL video TikTok."
+      paragraph2: "Halaman beranda dirancang untuk sederhana dan mudah digunakan di semua perangkat, baik Anda menggunakan smartphone, tablet, atau komputer."
+      image_caption: "Gambar: Halaman beranda Pengunduh TikTok kami dengan bidang tempel"
+    step3:
+      title: "Langkah 3: Tempel Tautan dan Proses Video"
+      paragraph1: "Tempel tautan video TikTok yang Anda salin ke bidang input. Di perangkat seluler, Anda dapat mengetuk dan menahan bidang, lalu pilih \"Tempel\". Di komputer, gunakan Ctrl+V (atau Command+V di Mac)."
+      paragraph2: "Setelah Anda menempel URL, klik tombol \"Unduh Sekarang\". Sistem kami akan mulai memproses video segera."
+      image_caption: "Gambar: URL TikTok ditempel dan pemrosesan sedang berlangsung"
+    step4:
+      title: "Langkah 4: Unduh Video TikTok"
+      paragraph1: "Setelah sistem kami memproses video, Anda akan melihat informasi detail tentang video TikTok termasuk penulis, jumlah tampilan, jumlah suka, dan durasi video."
+      paragraph2: "Anda dapat mengklik tombol \"Unduh\" untuk mendapatkan video dalam format kualitas tinggi default, atau klik \"Format lainnya\" untuk memilih dari berbagai pilihan kualitas."
+      paragraph3: "Saat memilih \"Format lainnya\", Anda akan melihat semua resolusi video dan ukuran file yang tersedia. Pilih opsi yang paling sesuai dengan kebutuhan Anda - format kualitas lebih tinggi memiliki ukuran file yang lebih besar."
+      image_caption: "Gambar: Halaman detail video dengan opsi unduhan"
+      modal:
+        image_caption: "Gambar: Modal pemilihan format video"
+        paragraph1: "Opsi \"Format lainnya\" akan menampilkan jendela modal dengan semua kualitas unduhan yang tersedia."
+        paragraph2: "Anda dapat memilih antara opsi HD (720p) atau SD (576p) tergantung pada kebutuhan Anda."
+        paragraph3: "Setiap format menunjukkan resolusi video dan ukuran file, membantu Anda memilih opsi terbaik untuk koneksi internet dan kapasitas penyimpanan Anda."
+    step5:
+      title: "Langkah 5: Simpan ke Perangkat Anda"
+      paragraph1: "Setelah Anda mengklik opsi unduhan, browser Anda akan mulai mengunduh video. Tergantung pada pengaturan browser Anda, video mungkin disimpan secara otomatis ke folder unduhan default Anda atau meminta Anda untuk memilih lokasi."
+      paragraph2: "Setelah unduhan selesai, Anda akan memiliki video TikTok bersih, tanpa watermark siap untuk ditonton secara offline atau dibagikan sesuai keinginan Anda."
+      image_caption: "Gambar: Penyelesaian unduhan berhasil"
+  additional_tips:
+    title: "Tips Tambahan"
+    tips:
+      - "Pengunduh TikTok kami bekerja dengan video TikTok biasa dan rekaman TikTok LIVE."
+      - "Anda dapat mengunduh video dalam kualitas HD tanpa kehilangan resolusi apapun."
+      - "Prosesnya sepenuhnya gratis, tanpa biaya tersembunyi atau registrasi yang diperlukan."
+      - "Jika Anda ingin mengunduh audio saja, Anda dapat menggunakan Pengunduh MP3 TikTok kami."
+      - "Kami tidak menyimpan video yang Anda unduh di server kami, menjamin privasi Anda."
+  faq:
+    title: "Pertanyaan yang Sering Diajukan"
+    questions:
+      - question: "Apakah legal untuk mengunduh video TikTok?"
+        answer: "Mengunduh video TikTok untuk penggunaan pribadi umumnya dapat diterima. Namun, Anda tidak boleh mendistribusikan ulang atau menggunakan konten secara komersial tanpa izin dari pembuat. Selalu hormati hak cipta dan hak kekayaan intelektual."
+      - question: "Bisakah saya mengunduh video dari akun TikTok pribadi?"
+        answer: "Tidak, layanan kami hanya dapat mengunduh video TikTok publik. Video pribadi tidak dapat diakses melalui pengunduh kami."
+      - question: "Berapa panjang maksimum video TikTok yang dapat saya unduh?"
+        answer: "Pengunduh kami mendukung semua video TikTok terlepas dari panjangnya, dari klip pendek hingga video yang lebih panjang hingga 10 menit."
+      - question: "Apakah ini berfungsi di perangkat seluler?"
+        answer: "Ya, pengunduh TikTok kami berfungsi di semua perangkat modern termasuk ponsel Android, iPhone, tablet, dan komputer."
+  cta_text: "Siap untuk mengunduh video TikTok?"
+  cta_description: "Coba pengunduh video TikTok gratis kami sekarang dan simpan video TikTok favorit Anda tanpa watermark dalam kualitas HD."
+  cta_button: "Pergi ke Pengunduh TikTok"
+
+# Contact page
+contact:
+  title: "Hubungi Kami | TikTok Downloader"
+  meta_description: "Hubungi tim TikTok Downloader. Kirim pertanyaan, umpan balik, atau laporkan masalah dengan layanan kami."
+  hero:
+    title: "Hubungi Kami"
+    subtitle: "Punya pertanyaan atau umpan balik? Kami senang mendengar dari Anda!"
+  get_in_touch:
+    title: "Hubungi"
+    description: "Kami di sini untuk membantu dan menjawab pertanyaan apa pun yang mungkin Anda miliki. Jangan ragu untuk menghubungi kami menggunakan formulir kontak atau informasi di bawah ini."
+  response_time:
+    title: "Waktu Respons"
+  form:
+    title: "Kirim Pesan Kepada Kami"
+    name: "Nama Anda"
+    email: "Email Anda"
+    subject: "Subjek"
+    message: "Pesan"
+    submit: "Kirim Pesan"
+    success: "Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda kembali!"
+    error: "Terjadi kesalahan saat mengirim pesan Anda. Silakan coba lagi."
+  contact_info:
+    title: "Cara Lain untuk Menghubungi Kami"
+    email_label: "Email"
+    email: "info@ttdl.cc"
+    response_time: "Kami berusaha menanggapi semua pertanyaan dalam waktu 24-48 jam." 

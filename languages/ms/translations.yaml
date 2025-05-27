@@ -1,0 +1,250 @@
+# Malay translations for TikTok Downloader
+
+# Common elements across pages
+common:
+  website_name: "TikTok Downloader"
+  website_tagline: "Muat Turun Video TikTok Tanpa Tanda Air"
+  copyright_text: "TikTok Downloader. Semua hak cipta terpelihara. Tidak berkaitan dengan TikTok, Douyin atau Bytedance."
+
+# Navigation items
+navigation:
+  home: "[ms] MP4 Download"
+  mp3_download: "[ms] MP3 Download"
+  how_to_save: "[ms] How to Save"
+  contact: "[ms] Contact"
+  legal: "[ms] Legal"
+  privacy_policy: "[ms] Privacy Policy"
+  terms_of_service: "[ms] Terms of Service"
+  dmca_policy: "[ms] DMCA Policy"
+
+# Footer content
+footer:
+  description: "[ms] Download TikTok videos without watermark in high quality for free. Save your favorite TikTok videos to your device in seconds."
+  quick_links: "[ms] Quick Links"
+  contact_us: "[ms] Contact Us"
+
+# Home page
+home:
+  title: "[ms] TikTok Downloader - Download TikTok Videos Without Watermark | Free HD Video Downloader"
+  meta_description: "[ms] Fastest TikTok video downloader! Save TikTok videos in HD with two taps, fast and free. Download videos without watermark, in high quality, and completely free. Start downloading now!"
+  meta_keywords: "[ms] tiktok downloader, tiktok video downloader, download tiktok videos, tiktok without watermark, tiktok video saver, tiktok hd downloader, free tiktok downloader"
+  hero:
+    title: "[ms] Download TikTok Videos Without Watermark"
+    subtitle: "[ms] The fastest and most reliable TikTok downloader. Save videos in HD with no watermarks for free!"
+  features:
+    title: "[ms] Why Choose Our TikTok Downloader"
+    feature1:
+      title: "[ms] No Watermark"
+      description: "[ms] Download TikTok videos without the annoying TikTok watermark in full quality."
+    feature2:
+      title: "[ms] High Quality"
+      description: "[ms] Get the highest quality video downloads directly to your device."
+    feature3:
+      title: "[ms] Fast & Free"
+      description: "[ms] Our service is completely free and processes downloads in seconds."
+    feature4:
+      title: "[ms] Easy to Use"
+      description: "[ms] No registration required. Just paste the link and download the video."
+  how_it_works:
+    title: "[ms] How It Works"
+    step1:
+      title: "[ms] Copy Link"
+      description: "[ms] Copy the TikTok video link from the TikTok app or website."
+    step2:
+      title: "[ms] Paste Link"
+      description: "[ms] Paste the link into the input box above."
+    step3:
+      title: "[ms] Download"
+      description: "[ms] Click the download button and save the video to your device."
+  download_form:
+    placeholder: "[ms] Paste TikTok video URL here"
+    button: "[ms] Download"
+    error: "[ms] Please enter a valid TikTok URL"
+    processing: "[ms] Processing..."
+  faq:
+    title: "[ms] Frequently Asked Questions"
+    questions:
+      - question: "[ms] Is it free to download TikTok videos?"
+        answer: "[ms] Yes, our service is completely free to use. You can download as many TikTok videos as you want without any cost."
+      - question: "[ms] Do I need to create an account?"
+        answer: "[ms] No, you don\'t need to create an account or sign in to use our TikTok downloader. Simply paste the video link and download."
+      - question: "[ms] Is it legal to download TikTok videos?"
+        answer: "[ms] Downloading TikTok videos for personal use is generally acceptable. However, you should not redistribute or use the content commercially without permission from the creator."
+      - question: "[ms] Can I download private TikTok videos?"
+        answer: "[ms] No, our service can only download public TikTok videos. Private videos are not accessible through our downloader."
+      - question: "[ms] Why download TikTok videos without watermark?"
+        answer: "[ms] Downloading videos without watermark allows you to use them in your own creations, share them on other platforms, or simply enjoy them without distracting overlays."
+
+# MP3 page
+mp3:
+  title: "[ms] TikTok to MP3 - Download TikTok Audio | Convert TikTok Videos to MP3"
+  meta_description: "[ms] Convert and download TikTok videos to MP3 audio files. Extract high-quality music and sounds from TikTok videos for free."
+  meta_keywords: "[ms] tiktok mp3 downloader, tiktok audio downloader, tiktok to mp3, tiktok audio extractor, tiktok music download, tiktok sound download, free tiktok mp3 converter"
+  meta_author: "[ms] TikTok MP3 Downloader"
+  meta_og_title: "[ms] TikTok MP3 Downloader - Extract Audio from TikTok Videos"
+  meta_og_description: "[ms] Extract high-quality MP3 audio from any TikTok video. Fast, free and easy to use. Convert TikTok videos to MP3 format instantly."
+  meta_twitter_title: "[ms] TikTok MP3 Downloader - Extract Audio from TikTok Videos"
+  meta_twitter_description: "[ms] Extract high-quality MP3 audio from any TikTok video. Fast, free and easy to use. Convert TikTok videos to MP3 format instantly."
+  schema:
+    app_name: "[ms] TikTok MP3 Downloader"
+    app_description: "[ms] Extract high-quality MP3 audio from any TikTok video. Fast, free, and easy to use. Convert TikTok videos to MP3 format instantly."
+    app_category: "[ms] UtilityApplication"
+    app_rating: "[ms] 4.7"
+    app_rating_count: "[ms] 980"
+    feature_list:
+      - "[ms] Extract MP3 audio from TikTok videos"
+      - "[ms] High quality audio conversion"
+      - "[ms] Fast and free service"
+      - "[ms] No registration required"
+      - "[ms] Support for all devices"
+    howto_name: "[ms] How to Extract MP3 Audio from TikTok Videos"
+    howto_description: "[ms] Step by step guide to extract and download MP3 audio from TikTok videos using our free online tool."
+    howto_steps:
+      - name: "[ms] Copy Audio Link"
+        text: "[ms] Open TikTok and copy the link of the video with audio you want to download."
+      - name: "[ms] Paste Link"
+        text: "[ms] Paste the copied link into the input field above."
+      - name: "[ms] Download MP3"
+        text: "[ms] Click the download button to extract and save the MP3 audio."
+    faq:
+      - question: "[ms] What quality are the MP3 files?"
+        answer: "[ms] We extract MP3 audio in the highest quality available from the original TikTok video, typically 128-192 kbps."
+      - question: "[ms] Is there a limit to how many MP3s I can download?"
+        answer: "[ms] No, our service is completely free with no download limits. You can extract as many MP3s as you need."
+      - question: "[ms] Can I extract MP3 from private TikTok videos?"
+        answer: "[ms] No, our service can only extract audio from public TikTok videos. Private videos are not accessible."
+      - question: "[ms] What devices is this compatible with?"
+        answer: "[ms] Our TikTok MP3 downloader works on all modern devices including Windows, Mac, Android and iOS. It\'s fully web-based so there\'s no need to install any software."
+  hero:
+    title: "[ms] TikTok <span class=\"gradient-text\">MP3</span> Downloader"
+    subtitle: "[ms] Extract high-quality MP3 audio from any TikTok video. Fast, free and easy to use."
+  download_form:
+    placeholder: "[ms] Paste TikTok video URL here"
+    button: "[ms] Extract MP3"
+    error: "[ms] Please enter a valid TikTok URL"
+    processing: "[ms] Processing..."
+  features:
+    title: "[ms] Why Choose Our TikTok MP3 Downloader?"
+    feature1:
+      title: "[ms] High Quality Audio"
+      description: "[ms] Extract audio in highest quality MP3 format."
+    feature2:
+      title: "[ms] Fast Conversion"
+      description: "[ms] Convert TikTok videos to MP3 in seconds."
+    feature3:
+      title: "[ms] Secure & Private"
+      description: "[ms] We don\'t store your audio files on our servers."
+    feature4:
+      title: "[ms] No Coding Required"
+      description: "[ms] Simple interface for easy MP3 extraction."
+  how_it_works:
+    title: "[ms] How To Extract MP3 from TikTok"
+    steps:
+      - title: "[ms] Copy Audio Link"
+        description: "[ms] Open TikTok and copy the link of the video with audio you want to download."
+      - title: "[ms] Paste Link"
+        description: "[ms] Paste the copied link into the input field above."
+      - title: "[ms] Download MP3"
+        description: "[ms] Click the download button to extract and save the MP3 audio."
+  faq:
+    title: "[ms] Frequently Asked Questions"
+    items:
+      - question: "[ms] What quality are the MP3 files?"
+        answer: "[ms] We extract MP3 audio in the highest quality available from the original TikTok video, typically 128-192 kbps."
+      - question: "[ms] Is there a limit to how many MP3s I can download?"
+        answer: "[ms] No, our service is completely free with no download limits. You can extract as many MP3s as you need."
+      - question: "[ms] Can I extract MP3 from private TikTok videos?"
+        answer: "[ms] No, our service can only extract audio from public TikTok videos. Private videos are not accessible."
+      - question: "[ms] What devices is this compatible with?"
+        answer: "[ms] Our TikTok MP3 downloader works on all modern devices including Windows, Mac, Android and iOS. It\'s fully web-based so there\'s no need to install any software."
+
+# How-to-Save page
+how_to_save:
+  title: "[ms] How to Save TikTok Videos Without Watermark - Step by Step Guide"
+  meta_description: "[ms] Learn how to save and download TikTok videos without watermark. Easy step-by-step tutorial with images to help you save TikTok videos in HD quality."
+  meta_keywords: "[ms] tiktok video download guide, how to save tiktok videos, tiktok download tutorial, save tiktok no watermark, tiktok video saver tutorial"
+  intro: "[ms] TikTok has become one of the most popular social media platforms, with millions of users sharing creative and entertaining videos every day. Sometimes you may want to save these videos to watch offline or share through other platforms. Our guide shows you how to download TikTok videos without watermark in a few simple steps."
+  hero:
+    title: "[ms] How to Save TikTok Videos Without Watermark"
+    subtitle: "[ms] Follow this simple step-by-step guide to download any TikTok video without watermark in high quality"
+  steps:
+    step1:
+      title: "[ms] Step 1: Find and Copy the TikTok Video Link"
+      paragraph1: "[ms] Open the TikTok app on your phone or visit TikTok.com in your browser. Find the video you want to download and tap the \"Share\" button (usually represented by an arrow icon or \"Share\" text)."
+      paragraph2: "[ms] From the share options that appear, select \"Copy Link\" or \"Copy URL\". This will save the video\'s URL to your clipboard."
+      image_caption: "[ms] Image: Tap the \"Copy link\" option in the TikTok share menu"
+    step2:
+      title: "[ms] Step 2: Visit Our TikTok Downloader Website"
+      paragraph1: "[ms] Open your web browser and visit our TikTok Downloader website. You\'ll see a clean and simple interface with an input field where you can paste the TikTok video URL."
+      paragraph2: "[ms] The homepage is designed to be straightforward and easy to use on all devices, whether you\'re using a smartphone, tablet, or computer."
+      image_caption: "[ms] Image: Our TikTok Downloader homepage with the paste field"
+    step3:
+      title: "[ms] Step 3: Paste the Link and Process the Video"
+      paragraph1: "[ms] Paste the TikTok video link you copied into the input field. On mobile devices, you can tap and hold the field, then select \"Paste\". On computers, use Ctrl+V (or Command+V on Mac)."
+      paragraph2: "[ms] Once you\'ve pasted the URL, click the \"Download Now\" button. Our system will start processing the video immediately."
+      image_caption: "[ms] Image: TikTok URL pasted and processing in progress"
+    step4:
+      title: "[ms] Step 4: Download the TikTok Video"
+      paragraph1: "[ms] After our system processes the video, you\'ll see detailed information about the TikTok video including the author, view count, like count, and video duration."
+      paragraph2: "[ms] You can click the \"Download\" button to get the video in the default high-quality format, or click \"More formats\" to choose from different quality options."
+      paragraph3: "[ms] When selecting \"More formats\", you\'ll see all available video resolutions and file sizes. Choose the option that best suits your needs - higher quality formats have larger file sizes."
+      image_caption: "[ms] Image: Video details page with download options"
+      modal:
+        image_caption: "[ms] Image: Video formats selection modal"
+        paragraph1: "[ms] The \"More formats\" option will display a modal window with all available download qualities."
+        paragraph2: "[ms] You can choose between HD (720p) or SD (576p) options depending on your needs."
+        paragraph3: "[ms] Each format shows the video resolution and file size, helping you choose the best option for your internet connection and storage capacity."
+    step5:
+      title: "[ms] Step 5: Save to Your Device"
+      paragraph1: "[ms] Once you click on a download option, your browser will start downloading the video. Depending on your browser settings, it may save automatically to your default downloads folder or prompt you to choose a location."
+      paragraph2: "[ms] After the download completes, you\'ll have a clean, watermark-free TikTok video ready to watch offline or share as you like."
+      image_caption: "[ms] Image: Successful download completion"
+  additional_tips:
+    title: "[ms] Additional Tips"
+    tips:
+      - "[ms] Our TikTok downloader works with both regular TikTok videos and TikTok LIVE recordings."
+      - "[ms] You can download videos in HD quality without losing any resolution."
+      - "[ms] The process is completely free, with no hidden charges or registration required."
+      - "[ms] If you want to download the audio only, you can use our TikTok MP3 Downloader."
+      - "[ms] We don\'t store your downloaded videos on our servers, ensuring your privacy."
+  faq:
+    title: "[ms] Frequently Asked Questions"
+    questions:
+      - question: "[ms] Is it legal to download TikTok videos?"
+        answer: "[ms] Downloading TikTok videos for personal use is generally acceptable. However, you should not redistribute or use the content commercially without permission from the creator. Always respect copyright and intellectual property rights."
+      - question: "[ms] Can I download videos from a private TikTok account?"
+        answer: "[ms] No, our service can only download public TikTok videos. Private videos are not accessible through our downloader."
+      - question: "[ms] What is the maximum length of TikTok video I can download?"
+        answer: "[ms] Our downloader supports all TikTok videos regardless of their length, from short clips to longer videos up to 10 minutes."
+      - question: "[ms] Does this work on mobile devices?"
+        answer: "[ms] Yes, our TikTok downloader works on all modern devices including Android phones, iPhones, tablets, and computers."
+  cta_text: "[ms] Ready to download TikTok videos?"
+  cta_description: "[ms] Try our free TikTok video downloader now and save your favorite TikTok videos without watermark in HD quality."
+  cta_button: "[ms] Go to TikTok Downloader"
+
+# Contact page
+contact:
+  title: "[ms] Contact Us | TikTok Downloader"
+  meta_description: "[ms] Get in touch with the TikTok Downloader team. Send us your questions, feedback, or report issues with our service."
+  hero:
+    title: "[ms] Contact Us"
+    subtitle: "[ms] Have questions or feedback? We\'d love to hear from you!"
+  get_in_touch:
+    title: "[ms] Get in Touch"
+    description: "[ms] We\'re here to help and answer any questions you might have. Feel free to reach out to us using the contact form or the information below."
+  response_time:
+    title: "[ms] Response Time"
+  form:
+    title: "[ms] Send Us a Message"
+    name: "[ms] Your Name"
+    email: "[ms] Your Email"
+    subject: "[ms] Subject"
+    message: "[ms] Message"
+    submit: "[ms] Send Message"
+    success: "[ms] Your message has been sent successfully. We\'ll get back to you soon!"
+    error: "[ms] There was an error sending your message. Please try again."
+  contact_info:
+    title: "[ms] Other Ways to Reach Us"
+    email_label: "[ms] Email"
+    email: "[ms] info@ttdl.cc"
+    response_time: "[ms] We aim to respond to all inquiries within 24-48 hours."

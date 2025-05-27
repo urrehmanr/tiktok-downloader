@@ -38,8 +38,24 @@ babel = Babel(app)
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'languages'
 
-# List of supported languages
-SUPPORTED_LANGUAGES = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'hi', 'ar']
+# List of supported languages in international standard order, with 'en' (US) first
+SUPPORTED_LANGUAGES = [
+    'en',  # English (US)
+    'zh', # Chinese
+    'es', # Spanish
+    'hi', # Hindi
+    'ar', # Arabic
+    'pt', # Portuguese
+    'bn', # Bengali
+    'ru', # Russian
+    'ja', # Japanese
+    'de', # German
+    'id', # Indonesian
+    'fr', # French
+    'ms', # Malay
+    'it', # Italian
+    'ko', # Korean
+]
 
 # Function to get the site URL with the domain
 def get_site_url(path="", lang=None):
@@ -507,17 +523,20 @@ def inject_language_urls():
     # Language names for the dropdown
     language_names = {
         'en': 'English',
-        'es': 'Español',
-        'fr': 'Français',
-        'de': 'Deutsch',
-        'it': 'Italiano',
-        'pt': 'Português',
-        'ru': 'Русский',
         'zh': '中文',
-        'ja': '日本語',
-        'ko': '한국어',
+        'es': 'Español',
         'hi': 'हिन्दी',
-        'ar': 'العربية'
+        'ar': 'العربية',
+        'pt': 'Português',
+        'bn': 'বাংলা',
+        'ru': 'Русский',
+        'ja': '日本語',
+        'de': 'Deutsch',
+        'id': 'Bahasa Indonesia',
+        'fr': 'Français',
+        'ms': 'Bahasa Melayu',
+        'it': 'Italiano',
+        'ko': '한국어',
     }
     
     return {

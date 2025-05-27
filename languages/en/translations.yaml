@@ -4,7 +4,7 @@
 common:
   website_name: "TikTok Downloader"
   website_tagline: "Download TikTok Videos Without Watermark"
-  copyright_text: "TikTok Downloader. All rights reserved. Not affiliated with TikTok."
+  copyright_text: "TikTok Downloader. All rights reserved. Not affiliated with TikTok, Douyin or Bytedance."
 
 # Navigation items
 navigation:

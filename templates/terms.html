@@ -28,6 +28,9 @@
     <link rel="alternate" hreflang="ko" href="{{ site_url('terms?lang=ko') }}">
     <link rel="alternate" hreflang="hi" href="{{ site_url('terms?lang=hi') }}">
     <link rel="alternate" hreflang="ar" href="{{ site_url('terms?lang=ar') }}">
+    <link rel="alternate" hreflang="id" href="{{ site_url('terms?lang=id') }}">
+    <link rel="alternate" hreflang="bn" href="{{ site_url('terms?lang=bn') }}">
+    <link rel="alternate" hreflang="ms" href="{{ site_url('terms?lang=ms') }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -48,6 +51,9 @@
     <meta property="og:locale:alternate" content="ko_KR">
     <meta property="og:locale:alternate" content="hi_IN">
     <meta property="og:locale:alternate" content="ar_SA">
+    <meta property="og:locale:alternate" content="id_ID">
+    <meta property="og:locale:alternate" content="bn_BD">
+    <meta property="og:locale:alternate" content="ms_MY">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -71,13 +77,16 @@
         "name": "{{ t('terms.schema.page_name') }}",
         "description": "{{ t('terms.schema.page_description') }}",
         "url": "{{ site_url('terms') }}",
-        "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar"],
+        "inLanguage": ["en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "hi", "ar", "id", "bn", "ms"],
         "datePublished": "{{ t('terms.schema.date_published') }}",
         "dateModified": "{{ t('terms.schema.date_modified') }}",
         "publisher": {
             "@type": "Organization",
             "name": "{{ t('terms.schema.publisher_name') }}",
             "url": "{{ site_url() }}"
+        },
+        "softwareVersion": "1.0",
+        "offers": {
         }
     }
     </script>

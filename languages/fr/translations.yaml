@@ -4,7 +4,7 @@
 common:
   website_name: "TikTok Downloader"
   website_tagline: "Télécharger des Vidéos TikTok Sans Filigrane"
-  copyright_text: "TikTok Downloader. Tous droits réservés. Non affilié à TikTok."
+  copyright_text: "TikTok Downloader. Tous droits réservés. Non affilié à TikTok, Douyin ou Bytedance."
 
 # Navigation items
 navigation:

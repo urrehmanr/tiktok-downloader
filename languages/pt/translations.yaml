@@ -4,7 +4,7 @@
 common:
   website_name: "TikTok Downloader"
   website_tagline: "Baixar Vídeos do TikTok Sem Marca d'água"
-  copyright_text: "TikTok Downloader. Todos os direitos reservados. Não afiliado ao TikTok."
+  copyright_text: "TikTok Downloader. Todos os direitos reservados. Não afiliado ao TikTok, Douyin ou Bytedance."
 
 # Navigation items
 navigation:
