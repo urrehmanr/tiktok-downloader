@@ -176,33 +176,4 @@
     <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/terms"/>
   </url>
 
-  <!-- DMCA Page -->
-  <url>
-    <loc>https://ttdl.cc/dmca</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/dmca"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/dmca"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/dmca"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/dmca"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/dmca"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/dmca"/>
-    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/dmca"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/dmca"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/dmca"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/dmca"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/dmca"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/dmca"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/dmca"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/dmca"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/dmca"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/dmca"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/dmca"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/dmca"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/dmca"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/dmca"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/dmca"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/dmca"/>
-  </url>
-
 </urlset> 
