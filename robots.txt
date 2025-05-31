@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Allow: /static/
+Allow: /mp3
+Allow: /how-to-save
+Allow: /contact
+Allow: /privacy-policy
+Allow: /terms
+Allow: /dmca
+
+# Disallow these paths
+Disallow: /api/
+Disallow: /downloads/
+
+# Language specific paths are allowed
+Allow: /*/
+Allow: /*/mp3
+Allow: /*/how-to-save
+Allow: /*/contact
+Allow: /*/privacy-policy
+Allow: /*/terms
+Allow: /*/dmca
+
+# Sitemap location
+Sitemap: https://ttdl.cc/sitemap.xml

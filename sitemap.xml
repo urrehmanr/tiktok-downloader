@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://ttdl.cc/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/"/>
+  </url>
+
+  <!-- MP3 Page -->
+  <url>
+    <loc>https://ttdl.cc/mp3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/mp3"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/mp3"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/mp3"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/mp3"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/mp3"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/mp3"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/mp3"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/mp3"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/mp3"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/mp3"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/mp3"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/mp3"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/mp3"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/mp3"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/mp3"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/mp3"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/mp3"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/mp3"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/mp3"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/mp3"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/mp3"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/mp3"/>
+  </url>
+
+  <!-- How to Save Page -->
+  <url>
+    <loc>https://ttdl.cc/how-to-save</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/how-to-save"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/how-to-save"/>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://ttdl.cc/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/contact"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/contact"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/contact"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/contact"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/contact"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/contact"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/contact"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/contact"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/contact"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/contact"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/contact"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/contact"/>
+  </url>
+
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://ttdl.cc/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/privacy-policy"/>
+  </url>
+
+  <!-- Terms Page -->
+  <url>
+    <loc>https://ttdl.cc/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/terms"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/terms"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/terms"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/terms"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/terms"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/terms"/>
+  </url>
+
+  <!-- DMCA Page -->
+  <url>
+    <loc>https://ttdl.cc/dmca</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ttdl.cc/dmca"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://ttdl.cc/zh/dmca"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ttdl.cc/hi/dmca"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ttdl.cc/es/dmca"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ttdl.cc/fr/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ttdl.cc/ar/dmca"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://ttdl.cc/bn/dmca"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ttdl.cc/pt/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ttdl.cc/ru/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ttdl.cc/ja/dmca"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ttdl.cc/de/dmca"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://ttdl.cc/id/dmca"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ttdl.cc/tr/dmca"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://ttdl.cc/vi/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ttdl.cc/ko/dmca"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ttdl.cc/it/dmca"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://ttdl.cc/th/dmca"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ttdl.cc/pl/dmca"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ttdl.cc/uk/dmca"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ttdl.cc/nl/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://ttdl.cc/ro/dmca"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://ttdl.cc/ms/dmca"/>
+  </url>
+
+</urlset> 
